@@ -1,0 +1,54 @@
+version: "2"
+
+networks:
+  first-network:
+    external: true
+      # name: first-network
+services:
+  couchdb04:
+    container_name: couchdb04
+    image: hyperledger/fabric-couchdb
+    environment:
+      - COUCHDB_USER=
+      - COUCHDB_PASSWORD=
+    ports:
+      - 14984:5984
+    networks:
+      - first-network
+
+  peer0.org4.example.com:
+    container_name: peer0.org4.example.com
+    extends:
+      file: base.yaml
+      service: peer-base
+    environment:
+      - FABRIC_LOGGING_SPEC=info
+      - ORDERER_GENERAL_LOGLEVEL=info
+      - CORE_PEER_LOCALMSPID=Org4MSP
+      - CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE=first-network
+      - CORE_PEER_ID=peer0.org4.example.com
+      - CORE_PEER_ADDRESS=peer0.org4.example.com:14051
+      - CORE_PEER_LISTENADDRESS=0.0.0.0:14051
+      - CORE_PEER_CHAINCODEADDRESS=peer0.org4.example.com:14052
+      - CORE_PEER_CHAINCODELISTENADDRESS=0.0.0.0:14052
+      # - CORE_PEER_GOSSIP_BOOTSTRAP=peer1.org4.example.com:14151
+      # - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer0.org4.example.com:14051
+      - CORE_LEDGER_STATE_STATEDATABASE=CouchDB
+      - CORE_LEDGER_STATE_COUCHDBCONFIG_COUCHDBADDRESS=couchdb04:5984
+      - CORE_LEDGER_STATE_COUCHDBCONFIG_USERNAME=
+      - CORE_LEDGER_STATE_COUCHDBCONFIG_PASSWORD=
+      # - CORE_METRICS_PROVIDER=prometheus
+      - CORE_PEER_TLS_ENABLED=false  # Disable TLS
+      - CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/crypto/peer/msp
+    depends_on:
+      - couchdb04
+    ports:
+      - 14051:14051
+    volumes:
+      - ./channel/crypto-config/peerOrganizations/org4.example.com/peers/peer0.org4.example.com/msp:/etc/hyperledger/crypto/peer/msp
+      - /var/run/:/host/var/run/
+      - ./channel/:/etc/hyperledger/channel/
+    networks:
+      - first-network
+
+  
