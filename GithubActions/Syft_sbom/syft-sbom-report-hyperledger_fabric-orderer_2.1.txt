@@ -1,0 +1,105 @@
+[Image]
+ Layer:		 0
+ Digest:	 sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a
+ Size:		 5608022
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 1
+ Digest:	 sha256:383e880e77929e358ab292e44ccc73ad0e1297cad376710b8dcd664a0cd28078
+ Size:		 1267119
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 2
+ Digest:	 sha256:52ff59a80a2fc96a7b300cf668b99d4ffdf827bebc4a0d647e7f620e4332ce31
+ Size:		 32436840
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 3
+ Digest:	 sha256:688dfce3c8abe85c622d0a0c5531b38720a5459a12bee84f8f6bd3e1c2dac611
+ Size:		 5481
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 4
+ Digest:	 sha256:b91429219eb7a66242ba169fdf73fbaa0ddd5e36068974c85f142d0d50416ca5
+ Size:		 14878
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 5
+ Digest:	 sha256:7277b7b448e071f589f9008c554ccfbe96607e5ed19514b183fd94449df9b084
+ Size:		 25422
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+[alpine-baselayout]
+ Version:	 3.2.0-r3
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[alpine-keys]
+ Version:	 2.1-r2
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[apk-tools]
+ Version:	 2.10.5-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[busybox]
+ Version:	 1.31.1-r9
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[ca-certificates-cacert]
+ Version:	 20191127-r1
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libc-utils]
+ Version:	 0.7.2-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libcrypto1.1]
+ Version:	 1.1.1g-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libssl1.1]
+ Version:	 1.1.1g-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[libtls-standalone]
+ Version:	 2.9.1-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[musl]
+ Version:	 1.1.24-r2
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[musl-utils]
+ Version:	 1.1.24-r2
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[scanelf]
+ Version:	 1.2.4-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[ssl_client]
+ Version:	 1.31.1-r9
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[tzdata]
+ Version:	 2020a-r0
+ Type:		 apk
+ Found by:	 apk-db-cataloger
+
+[zlib]
+ Version:	 1.2.11-r3
+ Type:		 apk
+ Found by:	 apk-db-cataloger

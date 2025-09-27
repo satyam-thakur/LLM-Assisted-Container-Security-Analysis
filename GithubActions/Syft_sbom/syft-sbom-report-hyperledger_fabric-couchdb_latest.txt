@@ -1,0 +1,1185 @@
+[Image]
+ Layer:		 0
+ Digest:	 sha256:e9dc98463cd6fd9852dd890db828f0232e95f0d7ab8b3031864e57df0dc6edea
+ Size:		 55294169
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 1
+ Digest:	 sha256:e4ae6a874689fa031e24d9ab7c4192731c309c90789f1f0e93c3a381b739966b
+ Size:		 1943754
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 2
+ Digest:	 sha256:942fe60873787a5708207207642f4c18a88c1efc85a21de444991f52fb911519
+ Size:		 169100518
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 3
+ Digest:	 sha256:1e32d77b836b4b344a495fde0f28d035f77fc09e8d68977efd44528ff1722389
+ Size:		 2806037
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 4
+ Digest:	 sha256:b8d4c8e1f150fd11f0168dfbc6d98a8407d18f3c819dc8b04dc1de384e7615f8
+ Size:		 588363
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 5
+ Digest:	 sha256:a69110c75a370f154f2e7a04edfa806fb067905613e5b91a62fa9a9a6b9137a2
+ Size:		 31342369
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 6
+ Digest:	 sha256:ff85ee9437372c76e949e0665c42b960031c0837134ab58949267930f08a9855
+ Size:		 968
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 7
+ Digest:	 sha256:779ac2864f911f99d07cca51e5b86dded6b0a31d0494fa9bafeb9988f2e2dd15
+ Size:		 364
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 8
+ Digest:	 sha256:15a7a7a9a5720f02e22b48471f9e9860948733af6173605f0c5bc565d2e413ba
+ Size:		 1672
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 9
+ Digest:	 sha256:1207761d0eef0f655abb34758f7330d51b04b8ed870b4f8840886b925bd934cd
+ Size:		 4053
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+ Layer:		 10
+ Digest:	 sha256:a01d28b782b24019d3a22195569d89a4aeba7e6604062d38334d26c4959e4617
+ Size:		 34109
+ MediaType:	 application/vnd.docker.image.rootfs.diff.tar.gzip
+
+[adduser]
+ Version:	 3.115
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[apt]
+ Version:	 1.4.9
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[base-files]
+ Version:	 9.9+deb9u11
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[base-passwd]
+ Version:	 3.5.43
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[bash]
+ Version:	 4.4-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[bsdutils]
+ Version:	 1:2.29.2-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ca-certificates]
+ Version:	 20200601~deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[coreutils]
+ Version:	 8.26-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[curl]
+ Version:	 7.52.1-5+deb9u10
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dash]
+ Version:	 0.5.8-2.4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[debconf]
+ Version:	 1.5.61
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[debian-archive-keyring]
+ Version:	 2017.5+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[debianutils]
+ Version:	 4.8.1.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[diffutils]
+ Version:	 1:3.5-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dirmngr]
+ Version:	 2.1.18-8~deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[dpkg]
+ Version:	 1.18.25
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[e2fslibs]
+ Version:	 1.43.4-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[e2fsprogs]
+ Version:	 1.43.4-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-asn1]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-base]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-corba]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-crypto]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-diameter]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-edoc]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-eldap]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-erl-docgen]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-eunit]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-ic]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-inets]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-mnesia]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-nox]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-odbc]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-os-mon]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-parsetools]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-percept]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-public-key]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-reltool]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-runtime-tools]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-snmp]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-ssh]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-ssl]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-syntax-tools]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-tools]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-wx]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[erlang-xmerl]
+ Version:	 1:19.2.1+dfsg-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[findutils]
+ Version:	 4.6.0+git+20161106-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[fontconfig]
+ Version:	 2.11.0-6.7+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[fontconfig-config]
+ Version:	 2.11.0-6.7
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[fonts-dejavu-core]
+ Version:	 2.37-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gcc-6-base]
+ Version:	 6.3.0-18+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gnome-icon-theme]
+ Version:	 3.12.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gnupg]
+ Version:	 2.1.18-8~deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gnupg-agent]
+ Version:	 2.1.18-8~deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gpgv]
+ Version:	 2.1.18-8~deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[grep]
+ Version:	 2.27-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gtk-update-icon-cache]
+ Version:	 3.22.11-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[gzip]
+ Version:	 1.6-5+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[hicolor-icon-theme]
+ Version:	 0.15-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[hostname]
+ Version:	 3.18+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[init-system-helpers]
+ Version:	 1.48
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libacl1]
+ Version:	 2.2.52-3+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libapt-pkg5.0]
+ Version:	 1.4.9
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libassuan0]
+ Version:	 2.4.3-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libatk1.0-0]
+ Version:	 2.22.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libatk1.0-data]
+ Version:	 2.22.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libattr1]
+ Version:	 1:2.4.47-2+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libaudit-common]
+ Version:	 1:2.6.7-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libaudit1]
+ Version:	 1:2.6.7-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libavahi-client3]
+ Version:	 0.6.32-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libavahi-common-data]
+ Version:	 0.6.32-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libavahi-common3]
+ Version:	 0.6.32-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libblkid1]
+ Version:	 2.29.2-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libbsd0]
+ Version:	 0.8.3-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libbz2-1.0]
+ Version:	 1.0.6-8.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libc-bin]
+ Version:	 2.24-11+deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libc6]
+ Version:	 2.24-11+deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcairo2]
+ Version:	 1.14.8-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcap-ng0]
+ Version:	 0.7.7-3+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcomerr2]
+ Version:	 1.43.4-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcroco3]
+ Version:	 0.6.11-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcups2]
+ Version:	 2.2.1-8+deb9u5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libcurl3]
+ Version:	 7.52.1-5+deb9u10
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdatrie1]
+ Version:	 0.2.10-4+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdb5.3]
+ Version:	 5.3.28-12+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdbus-1-3]
+ Version:	 1.10.28-0+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdebconfclient0]
+ Version:	 0.227
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libdrm2]
+ Version:	 2.4.74-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libexpat1]
+ Version:	 2.2.0-2+deb9u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfdisk1]
+ Version:	 2.29.2-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libffi6]
+ Version:	 3.2.1-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfontconfig1]
+ Version:	 2.11.0-6.7+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libfreetype6]
+ Version:	 2.6.3-3.2+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgcc1]
+ Version:	 1:6.3.0-18+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgcrypt20]
+ Version:	 1.7.6-2+deb9u3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgdk-pixbuf2.0-0]
+ Version:	 2.36.5-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgdk-pixbuf2.0-common]
+ Version:	 2.36.5-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgl1-mesa-glx]
+ Version:	 13.0.6-1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libglapi-mesa]
+ Version:	 13.0.6-1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libglib2.0-0]
+ Version:	 2.50.3-2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libglu1-mesa]
+ Version:	 9.0.0-2.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgmp10]
+ Version:	 2:6.1.2+dfsg-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgnutls30]
+ Version:	 3.5.8-5+deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgpg-error0]
+ Version:	 1.26-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgraphite2-3]
+ Version:	 1.3.10-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgssapi-krb5-2]
+ Version:	 1.15-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgtk2.0-0]
+ Version:	 2.24.31-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libgtk2.0-common]
+ Version:	 2.24.31-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libharfbuzz0b]
+ Version:	 1.4.2-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libhogweed4]
+ Version:	 3.3-1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libice6]
+ Version:	 2:1.0.9-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libicu57]
+ Version:	 57.1-6+deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libidn11]
+ Version:	 1.33-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libidn2-0]
+ Version:	 0.16-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libjbig0]
+ Version:	 2.1-3.1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libjpeg62-turbo]
+ Version:	 1:1.5.1-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libk5crypto3]
+ Version:	 1.15-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkeyutils1]
+ Version:	 1.5.9-9
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkrb5-3]
+ Version:	 1.15-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libkrb5support0]
+ Version:	 1.15-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libksba8]
+ Version:	 1.3.5-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libldap-2.4-2]
+ Version:	 2.4.44+dfsg-5+deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libldap-common]
+ Version:	 2.4.44+dfsg-5+deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libltdl7]
+ Version:	 2.4.6-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblz4-1]
+ Version:	 0.0~r131-2+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[liblzma5]
+ Version:	 5.2.2-1.2+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmount1]
+ Version:	 2.29.2-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libmozjs185-1.0]
+ Version:	 1.8.5-1.0.0+dfsg-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libncurses5]
+ Version:	 6.0+20161126-1+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libncursesw5]
+ Version:	 6.0+20161126-1+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnettle6]
+ Version:	 3.3-1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnghttp2-14]
+ Version:	 1.18.1-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnotify4]
+ Version:	 0.7.7-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnpth0]
+ Version:	 1.3-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libnspr4]
+ Version:	 2:4.12-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libodbc1]
+ Version:	 2.3.4-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libp11-kit0]
+ Version:	 0.23.3-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam-modules]
+ Version:	 1.1.8-3.6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam-modules-bin]
+ Version:	 1.1.8-3.6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam-runtime]
+ Version:	 1.1.8-3.6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpam0g]
+ Version:	 1.1.8-3.6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpango-1.0-0]
+ Version:	 1.40.5-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpangocairo-1.0-0]
+ Version:	 1.40.5-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpangoft2-1.0-0]
+ Version:	 1.40.5-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpcre3]
+ Version:	 2:8.39-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpixman-1-0]
+ Version:	 0.34.0-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpng16-16]
+ Version:	 1.6.28-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libprocps6]
+ Version:	 2:3.3.12-3+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libpsl5]
+ Version:	 0.17.0-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libreadline7]
+ Version:	 7.0-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[librsvg2-2]
+ Version:	 2.40.16-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[librsvg2-common]
+ Version:	 2.40.16-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[librtmp1]
+ Version:	 2.4+20151223.gitfa8646d.1-1+b1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsasl2-2]
+ Version:	 2.1.27~101-g0780600+dfsg-3+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsasl2-modules-db]
+ Version:	 2.1.27~101-g0780600+dfsg-3+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libselinux1]
+ Version:	 2.6-3+b3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsemanage-common]
+ Version:	 2.6-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsemanage1]
+ Version:	 2.6-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsepol1]
+ Version:	 2.6-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsm6]
+ Version:	 2:1.2.2-1+b3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsmartcols1]
+ Version:	 2.29.2-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsqlite3-0]
+ Version:	 3.16.2-5+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libss2]
+ Version:	 1.43.4-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libssh2-1]
+ Version:	 1.7.0-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libssl1.0.2]
+ Version:	 1.0.2u-1~deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libssl1.1]
+ Version:	 1.1.0l-1~deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libstdc++6]
+ Version:	 6.3.0-18+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libsystemd0]
+ Version:	 232-25+deb9u12
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtasn1-6]
+ Version:	 4.10-1.1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libthai-data]
+ Version:	 0.1.26-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libthai0]
+ Version:	 0.1.26-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtiff5]
+ Version:	 4.0.8-2+deb9u5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libtinfo5]
+ Version:	 6.0+20161126-1+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libudev1]
+ Version:	 232-25+deb9u12
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libunistring0]
+ Version:	 0.9.6+really0.9.3-0.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libustr-1.0-1]
+ Version:	 1.0.4-6
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libuuid1]
+ Version:	 2.29.2-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libwxbase3.0-0v5]
+ Version:	 3.0.2+dfsg-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libwxgtk3.0-0v5]
+ Version:	 3.0.2+dfsg-4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libx11-6]
+ Version:	 2:1.6.4-3+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libx11-data]
+ Version:	 2:1.6.4-3+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libx11-xcb1]
+ Version:	 2:1.6.4-3+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxau6]
+ Version:	 1:1.0.8-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-dri2-0]
+ Version:	 1.12-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-dri3-0]
+ Version:	 1.12-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-glx0]
+ Version:	 1.12-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-present0]
+ Version:	 1.12-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-render0]
+ Version:	 1.12-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-shm0]
+ Version:	 1.12-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb-sync1]
+ Version:	 1.12-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcb1]
+ Version:	 1.12-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcomposite1]
+ Version:	 1:0.4.4-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxcursor1]
+ Version:	 1:1.1.14-1+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxdamage1]
+ Version:	 1:1.1.4-2+b3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxdmcp6]
+ Version:	 1:1.1.2-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxext6]
+ Version:	 2:1.3.3-1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxfixes3]
+ Version:	 1:5.0.3-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxi6]
+ Version:	 2:1.7.9-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxinerama1]
+ Version:	 2:1.1.3-1+b3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxml2]
+ Version:	 2.9.4+dfsg1-2.2+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxrandr2]
+ Version:	 2:1.5.1-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxrender1]
+ Version:	 1:0.9.10-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxshmfence1]
+ Version:	 1.2-1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[libxxf86vm1]
+ Version:	 1:1.1.4-1+b2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[login]
+ Version:	 1:4.4-4.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[lsb-base]
+ Version:	 9.20161125
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[mawk]
+ Version:	 1.3.3-17+b3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[mount]
+ Version:	 2.29.2-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[multiarch-support]
+ Version:	 2.24-11+deb9u4
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ncurses-base]
+ Version:	 6.0+20161126-1+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ncurses-bin]
+ Version:	 6.0+20161126-1+deb9u2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[openssl]
+ Version:	 1.1.0l-1~deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[passwd]
+ Version:	 1:4.4-4.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[perl-base]
+ Version:	 5.24.1-3+deb9u5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[pinentry-curses]
+ Version:	 1.0.0-2
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[procps]
+ Version:	 2:3.3.12-3+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[readline-common]
+ Version:	 7.0-3
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[sed]
+ Version:	 4.4-1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[sensible-utils]
+ Version:	 0.0.9+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[shared-mime-info]
+ Version:	 1.8-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[sysvinit-utils]
+ Version:	 2.88dsf-59.9
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[tar]
+ Version:	 1.29b-1.1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[tzdata]
+ Version:	 2019b-0+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[ucf]
+ Version:	 3.0036
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[util-linux]
+ Version:	 2.29.2-1+deb9u1
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[x11-common]
+ Version:	 1:7.7+19
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
+
+[zlib1g]
+ Version:	 1:1.2.8.dfsg-5
+ Type:		 deb
+ Found by:	 dpkg-db-cataloger
