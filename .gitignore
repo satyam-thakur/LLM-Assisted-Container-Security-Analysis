@@ -1,0 +1,12 @@
+# Terraform
+*.terraform.lock.hcl
+*.terraform/
+*.tfstate*
+# *.tfvars
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
