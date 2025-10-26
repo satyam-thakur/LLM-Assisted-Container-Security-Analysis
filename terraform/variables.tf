@@ -45,3 +45,9 @@ variable "instance_name" {
   type        = string
   default     = "network-instance"
 }
+
+variable "user_data" {
+  description = "user data script for EC2 instance."
+  type        = string
+  default     = ""
+}

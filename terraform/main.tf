@@ -7,7 +7,7 @@ resource "aws_security_group" "network_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]  # Change to specific IP for better security
+    cidr_blocks = ["0.0.0.0/0"] # Change to specific IP for better security
   }
 
   # Enabling all incoming traffic for test
@@ -41,6 +41,9 @@ resource "aws_instance" "network_instance" {
     volume_size = var.volume_size
     volume_type = var.volume_type
   }
+
+  # Use the `user_data` variable if provided; otherwise fall back to the bundled script file.
+  user_data = var.user_data != "" ? var.user_data : file("${path.module}/user_data.sh")
 
   tags = {
     Name = var.instance_name
