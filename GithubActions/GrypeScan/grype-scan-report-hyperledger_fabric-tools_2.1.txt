@@ -1,243 +1,245 @@
 NAME          INSTALLED  FIXED IN                       TYPE    VULNERABILITY   SEVERITY  EPSS           RISK          
 zlib          1.2.11-r3  1.2.11-r4                      apk     CVE-2022-37434  Critical  92.7% (99th)   87.1          
-git           2.24.3-r0                                 apk     CVE-2025-48384  High      6.8% (90th)    81.4   (kev)  
+git           2.24.3-r0                                 apk     CVE-2025-48384  High      2.7% (85th)    81.4   (kev)  
 go            1.14.1     *1.20.10, 1.21.3               binary  CVE-2023-44487  High      94.4% (99th)   78.8   (kev)  
 nghttp2-libs  1.40.0-r0                                 apk     CVE-2023-44487  High      94.4% (99th)   78.8   (kev)  
-git           2.24.3-r0                                 apk     CVE-2024-32002  Critical  79.2% (99th)   71.3          
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0286   High      88.6% (99th)   66.0          
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0286   High      88.6% (99th)   66.0          
-git           2.24.3-r0  2.24.4-r0                      apk     CVE-2021-21300  High      69.7% (98th)   52.3          
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-2650   Medium    88.2% (99th)   50.7          
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-2650   Medium    88.2% (99th)   50.7          
-libcrypto1.1  1.1.1d-r3  1.1.1g-r0                      apk     CVE-2020-1967   High      67.2% (98th)   50.4          
-libssl1.1     1.1.1d-r3  1.1.1g-r0                      apk     CVE-2020-1967   High      67.2% (98th)   50.4          
-go            1.14.1     *1.21.9, 1.22.2                binary  CVE-2023-45288  High      64.9% (98th)   48.6          
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-1292   High      53.0% (97th)   43.8          
-libssl1.1     1.1.1d-r3                                 apk     CVE-2022-1292   High      53.0% (97th)   43.8          
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-2068   High      21.9% (95th)   18.1          
-libssl1.1     1.1.1d-r3                                 apk     CVE-2022-2068   High      21.9% (95th)   18.1          
-git           2.24.3-r0                                 apk     CVE-2022-41903  Critical  18.3% (94th)   17.2          
-git           2.24.3-r0                                 apk     CVE-2022-23521  Critical  12.7% (93rd)   12.0          
-nghttp2-libs  1.40.0-r0                                 apk     CVE-2024-28182  Medium    22.1% (95th)   11.4          
-libcrypto1.1  1.1.1d-r3  1.1.1k-r0                      apk     CVE-2021-3449   Medium    15.4% (94th)   8.4           
-libssl1.1     1.1.1d-r3  1.1.1k-r0                      apk     CVE-2021-3449   Medium    15.4% (94th)   8.4           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-5535   Critical  7.8% (91st)    7.1           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2024-5535   Critical  7.8% (91st)    7.1           
-git           2.24.3-r0                                 apk     CVE-2024-32004  High      8.8% (92nd)    6.9           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-0778   High      8.4% (91st)    5.8           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2022-0778   High      8.4% (91st)    5.8           
+git           2.24.3-r0                                 apk     CVE-2024-32002  Critical  80.1% (99th)   72.1          
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0286   High      90.1% (99th)   67.2          
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0286   High      90.1% (99th)   67.2          
+git           2.24.3-r0  2.24.4-r0                      apk     CVE-2021-21300  High      74.7% (98th)   56.0          
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-2650   Medium    92.0% (99th)   52.9          
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-2650   Medium    92.0% (99th)   52.9          
+libcrypto1.1  1.1.1d-r3  1.1.1g-r0                      apk     CVE-2020-1967   High      66.7% (98th)   50.0          
+libssl1.1     1.1.1d-r3  1.1.1g-r0                      apk     CVE-2020-1967   High      66.7% (98th)   50.0          
+go            1.14.1     *1.21.9, 1.22.2                binary  CVE-2023-45288  High      66.6% (98th)   50.0          
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-1292   High      47.8% (97th)   39.5          
+libssl1.1     1.1.1d-r3                                 apk     CVE-2022-1292   High      47.8% (97th)   39.5          
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-2068   High      25.2% (95th)   20.9          
+libssl1.1     1.1.1d-r3                                 apk     CVE-2022-2068   High      25.2% (95th)   20.9          
+git           2.24.3-r0                                 apk     CVE-2022-41903  Critical  15.7% (94th)   14.7          
+nghttp2-libs  1.40.0-r0                                 apk     CVE-2024-28182  Medium    25.5% (95th)   13.1          
+git           2.24.3-r0                                 apk     CVE-2022-23521  Critical  11.7% (93rd)   11.0          
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-5535   Critical  8.0% (91st)    7.3           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2024-5535   Critical  8.0% (91st)    7.3           
+libcrypto1.1  1.1.1d-r3  1.1.1k-r0                      apk     CVE-2021-3449   Medium    13.2% (93rd)   7.2           
+libssl1.1     1.1.1d-r3  1.1.1k-r0                      apk     CVE-2021-3449   Medium    13.2% (93rd)   7.2           
+git           2.24.3-r0                                 apk     CVE-2024-32004  High      8.6% (91st)    6.7           
 go            1.14.1     *1.16.9, 1.17.2                binary  CVE-2021-38297  Critical  5.9% (90th)    5.2           
-libcrypto1.1  1.1.1d-r3  1.1.1l-r0                      apk     CVE-2021-3711   Critical  3.0% (86th)    2.9           
-libssl1.1     1.1.1d-r3  1.1.1l-r0                      apk     CVE-2021-3711   Critical  3.0% (86th)    2.9           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-0778   High      6.4% (90th)    4.4           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2022-0778   High      6.4% (90th)    4.4           
 busybox       1.31.1-r9                                 apk     CVE-2022-28391  High      3.5% (87th)    2.8           
 ssl_client    1.31.1-r9                                 apk     CVE-2022-28391  High      3.5% (87th)    2.8           
+libcrypto1.1  1.1.1d-r3  1.1.1l-r0                      apk     CVE-2021-3711   Critical  2.4% (84th)    2.2           
+libssl1.1     1.1.1d-r3  1.1.1l-r0                      apk     CVE-2021-3711   Critical  2.4% (84th)    2.2           
+git           2.24.3-r0                                 apk     CVE-2023-25652  High      2.6% (85th)    2.0           
 git           2.24.3-r0                                 apk     CVE-2023-23946  High      2.3% (84th)    1.6           
-git           2.24.3-r0                                 apk     CVE-2022-39253  Medium    3.1% (86th)    1.6           
-git           2.24.3-r0                                 apk     CVE-2023-25652  High      2.1% (83rd)    1.6           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-2511   Medium    2.2% (83rd)    1.2           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2024-2511   Medium    2.2% (83rd)    1.2           
+git           2.24.3-r0                                 apk     CVE-2022-39253  Medium    3.0% (86th)    1.6           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-2511   Medium    2.7% (85th)    1.5           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2024-2511   Medium    2.7% (85th)    1.5           
+go            1.14.1     *1.21.10, 1.22.3               binary  CVE-2024-24787  Medium    2.1% (83rd)    1.2           
 go            1.14.1     *1.21.8, 1.22.1                binary  CVE-2024-24784  High      1.5% (80th)    1.1           
-git           2.24.3-r0                                 apk     CVE-2023-29007  High      1.4% (79th)    1.1           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0464   High      1.3% (79th)    1.0           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0464   High      1.3% (79th)    1.0           
-libcrypto1.1  1.1.1d-r3  1.1.1l-r0                      apk     CVE-2021-3712   High      1.3% (79th)    1.0           
-libssl1.1     1.1.1d-r3  1.1.1l-r0                      apk     CVE-2021-3712   High      1.3% (79th)    1.0           
+git           2.24.3-r0                                 apk     CVE-2023-29007  High      1.3% (79th)    1.0           
 apk-tools     2.10.4-r3  2.10.7-r0                      apk     CVE-2021-36159  Critical  1.0% (76th)    0.9           
-go            1.14.1     *1.21.10, 1.22.3               binary  CVE-2024-24787  Medium    1.6% (80th)    0.9           
-git           2.24.3-r0                                 apk     CVE-2022-39260  High      1.0% (76th)    0.8           
-busybox       1.31.1-r9  1.31.1-r10                     apk     CVE-2021-28831  High      0.9% (74th)    0.7           
-ssl_client    1.31.1-r9  1.31.1-r10                     apk     CVE-2021-28831  High      0.9% (74th)    0.7           
-libcrypto1.1  1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23840  High      0.8% (73rd)    0.6           
-libssl1.1     1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23840  High      0.8% (73rd)    0.6           
+busybox       1.31.1-r9  1.31.1-r10                     apk     CVE-2021-28831  High      1.0% (75th)    0.7           
+ssl_client    1.31.1-r9  1.31.1-r10                     apk     CVE-2021-28831  High      1.0% (75th)    0.7           
+git           2.24.3-r0                                 apk     CVE-2022-39260  High      0.9% (74th)    0.7           
+go            1.14.1     *1.15.14, 1.16.6               binary  CVE-2021-34558  Medium    1.5% (80th)    0.7           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0464   High      0.9% (74th)    0.6           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0464   High      0.9% (74th)    0.6           
+git           2.24.3-r0                                 apk     CVE-2022-24975  High      1.0% (75th)    0.6           
 go            1.14.1     *1.19.8, 1.20.3                binary  CVE-2023-24538  Critical  0.6% (69th)    0.6           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-4807   High      0.7% (71st)    0.6           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-4807   High      0.7% (71st)    0.6           
-libcrypto1.1  1.1.1d-r3  1.1.1k-r0                      apk     CVE-2021-3450   High      0.7% (72nd)    0.6           
-libssl1.1     1.1.1d-r3  1.1.1k-r0                      apk     CVE-2021-3450   High      0.7% (72nd)    0.6           
-zlib          1.2.11-r3                                 apk     CVE-2023-45853  Critical  0.5% (66th)    0.5           
+libcrypto1.1  1.1.1d-r3  1.1.1l-r0                      apk     CVE-2021-3712   High      0.7% (71st)    0.5           
+libssl1.1     1.1.1d-r3  1.1.1l-r0                      apk     CVE-2021-3712   High      0.7% (71st)    0.5           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-4807   High      0.7% (70th)    0.5           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-4807   High      0.7% (70th)    0.5           
+libcrypto1.1  1.1.1d-r3  1.1.1k-r0                      apk     CVE-2021-3450   High      0.7% (70th)    0.5           
+libssl1.1     1.1.1d-r3  1.1.1k-r0                      apk     CVE-2021-3450   High      0.7% (70th)    0.5           
+nghttp2-libs  1.40.0-r0  1.40.0-r1                      apk     CVE-2020-11080  High      0.7% (70th)    0.5           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-3446   Medium    0.9% (75th)    0.5           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-3446   Medium    0.9% (75th)    0.5           
 go            1.14.1     *1.21.12, 1.22.5               binary  CVE-2024-24791  High      0.6% (69th)    0.5           
-go            1.14.1     *1.15.14, 1.16.6               binary  CVE-2021-34558  Medium    0.9% (75th)    0.4           
-nghttp2-libs  1.40.0-r0  1.40.0-r1                      apk     CVE-2020-11080  High      0.6% (67th)    0.4           
+zlib          1.2.11-r3                                 apk     CVE-2023-45853  Critical  0.5% (65th)    0.5           
+libcurl       7.67.0-r0  7.67.0-r3                      apk     CVE-2020-8285   High      0.6% (68th)    0.4           
+libcrypto1.1  1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23840  High      0.6% (67th)    0.4           
+libssl1.1     1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23840  High      0.6% (67th)    0.4           
 busybox       1.31.1-r9                                 apk     CVE-2022-48174  Critical  0.5% (62nd)    0.4           
 ssl_client    1.31.1-r9                                 apk     CVE-2022-48174  Critical  0.5% (62nd)    0.4           
-git           2.24.3-r0                                 apk     CVE-2022-24975  High      0.6% (68th)    0.4           
-libcrypto1.1  1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23841  Medium    0.7% (71st)    0.4           
-libssl1.1     1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23841  Medium    0.7% (71st)    0.4           
-libcurl       7.67.0-r0  7.67.0-r5                      apk     CVE-2021-22926  High      0.5% (65th)    0.4           
-libcurl       7.67.0-r0  7.67.0-r3                      apk     CVE-2020-8285   High      0.5% (65th)    0.4           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-3446   Medium    0.7% (70th)    0.3           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-3446   Medium    0.7% (70th)    0.3           
+libcurl       7.67.0-r0  7.67.0-r5                      apk     CVE-2021-22926  High      0.6% (67th)    0.4           
+pcre2         10.34-r1                                  apk     CVE-2022-1586   Critical  0.5% (63rd)    0.4           
+libcrypto1.1  1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23841  Medium    0.7% (70th)    0.4           
+libssl1.1     1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23841  Medium    0.7% (70th)    0.4           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0466   Medium    0.7% (70th)    0.3           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0466   Medium    0.7% (70th)    0.3           
 go            1.14.1     1.21.0-0                       binary  CVE-2023-24531  Critical  0.4% (57th)    0.3           
-pcre2         10.34-r1                                  apk     CVE-2022-1586   Critical  0.4% (58th)    0.3           
 libcurl       7.67.0-r0  7.79.0-r0                      apk     CVE-2021-22945  Critical  0.4% (57th)    0.3           
 go            1.14.1     1.13.13, *1.14.5               binary  CVE-2020-15586  Medium    0.6% (69th)    0.3           
 go            1.14.1     *1.19.10, 1.20.5               binary  CVE-2023-29405  Critical  0.3% (55th)    0.3           
 libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-9143   Medium    0.7% (70th)    0.3           
 libssl1.1     1.1.1d-r3                                 apk     CVE-2024-9143   Medium    0.7% (70th)    0.3           
-go            1.14.1     *1.16.12, 1.17.5               binary  CVE-2021-44717  Medium    0.5% (66th)    0.3           
+go            1.14.1     *1.16.10, 1.17.3               binary  CVE-2021-41771  High      0.4% (61st)    0.3           
 git           2.24.3-r0                                 apk     CVE-2021-40330  High      0.4% (58th)    0.3           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0466   Medium    0.5% (65th)    0.3           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0466   Medium    0.5% (65th)    0.3           
-go            1.14.1     *1.16.10, 1.17.3               binary  CVE-2021-41771  High      0.4% (57th)    0.2           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0215   High      0.3% (56th)    0.3           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0215   High      0.3% (56th)    0.3           
 go            1.14.1     *1.21.8, 1.22.1                binary  CVE-2024-24783  Medium    0.4% (62nd)    0.2           
 go            1.14.1     *1.19.9, 1.20.4                binary  CVE-2023-24540  Critical  0.2% (47th)    0.2           
+go            1.14.1     *1.16.12, 1.17.5               binary  CVE-2021-44717  Medium    0.4% (62nd)    0.2           
+go            1.14.1     *1.18.9, 1.19.4                binary  CVE-2022-41717  Medium    0.4% (62nd)    0.2           
 busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42383  High      0.3% (52nd)    0.2           
 ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42383  High      0.3% (52nd)    0.2           
-go            1.14.1     *1.18.9, 1.19.4                binary  CVE-2022-41717  Medium    0.4% (60th)    0.2           
-go            1.14.1     *1.21.8, 1.22.1                binary  CVE-2023-45290  Medium    0.4% (57th)    0.2           
+libcurl       7.67.0-r0  7.67.0-r5                      apk     CVE-2021-22925  Medium    0.4% (61st)    0.2           
+pcre2         10.34-r1                                  apk     CVE-2022-1587   Critical  0.3% (49th)    0.2           
+libcurl       7.67.0-r0  7.67.0-r3                      apk     CVE-2020-8286   High      0.3% (51st)    0.2           
 go            1.14.1     1.13.13, *1.14.5               binary  CVE-2020-14039  Medium    0.4% (60th)    0.2           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0215   High      0.3% (50th)    0.2           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0215   High      0.3% (50th)    0.2           
-busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42380  High      0.3% (50th)    0.2           
-ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42380  High      0.3% (50th)    0.2           
-libcurl       7.67.0-r0  7.67.0-r5                      apk     CVE-2021-22925  Medium    0.4% (58th)    0.2           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-2097   Medium    0.4% (60th)    0.2           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2022-2097   Medium    0.4% (60th)    0.2           
+go            1.14.1     *1.14.12, 1.15.5               binary  CVE-2020-28367  High      0.3% (52nd)    0.2           
+go            1.14.1     *1.22.7, 1.23.1                binary  CVE-2024-34156  High      0.3% (50th)    0.2           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0465   Medium    0.4% (59th)    0.2           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0465   Medium    0.4% (59th)    0.2           
 go            1.14.1     *1.21.8, 1.22.1                binary  CVE-2023-45289  Medium    0.4% (60th)    0.2           
-go            1.14.1     *1.14.12, 1.15.5               binary  CVE-2020-28367  High      0.3% (50th)    0.2           
-libcurl       7.67.0-r0  7.67.0-r3                      apk     CVE-2020-8286   High      0.2% (46th)    0.2           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-0727   Medium    0.3% (55th)    0.2           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2024-0727   Medium    0.3% (55th)    0.2           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-0465   Medium    0.3% (55th)    0.2           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-0465   Medium    0.3% (55th)    0.2           
+libcrypto1.1  1.1.1d-r3  1.1.1i-r0                      apk     CVE-2020-1971   Medium    0.3% (56th)    0.2           
+libssl1.1     1.1.1d-r3  1.1.1i-r0                      apk     CVE-2020-1971   Medium    0.3% (56th)    0.2           
+go            1.14.1     *1.21.8, 1.22.1                binary  CVE-2023-45290  Medium    0.3% (55th)    0.2           
+busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42380  High      0.3% (48th)    0.2           
+ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42380  High      0.3% (48th)    0.2           
 go            1.14.1     1.19.6                         binary  CVE-2022-41723  High      0.2% (45th)    0.2           
-libcrypto1.1  1.1.1d-r3  1.1.1i-r0                      apk     CVE-2020-1971   Medium    0.3% (53rd)    0.2           
-libssl1.1     1.1.1d-r3  1.1.1i-r0                      apk     CVE-2020-1971   Medium    0.3% (53rd)    0.2           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-3817   Medium    0.3% (54th)    0.2           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-3817   Medium    0.3% (54th)    0.2           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2021-4160   Medium    0.3% (52nd)    0.2           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2021-4160   Medium    0.3% (52nd)    0.2           
 go            1.14.1     *1.14.12, 1.15.5               binary  CVE-2020-28366  High      0.2% (44th)    0.2           
-busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42381  High      0.2% (42nd)    0.1           
-busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42382  High      0.2% (42nd)    0.1           
-ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42381  High      0.2% (42nd)    0.1           
-ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42382  High      0.2% (42nd)    0.1           
 apk-tools     2.10.4-r3  2.10.6-r0                      apk     CVE-2021-30139  High      0.2% (41st)    0.1           
 go            1.14.1     1.20.0                         binary  CVE-2023-45287  High      0.2% (40th)    0.1           
-busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42386  High      0.2% (40th)    0.1           
-ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42386  High      0.2% (40th)    0.1           
-busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42385  High      0.2% (40th)    0.1           
-ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42385  High      0.2% (40th)    0.1           
+busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42381  High      0.2% (40th)    0.1           
+busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42382  High      0.2% (40th)    0.1           
+ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42381  High      0.2% (40th)    0.1           
+ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42382  High      0.2% (40th)    0.1           
 go            1.14.1     *1.19.11, 1.20.6               binary  CVE-2023-29406  Medium    0.2% (45th)    0.1           
-pcre2         10.34-r1                                  apk     CVE-2022-1587   Critical  0.2% (37th)    0.1           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-4304   Medium    0.2% (46th)    0.1           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2022-4304   Medium    0.2% (46th)    0.1           
 go            1.14.1     *1.21.8, 1.22.1                binary  CVE-2024-24785  Medium    0.2% (47th)    0.1           
+busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42386  High      0.2% (38th)    0.1           
+ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42386  High      0.2% (38th)    0.1           
+busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42385  High      0.2% (38th)    0.1           
+ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42385  High      0.2% (38th)    0.1           
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-0727   Medium    0.2% (45th)    0.1           
+libssl1.1     1.1.1d-r3                                 apk     CVE-2024-0727   Medium    0.2% (45th)    0.1           
 git           2.24.3-r0                                 apk     CVE-2025-48385  High      0.1% (35th)    0.1           
 go            1.14.1     *1.19.10, 1.20.5               binary  CVE-2023-29402  Critical  0.1% (32nd)    0.1           
-go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-30635  High      0.2% (37th)    0.1           
+go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-30635  High      0.2% (36th)    0.1           
 go            1.14.1     1.17                           binary  CVE-2020-29509  Medium    0.2% (40th)    0.1           
 go            1.14.1     1.17                           binary  CVE-2020-29511  Medium    0.2% (40th)    0.1           
-busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42378  High      0.1% (35th)    0.1           
-busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42379  High      0.1% (35th)    0.1           
-busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42384  High      0.1% (35th)    0.1           
-ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42378  High      0.1% (35th)    0.1           
-ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42379  High      0.1% (35th)    0.1           
-ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42384  High      0.1% (35th)    0.1           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2021-4160   Medium    0.2% (42nd)    0.1           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2021-4160   Medium    0.2% (42nd)    0.1           
+go            1.14.1     *1.22.7, 1.23.1                binary  CVE-2024-34158  High      0.1% (35th)    0.1           
 go            1.14.1     *1.14.12, 1.15.5               binary  CVE-2020-28362  High      0.1% (36th)    0.1           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-4304   Medium    0.2% (40th)    0.1           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2022-4304   Medium    0.2% (40th)    0.1           
+libcurl       7.67.0-r0  7.79.0-r0                      apk     CVE-2021-22947  Medium    0.2% (40th)    0.1           
 go            1.14.1     1.18.6                         binary  CVE-2022-27664  High      0.1% (33rd)    0.1           
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-2097   Medium    0.2% (42nd)    0.1           
-libssl1.1     1.1.1d-r3                                 apk     CVE-2022-2097   Medium    0.2% (42nd)    0.1           
+go            1.14.1     *1.15.15, 1.16.7               binary  CVE-2021-36221  Medium    0.2% (42nd)    < 0.1         
 libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-4741   High      0.1% (33rd)    < 0.1         
 libssl1.1     1.1.1d-r3                                 apk     CVE-2024-4741   High      0.1% (33rd)    < 0.1         
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-3817   Medium    0.2% (41st)    < 0.1         
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-3817   Medium    0.2% (41st)    < 0.1         
-libcrypto1.1  1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23839  Low       0.3% (51st)    < 0.1         
-libssl1.1     1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23839  Low       0.3% (51st)    < 0.1         
+busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42378  High      0.1% (33rd)    < 0.1         
+busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42379  High      0.1% (33rd)    < 0.1         
+busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42384  High      0.1% (33rd)    < 0.1         
+ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42378  High      0.1% (33rd)    < 0.1         
+ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42379  High      0.1% (33rd)    < 0.1         
+ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42384  High      0.1% (33rd)    < 0.1         
+libcrypto1.1  1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23839  Low       0.3% (52nd)    < 0.1         
+libssl1.1     1.1.1d-r3  1.1.1j-r0                      apk     CVE-2021-23839  Low       0.3% (52nd)    < 0.1         
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-4450   High      0.1% (33rd)    < 0.1         
+libssl1.1     1.1.1d-r3                                 apk     CVE-2022-4450   High      0.1% (33rd)    < 0.1         
 go            1.14.1     *1.14.8, 1.15.1                binary  CVE-2020-24553  Medium    0.2% (40th)    < 0.1         
 nghttp2-libs  1.40.0-r0                                 apk     CVE-2023-35945  High      0.1% (32nd)    < 0.1         
 go            1.14.1     *1.17.9, 1.18.1                binary  CVE-2022-24675  High      0.1% (33rd)    < 0.1         
 go            1.14.1     *1.17.9, 1.18.1                binary  CVE-2022-28327  High      0.1% (33rd)    < 0.1         
 go            1.14.1     *1.17.10, 1.18.2               binary  CVE-2022-29526  Medium    0.2% (39th)    < 0.1         
-go            1.14.1     *1.15.15, 1.16.7               binary  CVE-2021-36221  Medium    0.2% (39th)    < 0.1         
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2022-4450   High      0.1% (31st)    < 0.1         
-libssl1.1     1.1.1d-r3                                 apk     CVE-2022-4450   High      0.1% (31st)    < 0.1         
-libcurl       7.67.0-r0  7.79.0-r0                      apk     CVE-2021-22947  Medium    0.2% (37th)    < 0.1         
+git           2.24.3-r0                                 apk     CVE-2024-52005  High      0.1% (30th)    < 0.1         
 libcurl       7.67.0-r0  7.67.0-r2                      apk     CVE-2020-8231   High      0.1% (30th)    < 0.1         
+git           2.24.3-r0                                 apk     CVE-2024-52006  Low       0.3% (53rd)    < 0.1         
 go            1.14.1     1.17                           binary  CVE-2021-29923  High      0.1% (30th)    < 0.1         
 go            1.14.1     *1.19.10, 1.20.5               binary  CVE-2023-29404  Critical  < 0.1% (25th)  < 0.1         
+go            1.14.1     *1.21.11, 1.22.4               binary  CVE-2024-24790  Critical  < 0.1% (24th)  < 0.1         
 go            1.14.1                                    binary  CVE-2020-29510  Medium    0.1% (32nd)    < 0.1         
 go            1.14.1     *1.17.13, 1.18.5               binary  CVE-2022-32189  High      0.1% (28th)    < 0.1         
-git           2.24.3-r0                                 apk     CVE-2024-52005  High      < 0.1% (26th)  < 0.1         
-go            1.14.1     *1.21.11, 1.22.4               binary  CVE-2024-24790  Critical  < 0.1% (22nd)  < 0.1         
+go            1.14.1     *1.16.12, 1.17.5               binary  CVE-2021-44716  High      < 0.1% (27th)  < 0.1         
 zlib          1.2.11-r3                                 apk     CVE-2018-25032  High      < 0.1% (26th)  < 0.1         
-git           2.24.3-r0                                 apk     CVE-2023-22490  Medium    0.1% (32nd)    < 0.1         
-git           2.24.3-r0                                 apk     CVE-2024-52006  Low       0.2% (48th)    < 0.1         
 go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-30632  High      < 0.1% (25th)  < 0.1         
 go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-30633  High      < 0.1% (25th)  < 0.1         
-go            1.14.1     *1.22.7, 1.23.1                binary  CVE-2024-34156  High      < 0.1% (24th)  < 0.1         
-go            1.14.1     *1.22.7, 1.23.1                binary  CVE-2024-34158  High      < 0.1% (24th)  < 0.1         
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-5678   Medium    0.1% (32nd)    < 0.1         
+libssl1.1     1.1.1d-r3                                 apk     CVE-2023-5678   Medium    0.1% (32nd)    < 0.1         
+libcurl       7.67.0-r0  7.79.0-r0                      apk     CVE-2021-22923  Medium    0.1% (32nd)    < 0.1         
+git           2.24.3-r0                                 apk     CVE-2023-22490  Medium    0.1% (31st)    < 0.1         
 go            1.14.1     1.13.15, *1.14.7               binary  CVE-2020-16845  High      < 0.1% (25th)  < 0.1         
 go            1.14.1     *1.19.12, 1.20.7               binary  CVE-2023-29409  Medium    0.1% (30th)    < 0.1         
-libcurl       7.67.0-r0  7.79.0-r0                      apk     CVE-2021-22923  Medium    0.1% (30th)    < 0.1         
-go            1.14.1     *1.16.12, 1.17.5               binary  CVE-2021-44716  High      < 0.1% (24th)  < 0.1         
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-13176  Medium    0.1% (31st)    < 0.1         
+libssl1.1     1.1.1d-r3                                 apk     CVE-2024-13176  Medium    0.1% (31st)    < 0.1         
+libcurl       7.67.0-r0  7.79.0-r0                      apk     CVE-2021-22946  High      < 0.1% (21st)  < 0.1         
 go            1.14.1     *1.19.8, 1.20.3                binary  CVE-2023-24536  High      < 0.1% (20th)  < 0.1         
-go            1.14.1     *1.20.8, 1.21.1                binary  CVE-2023-39318  Medium    < 0.1% (26th)  < 0.1         
-go            1.14.1     *1.20.8, 1.21.1                binary  CVE-2023-39319  Medium    < 0.1% (26th)  < 0.1         
 go            1.14.1     *1.19.9, 1.20.4                binary  CVE-2023-24539  High      < 0.1% (20th)  < 0.1         
-go            1.14.1     *1.20.9, 1.21.2                binary  CVE-2023-39323  High      < 0.1% (19th)  < 0.1         
+go            1.14.1     *1.20.8, 1.21.1                binary  CVE-2023-39318  Medium    < 0.1% (25th)  < 0.1         
+go            1.14.1     *1.20.8, 1.21.1                binary  CVE-2023-39319  Medium    < 0.1% (25th)  < 0.1         
+go            1.14.1     *1.20.9, 1.21.2                binary  CVE-2023-39323  High      < 0.1% (18th)  < 0.1         
 go            1.14.1     *1.16.14, 1.17.7               binary  CVE-2022-23773  High      < 0.1% (21st)  < 0.1         
 pcre2         10.34-r1                                  apk     CVE-2022-41409  High      < 0.1% (19th)  < 0.1         
-libcurl       7.67.0-r0  7.67.0-r4                      apk     CVE-2021-22898  Low       0.1% (35th)    < 0.1         
-libcurl       7.67.0-r0  7.79.0-r0                      apk     CVE-2021-22946  High      < 0.1% (18th)  < 0.1         
 go            1.14.1     *1.16.10, 1.17.3               binary  CVE-2021-41772  High      < 0.1% (19th)  < 0.1         
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2023-5678   Medium    < 0.1% (24th)  < 0.1         
-libssl1.1     1.1.1d-r3                                 apk     CVE-2023-5678   Medium    < 0.1% (24th)  < 0.1         
 go            1.14.1     *1.20.12, 1.21.5               binary  CVE-2023-45285  High      < 0.1% (17th)  < 0.1         
-libcrypto1.1  1.1.1d-r3                                 apk     CVE-2024-13176  Medium    < 0.1% (26th)  < 0.1         
-libssl1.1     1.1.1d-r3                                 apk     CVE-2024-13176  Medium    < 0.1% (26th)  < 0.1         
+git           2.24.3-r0                                 apk     CVE-2024-50349  Low       0.2% (37th)    < 0.1         
 libcurl       7.67.0-r0  7.67.0-r1                      apk     CVE-2020-8169   High      < 0.1% (16th)  < 0.1         
-go            1.14.1     *1.23.12, 1.24.6               binary  CVE-2025-47907  High      < 0.1% (16th)  < 0.1         
+libcurl       7.67.0-r0  7.67.0-r4                      apk     CVE-2021-22898  Low       0.1% (32nd)    < 0.1         
 go            1.14.1     1.19.6                         binary  CVE-2022-41725  High      < 0.1% (15th)  < 0.1         
 busybox       1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42374  Medium    < 0.1% (22nd)  < 0.1         
 ssl_client    1.31.1-r9  1.31.1-r11                     apk     CVE-2021-42374  Medium    < 0.1% (22nd)  < 0.1         
 go            1.14.1     *1.19.9, 1.20.4                binary  CVE-2023-29400  High      < 0.1% (14th)  < 0.1         
+go            1.14.1     *1.22.11, 1.23.5, 1.24.0-rc.2  binary  CVE-2024-45336  Medium    < 0.1% (19th)  < 0.1         
+go            1.14.1     *1.22.7, 1.23.1                binary  CVE-2024-34155  Medium    < 0.1% (22nd)  < 0.1         
 go            1.14.1     *1.19.8, 1.20.3                binary  CVE-2023-24534  High      < 0.1% (13th)  < 0.1         
-git           2.24.3-r0                                 apk     CVE-2024-50349  Low       0.1% (32nd)    < 0.1         
 go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-32148  Medium    < 0.1% (17th)  < 0.1         
-go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-30631  High      < 0.1% (11th)  < 0.1         
+libcurl       7.67.0-r0  7.79.0-r0                      apk     CVE-2020-8284   Low       < 0.1% (27th)  < 0.1         
+go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-30631  High      < 0.1% (12th)  < 0.1         
 go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-1705   Medium    < 0.1% (16th)  < 0.1         
-go            1.14.1     *1.22.7, 1.23.1                binary  CVE-2024-34155  Medium    < 0.1% (20th)  < 0.1         
-libcurl       7.67.0-r0  7.79.0-r0                      apk     CVE-2020-8284   Low       < 0.1% (24th)  < 0.1         
-go            1.14.1     *1.15.13, 1.16.5               binary  CVE-2021-33195  High      < 0.1% (8th)   < 0.1         
+git           2.24.3-r0                                 apk     CVE-2024-32465  High      < 0.1% (9th)   < 0.1         
 go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-30630  High      < 0.1% (8th)   < 0.1         
 go            1.14.1     *1.20.12, 1.21.5               binary  CVE-2023-39326  Medium    < 0.1% (14th)  < 0.1         
-go            1.14.1     *1.14.14, 1.15.7               binary  CVE-2021-3114   Medium    < 0.1% (12th)  < 0.1         
-git           2.24.3-r0                                 apk     CVE-2024-32465  High      < 0.1% (8th)   < 0.1         
-go            1.14.1     *1.18.7, 1.19.2                binary  CVE-2022-2880   High      < 0.1% (7th)   < 0.1         
+go            1.14.1     *1.15.13, 1.16.5               binary  CVE-2021-33195  High      < 0.1% (8th)   < 0.1         
+musl          1.1.24-r2  1.1.24-r3                      apk     CVE-2020-28928  Medium    < 0.1% (13th)  < 0.1         
+musl-utils    1.1.24-r2  1.1.24-r3                      apk     CVE-2020-28928  Medium    < 0.1% (13th)  < 0.1         
 go            1.14.1     *1.17.11, 1.18.3               binary  CVE-2022-30580  High      < 0.1% (7th)   < 0.1         
-go            1.14.1     *1.22.11, 1.23.5, 1.24.0-rc.2  binary  CVE-2024-45336  Medium    < 0.1% (11th)  < 0.1         
+go            1.14.1     *1.22.11, 1.23.5, 1.24.0-rc.2  binary  CVE-2024-45341  Medium    < 0.1% (11th)  < 0.1         
 go            1.14.1     *1.15.13, 1.16.5               binary  CVE-2021-33198  High      < 0.1% (7th)   < 0.1         
+go            1.14.1     *1.18.7, 1.19.2                binary  CVE-2022-2880   High      < 0.1% (6th)   < 0.1         
 go            1.14.1     *1.17.11, 1.18.3               binary  CVE-2022-30629  Low       < 0.1% (20th)  < 0.1         
+go            1.14.1     *1.16.14, 1.17.7               binary  CVE-2022-23806  Critical  < 0.1% (5th)   < 0.1         
+go            1.14.1     *1.14.14, 1.15.7               binary  CVE-2021-3114   Medium    < 0.1% (9th)   < 0.1         
+libcrypto1.1  1.1.1d-r3                                 apk     CVE-2025-9230   High      < 0.1% (5th)   < 0.1         
+libssl1.1     1.1.1d-r3                                 apk     CVE-2025-9230   High      < 0.1% (5th)   < 0.1         
 go            1.14.1     *1.15.9, 1.16.1                binary  CVE-2021-27918  High      < 0.1% (6th)   < 0.1         
 go            1.14.1     *1.15.13, 1.16.5               binary  CVE-2021-33197  Medium    < 0.1% (10th)  < 0.1         
-musl          1.1.24-r2  1.1.24-r3                      apk     CVE-2020-28928  Medium    < 0.1% (8th)   < 0.1         
-musl-utils    1.1.24-r2  1.1.24-r3                      apk     CVE-2020-28928  Medium    < 0.1% (8th)   < 0.1         
-go            1.14.1     *1.22.11, 1.23.5, 1.24.0-rc.2  binary  CVE-2024-45341  Medium    < 0.1% (7th)   < 0.1         
-go            1.14.1     *1.16.14, 1.17.7               binary  CVE-2022-23806  Critical  < 0.1% (3rd)   < 0.1         
-libcurl       7.67.0-r0  7.67.0-r1                      apk     CVE-2020-8177   High      < 0.1% (3rd)   < 0.1         
-go            1.14.1     *1.23.8, 1.24.2                binary  CVE-2025-22871  Critical  < 0.1% (2nd)   < 0.1         
+git           2.24.3-r0                                 apk     CVE-2024-32020  Low       < 0.1% (15th)  < 0.1         
 go            1.14.1     *1.15.13, 1.16.5               binary  CVE-2021-33196  High      < 0.1% (4th)   < 0.1         
-go            1.14.1     *1.16.8, 1.17.1                binary  CVE-2021-39293  High      < 0.1% (4th)   < 0.1         
-git           2.24.3-r0                                 apk     CVE-2024-32020  Low       < 0.1% (10th)  < 0.1         
+libcurl       7.67.0-r0  7.67.0-r1                      apk     CVE-2020-8177   High      < 0.1% (4th)   < 0.1         
+go            1.14.1     *1.23.8, 1.24.2                binary  CVE-2025-22871  Critical  < 0.1% (2nd)   < 0.1         
 go            1.14.1     *1.23.12, 1.24.6               binary  CVE-2025-47906  Medium    < 0.1% (4th)   < 0.1         
-go            1.14.1     *1.19.7, 1.20.2                binary  CVE-2023-24532  Medium    < 0.1% (5th)   < 0.1         
+go            1.14.1     *1.23.12, 1.24.6               binary  CVE-2025-47907  High      < 0.1% (3rd)   < 0.1         
+go            1.14.1     *1.16.15, 1.17.8               binary  CVE-2022-24921  High      < 0.1% (3rd)   < 0.1         
+go            1.14.1     *1.16.8, 1.17.1                binary  CVE-2021-39293  High      < 0.1% (3rd)   < 0.1         
+go            1.14.1     *1.19.7, 1.20.2                binary  CVE-2023-24532  Medium    < 0.1% (4th)   < 0.1         
 go            1.14.1     *1.16.14, 1.17.7               binary  CVE-2022-23772  High      < 0.1% (2nd)   < 0.1         
-go            1.14.1     *1.18.7, 1.19.2                binary  CVE-2022-41715  High      < 0.1% (2nd)   < 0.1         
 go            1.14.1     1.19.6                         binary  CVE-2022-41724  High      < 0.1% (2nd)   < 0.1         
-go            1.14.1     *1.18.7, 1.19.2                binary  CVE-2022-2879   High      < 0.1% (2nd)   < 0.1         
 musl          1.1.24-r2                                 apk     CVE-2025-26519  High      < 0.1% (1st)   < 0.1         
 musl-utils    1.1.24-r2                                 apk     CVE-2025-26519  High      < 0.1% (1st)   < 0.1         
+go            1.14.1     *1.18.7, 1.19.2                binary  CVE-2022-41715  High      < 0.1% (1st)   < 0.1         
+go            1.14.1     *1.18.7, 1.19.2                binary  CVE-2022-2879   High      < 0.1% (1st)   < 0.1         
 go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-28131  High      < 0.1% (1st)   < 0.1         
 go            1.14.1     *1.19.8, 1.20.3                binary  CVE-2023-24537  High      < 0.1% (1st)   < 0.1         
-go            1.14.1     *1.16.15, 1.17.8               binary  CVE-2022-24921  High      < 0.1% (1st)   < 0.1         
 git           2.24.3-r0                                 apk     CVE-2025-48386  Medium    < 0.1% (2nd)   < 0.1         
-go            1.14.1     *1.23.10, 1.24.4               binary  CVE-2025-4673   Medium    < 0.1% (1st)   < 0.1         
+go            1.14.1     *1.23.10, 1.24.4               binary  CVE-2025-4673   Medium    < 0.1% (2nd)   < 0.1         
 go            1.14.1     *1.19.10, 1.20.5               binary  CVE-2023-29403  High      < 0.1% (0th)   < 0.1         
-go            1.14.1     *1.22.12, 1.23.6, 1.24.0-rc.3  binary  CVE-2025-22866  Medium    < 0.1% (1st)   < 0.1         
-go            1.14.1     *1.15.12, 1.16.4               binary  CVE-2021-31525  Medium    < 0.1% (0th)   < 0.1         
-git           2.24.3-r0                                 apk     CVE-2024-32021  Low       < 0.1% (1st)   < 0.1         
+go            1.14.1     *1.22.12, 1.23.6, 1.24.0-rc.3  binary  CVE-2025-22866  Medium    < 0.1% (2nd)   < 0.1         
+go            1.14.1     *1.15.12, 1.16.4               binary  CVE-2021-31525  Medium    < 0.1% (1st)   < 0.1         
+go            1.14.1     *1.23.11, 1.24.5               binary  CVE-2025-4674   High      < 0.1% (0th)   < 0.1         
+busybox       1.31.1-r9                                 apk     CVE-2025-46394  Low       < 0.1% (1st)   < 0.1         
+ssl_client    1.31.1-r9                                 apk     CVE-2025-46394  Low       < 0.1% (1st)   < 0.1         
 busybox       1.31.1-r9                                 apk     CVE-2024-58251  Low       < 0.1% (2nd)   < 0.1         
 ssl_client    1.31.1-r9                                 apk     CVE-2024-58251  Low       < 0.1% (2nd)   < 0.1         
-go            1.14.1     *1.23.11, 1.24.5               binary  CVE-2025-4674   High      < 0.1% (0th)   < 0.1         
-busybox       1.31.1-r9                                 apk     CVE-2025-46394  Low       < 0.1% (0th)   < 0.1         
-ssl_client    1.31.1-r9                                 apk     CVE-2025-46394  Low       < 0.1% (0th)   < 0.1         
+git           2.24.3-r0                                 apk     CVE-2024-32021  Low       < 0.1% (1st)   < 0.1         
 go            1.14.1     *1.21.11, 1.22.4               binary  CVE-2024-24789  Medium    < 0.1% (0th)   < 0.1         
 go            1.14.1     *1.17.12, 1.18.4               binary  CVE-2022-1962   Medium    < 0.1% (0th)   < 0.1         
 oniguruma     6.9.4-r0   6.9.4-r1                       apk     CVE-2020-26159  Unknown   N/A            N/A           
