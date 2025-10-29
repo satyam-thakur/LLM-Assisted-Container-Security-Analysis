@@ -2,7 +2,7 @@ name: reconcile
 
 on:
   workflow_run:
-    workflows: ["scan_wf"]
+    workflows: ["scan_workflow"]
     types:
       - completed
   workflow_dispatch:
