@@ -1,0 +1,19 @@
+NAME                INSTALLED                TYPE  VULNERABILITY   SEVERITY  EPSS           RISK   
+login               1:4.13+dfsg1-4ubuntu3.2  deb   CVE-2024-56433  Low       3.8% (87th)    1.1    
+passwd              1:4.13+dfsg1-4ubuntu3.2  deb   CVE-2024-56433  Low       3.8% (87th)    1.1    
+libssl3t64          3.0.13-0ubuntu3.6        deb   CVE-2024-41996  Low       0.4% (62nd)    0.1    
+libgcrypt20         1.10.3-2build1           deb   CVE-2024-2236   Low       0.2% (44th)    < 0.1  
+tar                 1.35+dfsg-3build1        deb   CVE-2025-45582  Medium    < 0.1% (14th)  < 0.1  
+coreutils           9.4-3ubuntu6.1           deb   CVE-2016-2781   Low       < 0.1% (20th)  < 0.1  
+libpam-modules      1.5.3-5ubuntu5.5         deb   CVE-2025-8941   Medium    < 0.1% (5th)   < 0.1  
+libpam-modules-bin  1.5.3-5ubuntu5.5         deb   CVE-2025-8941   Medium    < 0.1% (5th)   < 0.1  
+libpam-runtime      1.5.3-5ubuntu5.5         deb   CVE-2025-8941   Medium    < 0.1% (5th)   < 0.1  
+libpam0g            1.5.3-5ubuntu5.5         deb   CVE-2025-8941   Medium    < 0.1% (5th)   < 0.1  
+libssl3t64          3.0.13-0ubuntu3.6        deb   CVE-2025-27587  Low       < 0.1% (9th)   < 0.1  
+liblz4-1            1.9.4-1build1.1          deb   CVE-2025-62813  Medium    < 0.1% (3rd)   < 0.1  
+libncursesw6        6.4+20240113-1ubuntu2    deb   CVE-2025-6141   Low       < 0.1% (5th)   < 0.1  
+libtinfo6           6.4+20240113-1ubuntu2    deb   CVE-2025-6141   Low       < 0.1% (5th)   < 0.1  
+ncurses-base        6.4+20240113-1ubuntu2    deb   CVE-2025-6141   Low       < 0.1% (5th)   < 0.1  
+ncurses-bin         6.4+20240113-1ubuntu2    deb   CVE-2025-6141   Low       < 0.1% (5th)   < 0.1  
+gpgv                2.4.4-2ubuntu17.3        deb   CVE-2022-3219   Low       < 0.1% (1st)   < 0.1  
+coreutils           9.4-3ubuntu6.1           deb   CVE-2025-5278   Low       < 0.1% (1st)   < 0.1  

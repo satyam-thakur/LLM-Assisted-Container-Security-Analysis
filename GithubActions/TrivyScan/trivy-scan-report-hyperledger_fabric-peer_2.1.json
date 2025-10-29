@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 2,
-  "CreatedAt": "2025-10-26T21:50:41.311359767Z",
+  "CreatedAt": "2025-10-29T02:33:00.291417918Z",
   "ArtifactName": "hyperledger/fabric-peer:2.1",
   "ArtifactType": "container_image",
   "Metadata": {
@@ -26,56 +26,57 @@
     ],
     "ImageConfig": {
       "architecture": "amd64",
+      "container": "7a5d8f8fe36060fd3454016a5bdf08aaf12fc666b6b0ac911fd5a649373b337c",
       "created": "2020-06-01T12:46:22.115180746Z",
       "docker_version": "3.0.11+azure",
       "history": [
         {
-          "created": "2020-04-24T01:05:03Z",
+          "created": "2020-04-24T01:05:03.608058404Z",
           "created_by": "/bin/sh -c #(nop) ADD file:b91adb67b670d3a6ff9463e48b7def903ed516be66fc4282d22c53e41512be49 in / "
         },
         {
-          "created": "2020-04-24T01:05:03Z",
+          "created": "2020-04-24T01:05:03.92860976Z",
           "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/sh\"]",
           "empty_layer": true
         },
         {
-          "created": "2020-06-01T12:42:37Z",
+          "created": "2020-06-01T12:42:37.479161473Z",
           "created_by": "/bin/sh -c apk add --no-cache tzdata"
         },
         {
-          "created": "2020-06-01T12:44:34Z",
+          "created": "2020-06-01T12:44:34.990369545Z",
           "created_by": "/bin/sh -c #(nop)  ENV FABRIC_CFG_PATH=/etc/hyperledger/fabric",
           "empty_layer": true
         },
         {
-          "created": "2020-06-01T12:44:35Z",
+          "created": "2020-06-01T12:44:35.134841965Z",
           "created_by": "/bin/sh -c #(nop)  VOLUME [/etc/hyperledger/fabric]",
           "empty_layer": true
         },
         {
-          "created": "2020-06-01T12:44:36Z",
+          "created": "2020-06-01T12:44:36.107737515Z",
           "created_by": "/bin/sh -c #(nop)  VOLUME [/var/hyperledger]",
           "empty_layer": true
         },
         {
-          "created": "2020-06-01T12:46:18Z",
+          "created": "2020-06-01T12:46:18.000099186Z",
           "created_by": "/bin/sh -c #(nop) COPY dir:4938c788cf8f5d2f1f4653c090f0b9dc966425b3143702d5b6f65f2a9f072ad5 in /usr/local/bin "
         },
         {
-          "created": "2020-06-01T12:46:20Z",
+          "created": "2020-06-01T12:46:20.000211118Z",
           "created_by": "/bin/sh -c #(nop) COPY dir:aa8d3be7b2ffc97b2f0892f638cf058898e158285e9d4175c369abaaa8750572 in /etc/hyperledger/fabric/msp "
         },
         {
-          "created": "2020-06-01T12:46:21Z",
+          "created": "2020-06-01T12:46:21.000188007Z",
           "created_by": "/bin/sh -c #(nop) COPY file:76be975c4deead990eb16c13ad62677cd0df1b46e6ab20569a339f90542363ab in /etc/hyperledger/fabric "
         },
         {
-          "created": "2020-06-01T12:46:21Z",
+          "created": "2020-06-01T12:46:21.116897886Z",
           "created_by": "/bin/sh -c #(nop)  EXPOSE 7051",
           "empty_layer": true
         },
         {
-          "created": "2020-06-01T12:46:22Z",
+          "created": "2020-06-01T12:46:22.115180746Z",
           "created_by": "/bin/sh -c #(nop)  CMD [\"peer\" \"node\" \"start\"]",
           "empty_layer": true
         }
@@ -101,6 +102,7 @@
           "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
           "FABRIC_CFG_PATH=/etc/hyperledger/fabric"
         ],
+        "Image": "sha256:6183f200acb62e4accacd65d255398a69785ab393565a969186670d3cfab6b7d",
         "Volumes": {
           "/etc/hyperledger/fabric": {},
           "/var/hyperledger": {}
@@ -113,22 +115,27 @@
     "Layers": [
       {
         "Size": 5878784,
+        "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
         "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
       },
       {
         "Size": 2120192,
+        "Digest": "sha256:c1275de45a84d774575860908616c611ec527d3f15cc5cfe0c904925f4126652",
         "DiffID": "sha256:383e880e77929e358ab292e44ccc73ad0e1297cad376710b8dcd664a0cd28078"
       },
       {
         "Size": 49613824,
+        "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
         "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
       },
       {
         "Size": 16896,
+        "Digest": "sha256:366c0e7ddacd7edbb83966ad215e824c163e2aa037457de65686b2b8f05b01d8",
         "DiffID": "sha256:c8d9a79457bc722bea2168089ea85f6c37e8c90a219cea6d994ba1b12cc49183"
       },
       {
         "Size": 35840,
+        "Digest": "sha256:66658cc1667aea3096b2f5139af98707acbb1e6916e3c98b4445fbf89069caa9",
         "DiffID": "sha256:b4d28eec2fbab21512c9ad4da05cffb25f9a693ffb9f97e16a4d6c4f458d99e3"
       }
     ]
@@ -159,6 +166,7 @@
             "musl@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:8f373f5b329c3aaf136eb30c63a387661ee0f3d0",
@@ -208,6 +216,7 @@
           ],
           "Maintainer": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:64929f85b7f8b4adbb664d905410312936b79d9b",
@@ -254,6 +263,7 @@
             "zlib@1.2.11-r3"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:432c08c5e1e7e5e88b1a5d585111b07b7b8432e7",
@@ -280,6 +290,7 @@
             "musl@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:a457703d71654811ea28d8d27a5cfc49ece27b34",
@@ -310,6 +321,7 @@
           ],
           "Maintainer": "Natanael Copa \u003cncopa@alpinelinux.org\u003e",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:3aeb8a90d7179d2a187782e980a964494e08c5fb",
@@ -336,6 +348,7 @@
             "musl-utils@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:a7bf32bd32c6d3de2d1c4d7e753a0919b998cd01"
@@ -359,6 +372,7 @@
             "musl@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:28ac675ff9436907e27d462334e85dfee52e1e20",
@@ -397,6 +411,7 @@
             "musl@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:1983d7bf18676b1f00220c5f8ea33b39c3b393c3",
@@ -426,6 +441,7 @@
             "musl@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:b2e5627a56378ea6eeb962a8f33722df9393c1c5",
@@ -450,6 +466,7 @@
           ],
           "Maintainer": "Timo Teräs \u003ctimo.teras@iki.fi\u003e",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:cb2316a189ebee5282c4a9bd98794cc2477a74c6",
@@ -480,6 +497,7 @@
             "scanelf@1.2.4-r0"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:6d3b45e79dbab444ca7cbfa59e2833203be6fb6a",
@@ -510,6 +528,7 @@
             "musl@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:d6147beb32bff803b5d9f83a3bec7ab319087185",
@@ -537,6 +556,7 @@
             "musl@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:3b685152af320120ae8941c740d3376b54e43c10",
@@ -563,6 +583,7 @@
             "musl@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:c1275de45a84d774575860908616c611ec527d3f15cc5cfe0c904925f4126652",
             "DiffID": "sha256:383e880e77929e358ab292e44ccc73ad0e1297cad376710b8dcd664a0cd28078"
           },
           "Digest": "sha1:9ecafc7d9389d100818cbe9da71d6413011acf72",
@@ -1785,6 +1806,7 @@
             "musl@1.1.24-r2"
           ],
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "Digest": "sha1:acca078ee8baa93e005f57b2fae359c1efd443cd",
@@ -1807,6 +1829,7 @@
           "FixedVersion": "2.10.7-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -1864,6 +1887,7 @@
           "FixedVersion": "2.10.6-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -1908,6 +1932,7 @@
           "FixedVersion": "1.31.1-r10",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -1972,6 +1997,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2032,6 +2058,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2092,6 +2119,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2151,6 +2179,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2210,6 +2239,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2269,6 +2299,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2325,6 +2356,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2385,6 +2417,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2445,6 +2478,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2505,6 +2539,7 @@
           "FixedVersion": "1.1.1l-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2590,6 +2625,7 @@
           "FixedVersion": "1.1.1j-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2689,6 +2725,7 @@
           "FixedVersion": "1.1.1k-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2784,6 +2821,7 @@
           "FixedVersion": "1.1.1l-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2883,6 +2921,7 @@
           "FixedVersion": "1.1.1l-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -2968,6 +3007,7 @@
           "FixedVersion": "1.1.1j-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3067,6 +3107,7 @@
           "FixedVersion": "1.1.1k-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3162,6 +3203,7 @@
           "FixedVersion": "1.1.1l-r0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3261,6 +3303,7 @@
           "FixedVersion": "1.31.1-r10",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3325,6 +3368,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3385,6 +3429,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3445,6 +3490,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3504,6 +3550,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3563,6 +3610,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3622,6 +3670,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3678,6 +3727,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3738,6 +3788,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3798,6 +3849,7 @@
           "FixedVersion": "1.31.1-r11",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3858,6 +3910,7 @@
           "FixedVersion": "1.2.11-r4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:cbdbe7a5bc2a134ca8ec91be58565ec07d037386d1f1d8385412d224deafca08",
             "DiffID": "sha256:3e207b409db364b595ba862cdc12be96dcdad8e36c59a03b7b3b61c946a5741a"
           },
           "SeveritySource": "nvd",
@@ -3964,6 +4017,7 @@
           "Version": "v1.14.1",
           "Relationship": "direct",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           }
         }
@@ -3981,6 +4035,7 @@
           "FixedVersion": "1.16.14, 1.17.7",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4057,6 +4112,7 @@
           "FixedVersion": "1.19.8, 1.20.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4148,6 +4204,7 @@
           "FixedVersion": "1.19.9, 1.20.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4234,6 +4291,7 @@
           "FixedVersion": "1.21.11, 1.22.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4319,6 +4377,7 @@
           "FixedVersion": "1.13.15, 1.14.7",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4407,6 +4466,7 @@
           "FixedVersion": "1.14.12, 1.15.5",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4482,6 +4542,7 @@
           "FixedVersion": "1.15.9, 1.16.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4551,6 +4612,7 @@
           "FixedVersion": "1.15.13, 1.16.5",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4631,6 +4693,7 @@
           "FixedVersion": "1.15.13, 1.16.5",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4703,6 +4766,7 @@
           "FixedVersion": "1.15.13, 1.16.5",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4779,6 +4843,7 @@
           "FixedVersion": "1.16.8, 1.17.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4850,6 +4915,7 @@
           "FixedVersion": "1.16.10, 1.17.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -4929,6 +4995,7 @@
           "FixedVersion": "1.16.10, 1.17.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5005,6 +5072,7 @@
           "FixedVersion": "1.16.12, 1.17.5",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5089,6 +5157,7 @@
           "FixedVersion": "1.16.14, 1.17.7",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5163,6 +5232,7 @@
           "FixedVersion": "1.17.9, 1.18.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5241,6 +5311,7 @@
           "FixedVersion": "1.16.15, 1.17.8",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5315,6 +5386,7 @@
           "FixedVersion": "1.18.6, 1.19.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5431,6 +5503,7 @@
           "FixedVersion": "1.17.12, 1.18.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5552,6 +5625,7 @@
           "FixedVersion": "1.17.9, 1.18.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5628,6 +5702,7 @@
           "FixedVersion": "1.18.7, 1.19.2",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5719,6 +5794,7 @@
           "FixedVersion": "1.18.7, 1.19.2",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5813,6 +5889,7 @@
           "FixedVersion": "1.17.11, 1.18.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5869,6 +5946,7 @@
           "FixedVersion": "1.17.11, 1.18.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -5934,6 +6012,7 @@
           "FixedVersion": "1.17.12, 1.18.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6024,6 +6103,7 @@
           "FixedVersion": "1.17.12, 1.18.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6114,6 +6194,7 @@
           "FixedVersion": "1.17.12, 1.18.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6204,6 +6285,7 @@
           "FixedVersion": "1.17.12, 1.18.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6325,6 +6407,7 @@
           "FixedVersion": "1.17.11, 1.18.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6382,6 +6465,7 @@
           "FixedVersion": "1.17.12, 1.18.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6478,6 +6562,7 @@
           "FixedVersion": "1.17.13, 1.18.5",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6573,6 +6658,7 @@
           "FixedVersion": "1.18.7, 1.19.2",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6654,6 +6740,7 @@
           "FixedVersion": "1.18.8, 1.19.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6708,6 +6795,7 @@
           "FixedVersion": "1.18.9, 1.19.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6770,6 +6858,7 @@
           "FixedVersion": "1.19.6, 1.20.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6832,6 +6921,7 @@
           "FixedVersion": "1.19.6, 1.20.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -6939,6 +7029,7 @@
           "FixedVersion": "1.19.6, 1.20.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7025,6 +7116,7 @@
           "FixedVersion": "1.19.6, 1.20.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7112,6 +7204,7 @@
           "FixedVersion": "1.19.8, 1.20.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7201,6 +7294,7 @@
           "FixedVersion": "1.19.8, 1.20.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7290,6 +7384,7 @@
           "FixedVersion": "1.19.8, 1.20.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7380,6 +7475,7 @@
           "FixedVersion": "1.19.9, 1.20.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7468,6 +7564,7 @@
           "FixedVersion": "1.19.9, 1.20.4",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7556,6 +7653,7 @@
           "FixedVersion": "1.19.10, 1.20.5",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7649,6 +7747,7 @@
           "FixedVersion": "1.20.10, 1.21.3",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7815,6 +7914,7 @@
           "FixedVersion": "1.20.11, 1.21.4, 1.20.12, 1.21.5",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7874,6 +7974,7 @@
           "FixedVersion": "1.20.0",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "SeveritySource": "nvd",
@@ -7944,6 +8045,7 @@
           "FixedVersion": "1.21.9, 1.22.2",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-45288",
@@ -8036,6 +8138,7 @@
           "FixedVersion": "1.22.7, 1.23.1",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-34156",
@@ -8108,6 +8211,7 @@
           "FixedVersion": "1.23.12, 1.24.6",
           "Status": "fixed",
           "Layer": {
+            "Digest": "sha256:533397ecbcbb913890bb3ebc7e985d48090a3a38f1889f97be2eddd9c8062ebb",
             "DiffID": "sha256:2df9bc54c5df52cd0dcb85119a9662b2ce171dd5269e2b1c5e1086b7c33ab2a3"
           },
           "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-47907",
@@ -8217,6 +8321,7 @@
           },
           "Match": "****************************************************************",
           "Layer": {
+            "Digest": "sha256:366c0e7ddacd7edbb83966ad215e824c163e2aa037457de65686b2b8f05b01d8",
             "DiffID": "sha256:c8d9a79457bc722bea2168089ea85f6c37e8c90a219cea6d994ba1b12cc49183",
             "CreatedBy": "COPY dir:aa8d3be7b2ffc97b2f0892f638cf058898e158285e9d4175c369abaaa8750572 in /etc/hyperledger/fabric/msp "
           },
