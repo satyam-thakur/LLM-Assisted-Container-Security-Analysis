@@ -66,16 +66,6 @@ jobs:
           sudo chmod +x /usr/local/bin/docker-compose
           docker-compose --version
 
-      # - name: Pull Docker Images from Compose File
-      #   run: |
-      #     docker-compose -f artifacts/docker-compose_notls-orderer.yaml pull
-      #     docker-compose -f artifacts/docker-compose_no-tls-peer1.yaml pull
-
-      # - name: Build Docker Compose Image
-      #   run: |
-      #     docker-compose -f artifacts/docker-compose_notls-orderer.yaml build
-      #     docker-compose -f artifacts/docker-compose_no-tls-peer1.yaml build
-
       - name: Show images to scan (from config)
         id: get-images
         run: |
