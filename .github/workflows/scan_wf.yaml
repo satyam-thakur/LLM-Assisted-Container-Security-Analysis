@@ -11,12 +11,23 @@ on:
 
 jobs:
   build:
-    name: Build container and Scan with Trivy and Grype
+    name: Build container and Scan with Trivy, Grype & Syft
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
+      - name: Load configuration (images and scanners)
+        id: load-config
+        run: |
+          sudo apt-get update && sudo apt-get install -y jq
+          IMAGES=$(jq -r '.images[]' config/config.json | xargs)
+          SCANNERS=$(jq -r '.scanners[]' config/config.json | xargs)
+          echo "IMAGES=$IMAGES" >> $GITHUB_ENV
+          echo "SCANNERS=$SCANNERS" >> $GITHUB_ENV
+          echo "Configured images: $IMAGES"
+          echo "Configured scanners: $SCANNERS"
 
       - name: Create output directories
         run: |
@@ -29,6 +40,7 @@ jobs:
         run: echo "DATE=$(date +'%Y-%m-%d_%H-%M-%S')" >> $GITHUB_ENV
       
       - name: Install Trivy
+        if: ${{ contains(env.SCANNERS, 'trivy') }}
         run: |
           sudo apt-get install -y wget apt-transport-https gnupg lsb-release
           wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
@@ -37,11 +49,13 @@ jobs:
           sudo apt-get install -y trivy
 
       - name: Install Grype
+        if: ${{ contains(env.SCANNERS, 'grype') }}
         run: |
           curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
           grype version
 
       - name: Install Syft
+        if: ${{ contains(env.SCANNERS, 'syft') }}
         run: |
           curl -sSfL https://get.anchore.io/syft | sudo sh -s -- -b /usr/local/bin
           syft version
@@ -52,33 +66,23 @@ jobs:
           sudo chmod +x /usr/local/bin/docker-compose
           docker-compose --version
 
-      - name: Pull Docker Images from Compose File
-        run: |
-          docker-compose -f artifacts/docker-compose_notls-orderer.yaml pull
-          docker-compose -f artifacts/docker-compose_no-tls-peer1.yaml pull
+      # - name: Pull Docker Images from Compose File
+      #   run: |
+      #     docker-compose -f artifacts/docker-compose_notls-orderer.yaml pull
+      #     docker-compose -f artifacts/docker-compose_no-tls-peer1.yaml pull
 
-      - name: Build Docker Compose Image
-        run: |
-          docker-compose -f artifacts/docker-compose_notls-orderer.yaml build
-          docker-compose -f artifacts/docker-compose_no-tls-peer1.yaml build
+      # - name: Build Docker Compose Image
+      #   run: |
+      #     docker-compose -f artifacts/docker-compose_notls-orderer.yaml build
+      #     docker-compose -f artifacts/docker-compose_no-tls-peer1.yaml build
 
-      - name: List Docker Images and get Image Names
+      - name: Show images to scan (from config)
         id: get-images
         run: |
-          docker images
-          # Get images and add :latest if no tag exists
-          IMAGES=""
-          for IMAGE in $(docker-compose -f artifacts/docker-compose_notls-orderer.yaml config | grep 'image:' | awk '{print $2}') $(docker-compose -f artifacts/docker-compose_no-tls-peer1.yaml config | grep 'image:' | awk '{print $2}'); do
-            if [[ "$IMAGE" != *":"* ]]; then
-              IMAGE="${IMAGE}:latest"
-            fi
-            IMAGES="$IMAGES $IMAGE"
-          done
-          
-          echo "IMAGES=$IMAGES" >> $GITHUB_ENV
           echo "Images to scan: $IMAGES"
 
-      - name: Scan All Images from Compose File with Trivy
+      - name: Scan All Images with Trivy
+        if: ${{ contains(env.SCANNERS, 'trivy') }}
         id: trivy-scan
         run: |
           for IMAGE in $IMAGES; do
@@ -91,7 +95,8 @@ jobs:
             trivy image --severity HIGH,CRITICAL --no-progress --format table -o "$TABLE_OUTPUT_FILE" "$IMAGE"
           done
 
-      - name: Scan All Images from Compose File with Grype
+      - name: Scan All Images with Grype
+        if: ${{ contains(env.SCANNERS, 'grype') }}
         id: grype-scan
         run: |
           for IMAGE in $IMAGES; do
@@ -104,7 +109,8 @@ jobs:
             grype --output table --file "$TABLE_OUTPUT_FILE" "$IMAGE"
           done
 
-      - name: Scan All Images from Compose File with Syft
+      - name: Scan All Images with Syft
+        if: ${{ contains(env.SCANNERS, 'syft') }}
         id: syft-scan
         run: |
           for IMAGE in $IMAGES; do
@@ -136,20 +142,24 @@ jobs:
             # Add Trivy reports
             TRIVY_JSON_OUTPUT_FILE="GithubActions/TrivyScan/trivy-scan-report-$(echo $IMAGE | tr '/:' '_').json"
             TRIVY_TABLE_OUTPUT_FILE="GithubActions/TrivyScan/trivy-scan-report-$(echo $IMAGE | tr '/:' '_').txt"
-            git add "$TRIVY_JSON_OUTPUT_FILE"
-            git add "$TRIVY_TABLE_OUTPUT_FILE"
+            if [ -f "$TRIVY_JSON_OUTPUT_FILE" ]; then git add "$TRIVY_JSON_OUTPUT_FILE"; fi
+            if [ -f "$TRIVY_TABLE_OUTPUT_FILE" ]; then git add "$TRIVY_TABLE_OUTPUT_FILE"; fi
             
             # Add Grype reports
             GRYPE_JSON_OUTPUT_FILE="GithubActions/GrypeScan/grype-scan-report-$(echo $IMAGE | tr '/:' '_').json"
             GRYPE_TABLE_OUTPUT_FILE="GithubActions/GrypeScan/grype-scan-report-$(echo $IMAGE | tr '/:' '_').txt"
-            git add "$GRYPE_JSON_OUTPUT_FILE"
-            git add "$GRYPE_TABLE_OUTPUT_FILE"
+            if [ -f "$GRYPE_JSON_OUTPUT_FILE" ]; then git add "$GRYPE_JSON_OUTPUT_FILE"; fi
+            if [ -f "$GRYPE_TABLE_OUTPUT_FILE" ]; then git add "$GRYPE_TABLE_OUTPUT_FILE"; fi
             
             # Add Syft SBOM reports
             SYFT_JSON_OUTPUT_FILE="GithubActions/Syft_sbom/syft-sbom-report-$(echo $IMAGE | tr '/:' '_').json"
             SYFT_TEXT_OUTPUT_FILE="GithubActions/Syft_sbom/syft-sbom-report-$(echo $IMAGE | tr '/:' '_').txt"
-            git add "$SYFT_JSON_OUTPUT_FILE"
-            git add "$SYFT_TEXT_OUTPUT_FILE"
+            if [ -f "$SYFT_JSON_OUTPUT_FILE" ]; then git add "$SYFT_JSON_OUTPUT_FILE"; fi
+            if [ -f "$SYFT_TEXT_OUTPUT_FILE" ]; then git add "$SYFT_TEXT_OUTPUT_FILE"; fi
           done
-          git commit -m "Add security scan reports (Trivy, Grype, and Syft SBOM) for $DATE"
-          git push origin main
+          if ! git diff --cached --quiet; then
+            git commit -m "Add security scan reports (Trivy/Grype/Syft) for $DATE"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi

@@ -1,0 +1,47 @@
+name: reconcile
+
+on:
+  workflow_run:
+    workflows: ["scan_wf"]
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  merge-and-analyze:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run merger script
+        run: |
+          python "Scanner/combine_scanner_results.py"
+
+      - name: Run analysis script
+        run: |
+          python "Scanner/analyze_results.py"
+
+      - name: Commit combined results
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          if [ -d "Scanner/combined_results" ]; then
+            git add "Scanner/combined_results/combined_report.json" || true
+            git add "Scanner/combined_results/combined_report.csv" || true
+          fi
+          if ! git diff --cached --quiet; then
+            COMMIT_MSG="Add combined scanner results and analysis ($(date +'%Y-%m-%d %H:%M:%S'))"
+            git commit -m "$COMMIT_MSG"
+            git push origin ${{ github.ref_name || 'main' }}
+          else
+            echo "No changes to commit."
+          fi
