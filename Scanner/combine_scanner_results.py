@@ -147,52 +147,70 @@ def merge_vulnerabilities(all_vulns):
     return list(merged.values())
 
 
-def save_json_report(merged_vulns, output_path):
-    """Save merged results to JSON file"""
+def save_json_report_per_image(merged_vulns, output_dir):
+    """Save merged results to separate JSON files per image"""
     # Group by image
     by_image = defaultdict(list)
     for vuln in merged_vulns:
         by_image[vuln['image']].append(vuln)
     
-    output = {
-        'total_vulnerabilities': len(merged_vulns),
-        'total_images': len(by_image),
-        'scanners_used': ['trivy', 'grype'],
-        'images': dict(by_image)
-    }
+    saved_files = []
+    for image, vulns in by_image.items():
+        # Create safe filename from image name
+        safe_name = image.replace(':', '_').replace('/', '_').replace('\\', '_')
+        output_path = output_dir / f'{safe_name}_combined.json'
+        
+        output = {
+            'image': image,
+            'total_vulnerabilities': len(vulns),
+            'scanners_used': ['trivy', 'grype'],
+            'vulnerabilities': vulns
+        }
+        
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(output, f, indent=2)
+        
+        saved_files.append(output_path.name)
+        print(f"  - {output_path.name}")
     
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(output, f, indent=2)
-    
-    print(f"JSON report saved: {output_path}")
+    return saved_files
 
 
-def save_csv_report(merged_vulns, output_path):
-    """Save merged results to CSV file"""
-    if not merged_vulns:
-        print("No vulnerabilities to save")
-        return
+def save_csv_report_per_image(merged_vulns, output_dir):
+    """Save merged results to separate CSV files per image"""
+    # Group by image
+    by_image = defaultdict(list)
+    for vuln in merged_vulns:
+        by_image[vuln['image']].append(vuln)
     
+    saved_files = []
     fieldnames = ['image', 'cve_id', 'package_name', 'installed_version', 'fixed_version', 
                   'severity', 'detected_by', 'title']
     
-    with open(output_path, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
+    for image, vulns in by_image.items():
+        # Create safe filename from image name
+        safe_name = image.replace(':', '_').replace('/', '_').replace('\\', '_')
+        output_path = output_dir / f'{safe_name}_combined.csv'
         
-        for vuln in merged_vulns:
-            writer.writerow({
-                'image': vuln['image'],
-                'cve_id': vuln['cve_id'],
-                'package_name': vuln['package_name'],
-                'installed_version': vuln['installed_version'],
-                'fixed_version': vuln['fixed_version'],
-                'severity': vuln['severity'],
-                'detected_by': ', '.join(vuln['detected_by']),
-                'title': vuln.get('title', '')
-            })
+        with open(output_path, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            
+            for vuln in vulns:
+                writer.writerow({
+                    'image': vuln['image'],
+                    'cve_id': vuln['cve_id'],
+                    'package_name': vuln['package_name'],
+                    'installed_version': vuln['installed_version'],
+                    'fixed_version': vuln['fixed_version'],
+                    'severity': vuln['severity'],
+                    'detected_by': ', '.join(vuln['detected_by']),
+                    'title': vuln.get('title', '')
+                })
+        
+        saved_files.append(output_path.name)
     
-    print(f"CSV report saved: {output_path}")
+    return saved_files
 
 
 def main():
@@ -257,13 +275,17 @@ def main():
         if severity in severity_counts:
             print(f"  {severity}: {severity_counts[severity]}")
     
-    # Save outputs
-    print("\nSaving reports...")
-    save_json_report(merged_vulns, output_dir / 'combined_report.json')
-    save_csv_report(merged_vulns, output_dir / 'combined_report.csv')
+    # Save outputs - one file per image
+    print("\nSaving reports (1 file per image)...")
+    print("\nJSON reports:")
+    json_files = save_json_report_per_image(merged_vulns, output_dir)
+    
+    print("\nCSV reports:")
+    csv_files = save_csv_report_per_image(merged_vulns, output_dir)
     
     print("\n" + "=" * 60)
     print("Merge completed successfully!")
+    print(f"Generated {len(json_files)} JSON and {len(csv_files)} CSV reports")
     print("=" * 60)
 
 

@@ -1,0 +1,174 @@
+================================================================================
+CONTAINER SECURITY VULNERABILITY ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-10-29 10:32:58
+Image: hyperledger/fabric-peer:2.1
+Total Vulnerabilities: 153
+Scanners Used: trivy, grype
+================================================================================
+SCANNER COVERAGE ANALYSIS
+================================================================================
+
+Total unique vulnerabilities: 153
+
+Scanner Detection Statistics:
+  Both Scanners (Agreement): 31 (20.3%)
+  Only Trivy:                50 (32.7%)
+  Only Grype:                72 (47.1%)
+
+Total Detections per Scanner:
+  Grype: 103
+  Trivy: 81
+
+Discrepancy Analysis:
+  Scanner Agreement Rate: 20.3%
+  Scanner Discrepancy Rate: 79.7%
+  Trivy-exclusive findings: 50
+  Grype-exclusive findings: 72
+
+================================================================================
+SEVERITY DISTRIBUTION
+================================================================================
+
+Vulnerability Breakdown by Severity:
+  CRITICAL    :   13 (  8.5%)
+  HIGH        :   98 ( 64.1%)
+  MEDIUM      :   36 ( 23.5%)
+  LOW         :    6 (  3.9%)
+
+================================================================================
+TOP 10 MOST VULNERABLE PACKAGES
+================================================================================
+
+Package                             Count    Critical   High    
+--------------------------------------------------------------------------------
+stdlib                              50       4          46      
+libcrypto1.1                        32       2          13      
+libssl1.1                           32       2          13      
+busybox                             15       1          11      
+ssl_client                          15       1          11      
+zlib                                3        2          1       
+apk-tools                           2        1          1       
+musl                                2        0          1       
+musl-utils                          2        0          1       
+
+================================================================================
+FIXABLE VULNERABILITIES ANALYSIS
+================================================================================
+
+Overall Fix Availability:
+  Total vulnerabilities: 153
+  Fixable: 93 (60.8%)
+  Not fixable: 60 (39.2%)
+
+Fix Availability by Severity:
+  CRITICAL    :   8/13  fixable ( 61.5%)
+  HIGH        :  73/98  fixable ( 74.5%)
+  MEDIUM      :  10/36  fixable ( 27.8%)
+  LOW         :   2/6   fixable ( 33.3%)
+
+================================================================================
+CRITICAL & HIGH SEVERITY VULNERABILITIES
+================================================================================
+
+Total Critical + High: 111
+
+Most Common Critical/High CVEs:
+
+  CVE-2021-28831 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r10
+    Detected by: trivy, grype
+
+  CVE-2021-42378 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r11
+    Detected by: trivy, grype
+
+  CVE-2021-42379 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r11
+    Detected by: trivy, grype
+
+  CVE-2021-42380 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r11
+    Detected by: trivy, grype
+
+  CVE-2021-42381 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r11
+    Detected by: trivy, grype
+
+  CVE-2021-42382 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r11
+    Detected by: trivy, grype
+
+  CVE-2021-42383 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r11
+    Detected by: trivy, grype
+
+  CVE-2021-42384 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r11
+    Detected by: trivy, grype
+
+  CVE-2021-42385 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r11
+    Detected by: trivy, grype
+
+  CVE-2021-42386 (HIGH)
+    Package: busybox 1.31.1-r9
+    Fixed in: 1.31.1-r11
+    Detected by: trivy, grype
+
+  CVE-2021-3711 (CRITICAL)
+    Package: libcrypto1.1 1.1.1g-r0
+    Fixed in: 1.1.1l-r0
+    Detected by: trivy, grype
+
+  CVE-2021-23840 (HIGH)
+    Package: libcrypto1.1 1.1.1g-r0
+    Fixed in: 1.1.1j-r0
+    Detected by: trivy, grype
+
+  CVE-2021-3450 (HIGH)
+    Package: libcrypto1.1 1.1.1g-r0
+    Fixed in: 1.1.1k-r0
+    Detected by: trivy, grype
+
+  CVE-2021-3712 (HIGH)
+    Package: libcrypto1.1 1.1.1g-r0
+    Fixed in: 1.1.1l-r0
+    Detected by: trivy, grype
+
+  CVE-2023-0286 (HIGH)
+    Package: libcrypto1.1 1.1.1g-r0
+    Fixed in: No fix available
+    Detected by: grype
+
+================================================================================
+DETAILED SCANNER COMPARISON
+================================================================================
+
+Trivy-Only Vulnerabilities: 50
+  CRITICAL: 4
+  HIGH: 46
+
+Grype-Only Vulnerabilities: 72
+  CRITICAL: 5
+  HIGH: 25
+  MEDIUM: 36
+  LOW: 6
+
+Both Scanners Agreement: 31
+  CRITICAL: 4
+  HIGH: 27
+
+================================================================================
+END OF ANALYSIS REPORT
+================================================================================

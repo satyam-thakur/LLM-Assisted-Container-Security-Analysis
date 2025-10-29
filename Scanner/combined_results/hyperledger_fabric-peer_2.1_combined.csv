@@ -1,0 +1,154 @@
+image,cve_id,package_name,installed_version,fixed_version,severity,detected_by,title
+hyperledger/fabric-peer:2.1,CVE-2021-36159,apk-tools,2.10.5-r0,2.10.7-r0,CRITICAL,"trivy, grype",libfetch: an out of boundary read while libfetch uses strtol to parse the relevant numbers into address bytes leads to information leak or crash
+hyperledger/fabric-peer:2.1,CVE-2021-30139,apk-tools,2.10.5-r0,2.10.6-r0,HIGH,"trivy, grype",
+hyperledger/fabric-peer:2.1,CVE-2021-28831,busybox,1.31.1-r9,1.31.1-r10,HIGH,"trivy, grype",busybox: invalid free or segmentation fault via malformed gzip data
+hyperledger/fabric-peer:2.1,CVE-2021-42378,busybox,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
+hyperledger/fabric-peer:2.1,CVE-2021-42379,busybox,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
+hyperledger/fabric-peer:2.1,CVE-2021-42380,busybox,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
+hyperledger/fabric-peer:2.1,CVE-2021-42381,busybox,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
+hyperledger/fabric-peer:2.1,CVE-2021-42382,busybox,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
+hyperledger/fabric-peer:2.1,CVE-2021-42383,busybox,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+hyperledger/fabric-peer:2.1,CVE-2021-42384,busybox,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
+hyperledger/fabric-peer:2.1,CVE-2021-42385,busybox,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+hyperledger/fabric-peer:2.1,CVE-2021-42386,busybox,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
+hyperledger/fabric-peer:2.1,CVE-2021-3711,libcrypto1.1,1.1.1g-r0,1.1.1l-r0,CRITICAL,"trivy, grype",openssl: SM2 Decryption Buffer Overflow
+hyperledger/fabric-peer:2.1,CVE-2021-23840,libcrypto1.1,1.1.1g-r0,1.1.1j-r0,HIGH,"trivy, grype",openssl: integer overflow in CipherUpdate
+hyperledger/fabric-peer:2.1,CVE-2021-3450,libcrypto1.1,1.1.1g-r0,1.1.1k-r0,HIGH,"trivy, grype",openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+hyperledger/fabric-peer:2.1,CVE-2021-3712,libcrypto1.1,1.1.1g-r0,1.1.1l-r0,HIGH,"trivy, grype",openssl: Read buffer overruns processing ASN.1 strings
+hyperledger/fabric-peer:2.1,CVE-2021-3711,libssl1.1,1.1.1g-r0,1.1.1l-r0,CRITICAL,"trivy, grype",openssl: SM2 Decryption Buffer Overflow
+hyperledger/fabric-peer:2.1,CVE-2021-23840,libssl1.1,1.1.1g-r0,1.1.1j-r0,HIGH,"trivy, grype",openssl: integer overflow in CipherUpdate
+hyperledger/fabric-peer:2.1,CVE-2021-3450,libssl1.1,1.1.1g-r0,1.1.1k-r0,HIGH,"trivy, grype",openssl: CA certificate check bypass with X509_V_FLAG_X509_STRICT
+hyperledger/fabric-peer:2.1,CVE-2021-3712,libssl1.1,1.1.1g-r0,1.1.1l-r0,HIGH,"trivy, grype",openssl: Read buffer overruns processing ASN.1 strings
+hyperledger/fabric-peer:2.1,CVE-2021-28831,ssl_client,1.31.1-r9,1.31.1-r10,HIGH,"trivy, grype",busybox: invalid free or segmentation fault via malformed gzip data
+hyperledger/fabric-peer:2.1,CVE-2021-42378,ssl_client,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_i()
+hyperledger/fabric-peer:2.1,CVE-2021-42379,ssl_client,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the next_input_file()
+hyperledger/fabric-peer:2.1,CVE-2021-42380,ssl_client,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the clrvar()
+hyperledger/fabric-peer:2.1,CVE-2021-42381,ssl_client,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the hash_init()
+hyperledger/fabric-peer:2.1,CVE-2021-42382,ssl_client,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the getvar_s()
+hyperledger/fabric-peer:2.1,CVE-2021-42383,ssl_client,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+hyperledger/fabric-peer:2.1,CVE-2021-42384,ssl_client,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the handle_special()
+hyperledger/fabric-peer:2.1,CVE-2021-42385,ssl_client,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the evaluate()
+hyperledger/fabric-peer:2.1,CVE-2021-42386,ssl_client,1.31.1-r9,1.31.1-r11,HIGH,"trivy, grype",busybox: use-after-free in awk applet leads to denial of service and possibly code execution when processing a crafted awk pattern in the nvalloc()
+hyperledger/fabric-peer:2.1,CVE-2022-37434,zlib,1.2.11-r3,1.2.11-r4,CRITICAL,"trivy, grype",zlib: heap-based buffer over-read and overflow in inflate() in inflate.c via a large gzip header extra field
+hyperledger/fabric-peer:2.1,CVE-2022-23806,stdlib,v1.14.1,"1.16.14, 1.17.7",CRITICAL,trivy,golang: crypto/elliptic: IsOnCurve returns true for invalid field elements
+hyperledger/fabric-peer:2.1,CVE-2023-24538,stdlib,v1.14.1,"1.19.8, 1.20.3",CRITICAL,trivy,golang: html/template: backticks not treated as string delimiters
+hyperledger/fabric-peer:2.1,CVE-2023-24540,stdlib,v1.14.1,"1.19.9, 1.20.4",CRITICAL,trivy,golang: html/template: improper handling of JavaScript whitespace
+hyperledger/fabric-peer:2.1,CVE-2024-24790,stdlib,v1.14.1,"1.21.11, 1.22.4",CRITICAL,trivy,golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses
+hyperledger/fabric-peer:2.1,CVE-2020-16845,stdlib,v1.14.1,"1.13.15, 1.14.7",HIGH,trivy,golang: ReadUvarint and ReadVarint can read an unlimited number of bytes from invalid inputs
+hyperledger/fabric-peer:2.1,CVE-2020-28362,stdlib,v1.14.1,"1.14.12, 1.15.5",HIGH,trivy,golang: math/big: panic during recursive division of very large numbers
+hyperledger/fabric-peer:2.1,CVE-2021-27918,stdlib,v1.14.1,"1.15.9, 1.16.1",HIGH,trivy,golang: encoding/xml: infinite loop when using xml.NewTokenDecoder with a custom TokenReader
+hyperledger/fabric-peer:2.1,CVE-2021-33195,stdlib,v1.14.1,"1.15.13, 1.16.5",HIGH,trivy,golang: net: lookup functions may return invalid host names
+hyperledger/fabric-peer:2.1,CVE-2021-33196,stdlib,v1.14.1,"1.15.13, 1.16.5",HIGH,trivy,golang: archive/zip: malformed archive may cause panic or memory exhaustion
+hyperledger/fabric-peer:2.1,CVE-2021-33198,stdlib,v1.14.1,"1.15.13, 1.16.5",HIGH,trivy,golang: math/big.Rat: may cause a panic or an unrecoverable fatal error if passed inputs with very large exponents
+hyperledger/fabric-peer:2.1,CVE-2021-39293,stdlib,v1.14.1,"1.16.8, 1.17.1",HIGH,trivy,golang: archive/zip: malformed archive may cause panic or memory exhaustion (incomplete fix of CVE-2021-33196)
+hyperledger/fabric-peer:2.1,CVE-2021-41771,stdlib,v1.14.1,"1.16.10, 1.17.3",HIGH,trivy,golang: debug/macho: invalid dynamic symbol table command can cause panic
+hyperledger/fabric-peer:2.1,CVE-2021-41772,stdlib,v1.14.1,"1.16.10, 1.17.3",HIGH,trivy,golang: archive/zip: Reader.Open panics on empty string
+hyperledger/fabric-peer:2.1,CVE-2021-44716,stdlib,v1.14.1,"1.16.12, 1.17.5",HIGH,trivy,golang: net/http: limit growth of header canonicalization cache
+hyperledger/fabric-peer:2.1,CVE-2022-23772,stdlib,v1.14.1,"1.16.14, 1.17.7",HIGH,trivy,golang: math/big: uncontrolled memory consumption due to an unhandled overflow via Rat.SetString
+hyperledger/fabric-peer:2.1,CVE-2022-24675,stdlib,v1.14.1,"1.17.9, 1.18.1",HIGH,trivy,golang: encoding/pem: fix stack overflow in Decode
+hyperledger/fabric-peer:2.1,CVE-2022-24921,stdlib,v1.14.1,"1.16.15, 1.17.8",HIGH,trivy,golang: regexp: stack exhaustion via a deeply nested expression
+hyperledger/fabric-peer:2.1,CVE-2022-27664,stdlib,v1.14.1,"1.18.6, 1.19.1",HIGH,trivy,golang: net/http: handle server errors after sending GOAWAY
+hyperledger/fabric-peer:2.1,CVE-2022-28131,stdlib,v1.14.1,"1.17.12, 1.18.4",HIGH,trivy,golang: encoding/xml: stack exhaustion in Decoder.Skip
+hyperledger/fabric-peer:2.1,CVE-2022-28327,stdlib,v1.14.1,"1.17.9, 1.18.1",HIGH,trivy,golang: crypto/elliptic: panic caused by oversized scalar
+hyperledger/fabric-peer:2.1,CVE-2022-2879,stdlib,v1.14.1,"1.18.7, 1.19.2",HIGH,trivy,golang: archive/tar: github.com/vbatts/tar-split: unbounded memory consumption when reading headers
+hyperledger/fabric-peer:2.1,CVE-2022-2880,stdlib,v1.14.1,"1.18.7, 1.19.2",HIGH,trivy,golang: net/http/httputil: ReverseProxy should not forward unparseable query parameters
+hyperledger/fabric-peer:2.1,CVE-2022-29804,stdlib,v1.14.1,"1.17.11, 1.18.3",HIGH,trivy,ELSA-2022-17957: ol8addon security update (IMPORTANT)
+hyperledger/fabric-peer:2.1,CVE-2022-30580,stdlib,v1.14.1,"1.17.11, 1.18.3",HIGH,trivy,golang: os/exec: Code injection in Cmd.Start
+hyperledger/fabric-peer:2.1,CVE-2022-30630,stdlib,v1.14.1,"1.17.12, 1.18.4",HIGH,trivy,golang: io/fs: stack exhaustion in Glob
+hyperledger/fabric-peer:2.1,CVE-2022-30631,stdlib,v1.14.1,"1.17.12, 1.18.4",HIGH,trivy,golang: compress/gzip: stack exhaustion in Reader.Read
+hyperledger/fabric-peer:2.1,CVE-2022-30632,stdlib,v1.14.1,"1.17.12, 1.18.4",HIGH,trivy,golang: path/filepath: stack exhaustion in Glob
+hyperledger/fabric-peer:2.1,CVE-2022-30633,stdlib,v1.14.1,"1.17.12, 1.18.4",HIGH,trivy,golang: encoding/xml: stack exhaustion in Unmarshal
+hyperledger/fabric-peer:2.1,CVE-2022-30634,stdlib,v1.14.1,"1.17.11, 1.18.3",HIGH,trivy,ELSA-2022-17957: ol8addon security update (IMPORTANT)
+hyperledger/fabric-peer:2.1,CVE-2022-30635,stdlib,v1.14.1,"1.17.12, 1.18.4",HIGH,trivy,golang: encoding/gob: stack exhaustion in Decoder.Decode
+hyperledger/fabric-peer:2.1,CVE-2022-32189,stdlib,v1.14.1,"1.17.13, 1.18.5",HIGH,trivy,"golang: math/big: decoding big.Float and big.Rat types can panic if the encoded message is too short, potentially allowing a denial of service"
+hyperledger/fabric-peer:2.1,CVE-2022-41715,stdlib,v1.14.1,"1.18.7, 1.19.2",HIGH,trivy,golang: regexp/syntax: limit memory used by parsing regexps
+hyperledger/fabric-peer:2.1,CVE-2022-41716,stdlib,v1.14.1,"1.18.8, 1.19.3",HIGH,trivy,"Due to unsanitized NUL values, attackers may be able to maliciously se ..."
+hyperledger/fabric-peer:2.1,CVE-2022-41720,stdlib,v1.14.1,"1.18.9, 1.19.4",HIGH,trivy,"golang: os, net/http: avoid escapes from os.DirFS and http.Dir on Windows"
+hyperledger/fabric-peer:2.1,CVE-2022-41722,stdlib,v1.14.1,"1.19.6, 1.20.1",HIGH,trivy,golang: path/filepath: path-filepath filepath.Clean path traversal
+hyperledger/fabric-peer:2.1,CVE-2022-41723,stdlib,v1.14.1,"1.19.6, 1.20.1",HIGH,trivy,golang.org/x/net/http2: avoid quadratic complexity in HPACK decoding
+hyperledger/fabric-peer:2.1,CVE-2022-41724,stdlib,v1.14.1,"1.19.6, 1.20.1",HIGH,trivy,golang: crypto/tls: large handshake records may cause panics
+hyperledger/fabric-peer:2.1,CVE-2022-41725,stdlib,v1.14.1,"1.19.6, 1.20.1",HIGH,trivy,"golang: net/http, mime/multipart: denial of service from excessive resource consumption"
+hyperledger/fabric-peer:2.1,CVE-2023-24534,stdlib,v1.14.1,"1.19.8, 1.20.3",HIGH,trivy,"golang: net/http, net/textproto: denial of service from excessive memory allocation"
+hyperledger/fabric-peer:2.1,CVE-2023-24536,stdlib,v1.14.1,"1.19.8, 1.20.3",HIGH,trivy,"golang: net/http, net/textproto, mime/multipart: denial of service from excessive resource consumption"
+hyperledger/fabric-peer:2.1,CVE-2023-24537,stdlib,v1.14.1,"1.19.8, 1.20.3",HIGH,trivy,golang: go/parser: Infinite loop in parsing
+hyperledger/fabric-peer:2.1,CVE-2023-24539,stdlib,v1.14.1,"1.19.9, 1.20.4",HIGH,trivy,golang: html/template: improper sanitization of CSS values
+hyperledger/fabric-peer:2.1,CVE-2023-29400,stdlib,v1.14.1,"1.19.9, 1.20.4",HIGH,trivy,golang: html/template: improper handling of empty HTML attributes
+hyperledger/fabric-peer:2.1,CVE-2023-29403,stdlib,v1.14.1,"1.19.10, 1.20.5",HIGH,trivy,golang: runtime: unexpected behavior of setuid/setgid binaries
+hyperledger/fabric-peer:2.1,CVE-2023-39325,stdlib,v1.14.1,"1.20.10, 1.21.3",HIGH,trivy,"golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)"
+hyperledger/fabric-peer:2.1,CVE-2023-45283,stdlib,v1.14.1,"1.20.11, 1.21.4, 1.20.12, 1.21.5",HIGH,trivy,The filepath package does not recognize paths with a \??\ prefix as sp ...
+hyperledger/fabric-peer:2.1,CVE-2023-45287,stdlib,v1.14.1,1.20.0,HIGH,trivy,golang: crypto/tls: Timing Side Channel attack in RSA based TLS key exchanges.
+hyperledger/fabric-peer:2.1,CVE-2023-45288,stdlib,v1.14.1,"1.21.9, 1.22.2",HIGH,trivy,"golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS"
+hyperledger/fabric-peer:2.1,CVE-2024-34156,stdlib,v1.14.1,"1.22.7, 1.23.1",HIGH,trivy,encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion
+hyperledger/fabric-peer:2.1,CVE-2025-47907,stdlib,v1.14.1,"1.23.12, 1.24.6",HIGH,trivy,database/sql: Postgres Scan Race Condition
+hyperledger/fabric-peer:2.1,CVE-2023-0286,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-0286,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-2650,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-2650,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-1292,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-1292,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-2068,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-2068,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-3449,libcrypto1.1,1.1.1g-r0,1.1.1k-r0,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-3449,libssl1.1,1.1.1g-r0,1.1.1k-r0,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-5535,libcrypto1.1,1.1.1g-r0,No fix available,CRITICAL,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-5535,libssl1.1,1.1.1g-r0,No fix available,CRITICAL,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-0778,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-0778,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-28391,busybox,1.31.1-r9,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-28391,ssl_client,1.31.1-r9,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-2511,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-2511,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-0464,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-0464,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-4807,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-4807,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-3446,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-3446,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-45853,zlib,1.2.11-r3,No fix available,CRITICAL,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-48174,busybox,1.31.1-r9,No fix available,CRITICAL,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-48174,ssl_client,1.31.1-r9,No fix available,CRITICAL,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-23841,libcrypto1.1,1.1.1g-r0,1.1.1j-r0,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-23841,libssl1.1,1.1.1g-r0,1.1.1j-r0,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-0466,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-0466,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-9143,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-9143,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-0215,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-0215,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-2097,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-2097,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-0465,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-0465,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2020-1971,libcrypto1.1,1.1.1g-r0,1.1.1i-r0,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2020-1971,libssl1.1,1.1.1g-r0,1.1.1i-r0,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-3817,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-3817,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-4160,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-4160,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-4304,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-4304,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-0727,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-0727,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-4741,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-4741,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-23839,libcrypto1.1,1.1.1g-r0,1.1.1j-r0,LOW,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-23839,libssl1.1,1.1.1g-r0,1.1.1j-r0,LOW,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-4450,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2022-4450,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2018-25032,zlib,1.2.11-r3,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-5678,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2023-5678,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-13176,libcrypto1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-13176,libssl1.1,1.1.1g-r0,No fix available,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-42374,busybox,1.31.1-r9,1.31.1-r11,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2021-42374,ssl_client,1.31.1-r9,1.31.1-r11,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2020-28928,musl,1.1.24-r2,1.1.24-r3,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2020-28928,musl-utils,1.1.24-r2,1.1.24-r3,MEDIUM,grype,
+hyperledger/fabric-peer:2.1,CVE-2025-9230,libcrypto1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2025-9230,libssl1.1,1.1.1g-r0,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2025-26519,musl,1.1.24-r2,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2025-26519,musl-utils,1.1.24-r2,No fix available,HIGH,grype,
+hyperledger/fabric-peer:2.1,CVE-2025-46394,busybox,1.31.1-r9,No fix available,LOW,grype,
+hyperledger/fabric-peer:2.1,CVE-2025-46394,ssl_client,1.31.1-r9,No fix available,LOW,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-58251,busybox,1.31.1-r9,No fix available,LOW,grype,
+hyperledger/fabric-peer:2.1,CVE-2024-58251,ssl_client,1.31.1-r9,No fix available,LOW,grype,

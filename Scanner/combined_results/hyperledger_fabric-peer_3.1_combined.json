@@ -1,0 +1,262 @@
+{
+  "image": "hyperledger/fabric-peer:3.1",
+  "total_vulnerabilities": 18,
+  "scanners_used": [
+    "trivy",
+    "grype"
+  ],
+  "vulnerabilities": [
+    {
+      "cve_id": "CVE-2024-56433",
+      "package_name": "login",
+      "installed_version": "1:4.13+dfsg1-4ubuntu3.2",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-56433",
+      "package_name": "passwd",
+      "installed_version": "1:4.13+dfsg1-4ubuntu3.2",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-41996",
+      "package_name": "libssl3t64",
+      "installed_version": "3.0.13-0ubuntu3.6",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-2236",
+      "package_name": "libgcrypt20",
+      "installed_version": "1.10.3-2build1",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-45582",
+      "package_name": "tar",
+      "installed_version": "1.35+dfsg-3build1",
+      "fixed_version": "No fix available",
+      "severity": "MEDIUM",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2016-2781",
+      "package_name": "coreutils",
+      "installed_version": "9.4-3ubuntu6.1",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-8941",
+      "package_name": "libpam-modules",
+      "installed_version": "1.5.3-5ubuntu5.5",
+      "fixed_version": "No fix available",
+      "severity": "MEDIUM",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-8941",
+      "package_name": "libpam-modules-bin",
+      "installed_version": "1.5.3-5ubuntu5.5",
+      "fixed_version": "No fix available",
+      "severity": "MEDIUM",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-8941",
+      "package_name": "libpam-runtime",
+      "installed_version": "1.5.3-5ubuntu5.5",
+      "fixed_version": "No fix available",
+      "severity": "MEDIUM",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-8941",
+      "package_name": "libpam0g",
+      "installed_version": "1.5.3-5ubuntu5.5",
+      "fixed_version": "No fix available",
+      "severity": "MEDIUM",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-27587",
+      "package_name": "libssl3t64",
+      "installed_version": "3.0.13-0ubuntu3.6",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-62813",
+      "package_name": "liblz4-1",
+      "installed_version": "1.9.4-1build1.1",
+      "fixed_version": "No fix available",
+      "severity": "MEDIUM",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-6141",
+      "package_name": "libncursesw6",
+      "installed_version": "6.4+20240113-1ubuntu2",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-6141",
+      "package_name": "libtinfo6",
+      "installed_version": "6.4+20240113-1ubuntu2",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-6141",
+      "package_name": "ncurses-base",
+      "installed_version": "6.4+20240113-1ubuntu2",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-6141",
+      "package_name": "ncurses-bin",
+      "installed_version": "6.4+20240113-1ubuntu2",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2022-3219",
+      "package_name": "gpgv",
+      "installed_version": "2.4.4-2ubuntu17.3",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-5278",
+      "package_name": "coreutils",
+      "installed_version": "9.4-3ubuntu6.1",
+      "fixed_version": "No fix available",
+      "severity": "LOW",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "grype",
+      "title": "",
+      "description": "",
+      "detected_by": [
+        "grype"
+      ]
+    }
+  ]
+}

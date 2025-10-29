@@ -1,0 +1,88 @@
+================================================================================
+CONTAINER SECURITY VULNERABILITY ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-10-29 10:32:58
+Image: hyperledger/fabric-peer:3.1
+Total Vulnerabilities: 18
+Scanners Used: trivy, grype
+================================================================================
+SCANNER COVERAGE ANALYSIS
+================================================================================
+
+Total unique vulnerabilities: 18
+
+Scanner Detection Statistics:
+  Both Scanners (Agreement): 0 (0.0%)
+  Only Trivy:                0 (0.0%)
+  Only Grype:                18 (100.0%)
+
+Total Detections per Scanner:
+  Grype: 18
+
+Discrepancy Analysis:
+  Scanner Agreement Rate: 0.0%
+  Scanner Discrepancy Rate: 100.0%
+  Trivy-exclusive findings: 0
+  Grype-exclusive findings: 18
+
+================================================================================
+SEVERITY DISTRIBUTION
+================================================================================
+
+Vulnerability Breakdown by Severity:
+  MEDIUM      :    6 ( 33.3%)
+  LOW         :   12 ( 66.7%)
+
+================================================================================
+TOP 10 MOST VULNERABLE PACKAGES
+================================================================================
+
+Package                             Count    Critical   High    
+--------------------------------------------------------------------------------
+libssl3t64                          2        0          0       
+coreutils                           2        0          0       
+login                               1        0          0       
+passwd                              1        0          0       
+libgcrypt20                         1        0          0       
+tar                                 1        0          0       
+libpam-modules                      1        0          0       
+libpam-modules-bin                  1        0          0       
+libpam-runtime                      1        0          0       
+libpam0g                            1        0          0       
+
+================================================================================
+FIXABLE VULNERABILITIES ANALYSIS
+================================================================================
+
+Overall Fix Availability:
+  Total vulnerabilities: 18
+  Fixable: 0 (0.0%)
+  Not fixable: 18 (100.0%)
+
+Fix Availability by Severity:
+  MEDIUM      :   0/6   fixable (  0.0%)
+  LOW         :   0/12  fixable (  0.0%)
+
+================================================================================
+CRITICAL & HIGH SEVERITY VULNERABILITIES
+================================================================================
+
+Total Critical + High: 0
+  No critical or high severity vulnerabilities found!
+
+================================================================================
+DETAILED SCANNER COMPARISON
+================================================================================
+
+Trivy-Only Vulnerabilities: 0
+
+Grype-Only Vulnerabilities: 18
+  MEDIUM: 6
+  LOW: 12
+
+Both Scanners Agreement: 0
+
+================================================================================
+END OF ANALYSIS REPORT
+================================================================================

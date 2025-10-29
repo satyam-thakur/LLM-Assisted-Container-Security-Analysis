@@ -1,6 +1,6 @@
 {
-    "images": ["hyperledger/fabric-peer:2.1", "hyperledger/fabric-peer:3.1"],
-    "scanners": ["trivy", "grype", "syft"],
+    "images": ["hyperledger/fabric-peer:2.1", "hyperledger/fabric-peer:3.1","vulhub/couchdb:3.2.1"],
+    "scanners": ["trivy", "grype"],
     "createXLSX": true,
     "parallel": false,
     "output": "out",
