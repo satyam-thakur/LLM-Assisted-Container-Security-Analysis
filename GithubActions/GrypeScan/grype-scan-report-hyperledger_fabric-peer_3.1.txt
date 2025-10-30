@@ -10,7 +10,6 @@ libpam-modules-bin  1.5.3-5ubuntu5.5         deb   CVE-2025-8941   Medium    < 0
 libpam-runtime      1.5.3-5ubuntu5.5         deb   CVE-2025-8941   Medium    < 0.1% (5th)   < 0.1  
 libpam0g            1.5.3-5ubuntu5.5         deb   CVE-2025-8941   Medium    < 0.1% (5th)   < 0.1  
 libssl3t64          3.0.13-0ubuntu3.6        deb   CVE-2025-27587  Low       < 0.1% (9th)   < 0.1  
-liblz4-1            1.9.4-1build1.1          deb   CVE-2025-62813  Medium    < 0.1% (3rd)   < 0.1  
 libncursesw6        6.4+20240113-1ubuntu2    deb   CVE-2025-6141   Low       < 0.1% (5th)   < 0.1  
 libtinfo6           6.4+20240113-1ubuntu2    deb   CVE-2025-6141   Low       < 0.1% (5th)   < 0.1  
 ncurses-base        6.4+20240113-1ubuntu2    deb   CVE-2025-6141   Low       < 0.1% (5th)   < 0.1  

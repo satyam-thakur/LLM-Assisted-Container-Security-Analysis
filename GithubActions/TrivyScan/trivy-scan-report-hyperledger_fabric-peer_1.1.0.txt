@@ -1,0 +1,92 @@
+
+Report Summary
+
+┌──────────────────────────────────────────────┬────────┬─────────────────┬─────────┐
+│                    Target                    │  Type  │ Vulnerabilities │ Secrets │
+├──────────────────────────────────────────────┼────────┼─────────────────┼─────────┤
+│ hyperledger/fabric-peer:1.1.0 (ubuntu 16.04) │ ubuntu │       12        │    -    │
+├──────────────────────────────────────────────┼────────┼─────────────────┼─────────┤
+│ /etc/hyperledger/fabric/msp/keystore/key.pem │  text  │        -        │    1    │
+└──────────────────────────────────────────────┴────────┴─────────────────┴─────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+For OSS Maintainers: VEX Notice
+--------------------------------
+If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
+VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
+Learn more and start using VEX: https://trivy.dev/v0.67/docs/supply-chain/vex/repo#publishing-vex-documents
+
+To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
+
+
+hyperledger/fabric-peer:1.1.0 (ubuntu 16.04)
+============================================
+Total: 12 (HIGH: 12, CRITICAL: 0)
+
+┌───────────────┬────────────────┬──────────┬────────┬────────────────────┬────────────────────┬──────────────────────────────────────────────────────────────┐
+│    Library    │ Vulnerability  │ Severity │ Status │ Installed Version  │   Fixed Version    │                            Title                             │
+├───────────────┼────────────────┼──────────┼────────┼────────────────────┼────────────────────┼──────────────────────────────────────────────────────────────┤
+│ apt           │ CVE-2019-3462  │ HIGH     │ fixed  │ 1.2.25             │ 1.2.29ubuntu0.1    │ Incorrect sanitation of the 302 redirect field in HTTP       │
+│               │                │          │        │                    │                    │ transport metho ......                                       │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2019-3462                    │
+├───────────────┤                │          │        │                    │                    │                                                              │
+│ libapt-pkg5.0 │                │          │        │                    │                    │                                                              │
+│               │                │          │        │                    │                    │                                                              │
+│               │                │          │        │                    │                    │                                                              │
+├───────────────┼────────────────┤          │        ├────────────────────┼────────────────────┼──────────────────────────────────────────────────────────────┤
+│ libssl1.0.0   │ CVE-2020-1971  │          │        │ 1.0.2g-1ubuntu4.10 │ 1.0.2g-1ubuntu4.18 │ openssl: EDIPARTYNAME NULL pointer de-reference              │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2020-1971                    │
+├───────────────┼────────────────┤          │        ├────────────────────┼────────────────────┼──────────────────────────────────────────────────────────────┤
+│ libsystemd0   │ CVE-2018-16864 │          │        │ 229-4ubuntu21.1    │ 229-4ubuntu21.15   │ systemd: stack overflow when calling syslog from a command   │
+│               │                │          │        │                    │                    │ with long cmdline...                                         │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2018-16864                   │
+│               ├────────────────┤          │        │                    │                    ├──────────────────────────────────────────────────────────────┤
+│               │ CVE-2018-16865 │          │        │                    │                    │ systemd: stack overflow when receiving many journald entries │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2018-16865                   │
+├───────────────┼────────────────┤          │        │                    │                    ├──────────────────────────────────────────────────────────────┤
+│ libudev1      │ CVE-2018-16864 │          │        │                    │                    │ systemd: stack overflow when calling syslog from a command   │
+│               │                │          │        │                    │                    │ with long cmdline...                                         │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2018-16864                   │
+│               ├────────────────┤          │        │                    │                    ├──────────────────────────────────────────────────────────────┤
+│               │ CVE-2018-16865 │          │        │                    │                    │ systemd: stack overflow when receiving many journald entries │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2018-16865                   │
+├───────────────┼────────────────┤          │        ├────────────────────┼────────────────────┼──────────────────────────────────────────────────────────────┤
+│ openssl       │ CVE-2020-1971  │          │        │ 1.0.2g-1ubuntu4.10 │ 1.0.2g-1ubuntu4.18 │ openssl: EDIPARTYNAME NULL pointer de-reference              │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2020-1971                    │
+├───────────────┼────────────────┤          │        ├────────────────────┼────────────────────┼──────────────────────────────────────────────────────────────┤
+│ systemd       │ CVE-2018-16864 │          │        │ 229-4ubuntu21.1    │ 229-4ubuntu21.15   │ systemd: stack overflow when calling syslog from a command   │
+│               │                │          │        │                    │                    │ with long cmdline...                                         │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2018-16864                   │
+│               ├────────────────┤          │        │                    │                    ├──────────────────────────────────────────────────────────────┤
+│               │ CVE-2018-16865 │          │        │                    │                    │ systemd: stack overflow when receiving many journald entries │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2018-16865                   │
+├───────────────┼────────────────┤          │        │                    │                    ├──────────────────────────────────────────────────────────────┤
+│ systemd-sysv  │ CVE-2018-16864 │          │        │                    │                    │ systemd: stack overflow when calling syslog from a command   │
+│               │                │          │        │                    │                    │ with long cmdline...                                         │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2018-16864                   │
+│               ├────────────────┤          │        │                    │                    ├──────────────────────────────────────────────────────────────┤
+│               │ CVE-2018-16865 │          │        │                    │                    │ systemd: stack overflow when receiving many journald entries │
+│               │                │          │        │                    │                    │ https://avd.aquasec.com/nvd/cve-2018-16865                   │
+└───────────────┴────────────────┴──────────┴────────┴────────────────────┴────────────────────┴──────────────────────────────────────────────────────────────┘
+
+/etc/hyperledger/fabric/msp/keystore/key.pem (secrets)
+======================================================
+Total: 1 (HIGH: 1, CRITICAL: 0)
+
+HIGH: AsymmetricPrivateKey (private-key)
+════════════════════════════════════════
+Asymmetric Private Key
+────────────────────────────────────────
+ /etc/hyperledger/fabric/msp/keystore/key.pem:2-4 (offset: 28 bytes) (added by 'ADD file:0cb4c04a0986ef346b0a81838b95f46')
+────────────────────────────────────────
+   1   -----BEGIN PRIVATE KEY-----
+   2 ┌ ****************************************************************
+   3 │ ****************************************************************
+   4 └ ********************************************************
+   5   -----END PRIVATE KEY-----
+────────────────────────────────────────
+
+

@@ -4,7 +4,7 @@ Report Summary
 ┌────────────────────────────────────┬────────┬─────────────────┬─────────┐
 │               Target               │  Type  │ Vulnerabilities │ Secrets │
 ├────────────────────────────────────┼────────┼─────────────────┼─────────┤
-│ vulhub/couchdb:3.2.1 (debian 11.5) │ debian │      1272       │    -    │
+│ vulhub/couchdb:3.2.1 (debian 11.5) │ debian │      1264       │    -    │
 └────────────────────────────────────┴────────┴─────────────────┴─────────┘
 Legend:
 - '-': Not scanned
@@ -22,7 +22,7 @@ To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
 
 vulhub/couchdb:3.2.1 (debian 11.5)
 ==================================
-Total: 1272 (HIGH: 1219, CRITICAL: 53)
+Total: 1264 (HIGH: 1211, CRITICAL: 53)
 
 ┌─────────────────────────┬────────────────┬──────────┬──────────────┬─────────────────────────┬─────────────────────────┬──────────────────────────────────────────────────────────────┐
 │         Library         │ Vulnerability  │ Severity │    Status    │    Installed Version    │      Fixed Version      │                            Title                             │
@@ -1321,10 +1321,6 @@ Total: 1272 (HIGH: 1219, CRITICAL: 53)
 │                         │ CVE-2022-50439 │          │              │                         │                         │ kernel: ASoC: mediatek: mt8173: Enable IRQ when pdata is     │
 │                         │                │          │              │                         │                         │ ready                                                        │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2022-50439                   │
-│                         ├────────────────┤          │              │                         │                         ├──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2022-50486 │          │              │                         │                         │ kernel: net: ethernet: ti: Fix return type of                │
-│                         │                │          │              │                         │                         │ netcp_ndo_start_xmit()                                       │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2022-50486                   │
 │                         ├────────────────┤          ├──────────────┤                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
 │                         │ CVE-2022-50493 │          │ affected     │                         │                         │ kernel: scsi: qla2xxx: Fix crash when I/O abort times out    │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2022-50493                   │
@@ -1959,21 +1955,13 @@ Total: 1272 (HIGH: 1219, CRITICAL: 53)
 │                         │                │          │              │                         │                         │ get_user_pages_fast() to avoid GPF                           │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53259                   │
 │                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53277 │          │              │                         │ 5.10.178-1              │ kernel: wifi: iwl3945: Add missing check for                 │
-│                         │                │          │              │                         │                         │ create_singlethread_workqueue                                │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53277                   │
-│                         ├────────────────┤          │              │                         │                         ├──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53295 │          │              │                         │                         │ kernel: udf: Do not update file length for failed writes to  │
+│                         │ CVE-2023-53295 │          │              │                         │ 5.10.178-1              │ kernel: udf: Do not update file length for failed writes to  │
 │                         │                │          │              │                         │                         │ inline...                                                    │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53295                   │
 │                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
 │                         │ CVE-2023-53297 │          │              │                         │ 5.10.191-1              │ kernel: Bluetooth: L2CAP: fix "bad unlock balance" in        │
 │                         │                │          │              │                         │                         │ l2cap_disconnect_rsp                                         │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53297                   │
-│                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53302 │          │              │                         │ 5.10.178-1              │ kernel: wifi: iwl4965: Add missing check for                 │
-│                         │                │          │              │                         │                         │ create_singlethread_workqueue()                              │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53302                   │
 │                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
 │                         │ CVE-2023-53305 │          │              │                         │ 5.10.197-1              │ kernel: Bluetooth: L2CAP: Fix use-after-free                 │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53305                   │
@@ -2005,10 +1993,6 @@ Total: 1272 (HIGH: 1219, CRITICAL: 53)
 │                         │ CVE-2023-53401 │          │ affected     │                         │                         │ kernel: mm: kmem: fix a NULL pointer dereference in          │
 │                         │                │          │              │                         │                         │ obj_stock_flush_required()                                   │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53401                   │
-│                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53434 │          │              │                         │                         │ kernel: remoteproc: imx_dsp_rproc: Add custom memory copy    │
-│                         │                │          │              │                         │                         │ implementation for i.MX DSP Cores...                         │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53434                   │
 │                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
 │                         │ CVE-2023-53458 │          │              │                         │                         │ kernel: media: cx23885: Fix a null-ptr-deref bug in          │
 │                         │                │          │              │                         │                         │ buffer_prepare() and buffer_finish()                         │
@@ -2047,10 +2031,7 @@ Total: 1272 (HIGH: 1219, CRITICAL: 53)
 │                         │                │          │              │                         │                         │ smp_processor_id()                                           │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53530                   │
 │                         ├────────────────┤          ├──────────────┤                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53535 │          │ fixed        │                         │ 5.10.178-1              │ kernel: net: bcmgenet: Add a check for oversized packets     │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53535                   │
-│                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53536 │          │              │                         │ 5.10.191-1              │ kernel: blk-crypto: make blk_crypto_evict_key() more robust  │
+│                         │ CVE-2023-53536 │          │ fixed        │                         │ 5.10.191-1              │ kernel: blk-crypto: make blk_crypto_evict_key() more robust  │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53536                   │
 │                         ├────────────────┤          ├──────────────┤                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
 │                         │ CVE-2023-53539 │          │ affected     │                         │                         │ kernel: RDMA/rxe: Fix incomplete state save in rxe_requester │
@@ -2059,18 +2040,7 @@ Total: 1272 (HIGH: 1219, CRITICAL: 53)
 │                         │ CVE-2023-53544 │          │              │                         │                         │ kernel: cpufreq: davinci: Fix clk use after free             │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53544                   │
 │                         ├────────────────┤          ├──────────────┤                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53549 │          │ fixed        │                         │ 5.10.178-1              │ kernel: netfilter: ipset: Rework long task execution when    │
-│                         │                │          │              │                         │                         │ adding/deleting entries                                      │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53549                   │
-│                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53559 │          │              │                         │ 5.10.197-1              │ kernel: ip_vti: fix potential slab-use-after-free in         │
-│                         │                │          │              │                         │                         │ decode_session6                                              │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53559                   │
-│                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53567 │          │              │                         │ 5.10.191-1              │ kernel: spi: qup: Don't skip cleanup in remove's error path  │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53567                   │
-│                         ├────────────────┤          │              │                         │                         ├──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-53581 │          │              │                         │                         │ kernel: net/mlx5e: Check for NOT_READY flag state after      │
+│                         │ CVE-2023-53581 │          │ fixed        │                         │ 5.10.191-1              │ kernel: net/mlx5e: Check for NOT_READY flag state after      │
 │                         │                │          │              │                         │                         │ locking                                                      │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53581                   │
 │                         ├────────────────┤          │              │                         │                         ├──────────────────────────────────────────────────────────────┤

@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 2,
-  "CreatedAt": "2025-10-29T15:19:03.471472193Z",
+  "CreatedAt": "2025-10-30T15:32:32.185992477Z",
   "ArtifactName": "hyperledger/fabric-peer:3.1",
   "ArtifactType": "container_image",
   "Metadata": {
@@ -6686,6 +6686,44 @@
             "DiffID": "sha256:04aff133ee553c498dca38ad8e608814f3e34ae97251d7143bea5661a3bd7b35"
           }
         }
+      ],
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-58187",
+          "PkgID": "stdlib@v1.25.2",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.25.2",
+            "UID": "1b5a921d12030199"
+          },
+          "InstalledVersion": "v1.25.2",
+          "FixedVersion": "1.24.9, 1.25.3",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:28bd3b1a98e5b498abcf7861124bb752f7d4df450733659e3b69da6c69a124be",
+            "DiffID": "sha256:04aff133ee553c498dca38ad8e608814f3e34ae97251d7143bea5661a3bd7b35"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58187",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Due to the design of the name constraint checking algorithm, the proce ...",
+          "Description": "Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3
+          },
+          "References": [
+            "https://go.dev/cl/709854",
+            "https://go.dev/issue/75681",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://pkg.go.dev/vuln/GO-2025-4007"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.643Z",
+          "LastModifiedDate": "2025-10-29T23:16:19.643Z"
+        }
       ]
     },
     {
@@ -6737,6 +6775,44 @@
             "DiffID": "sha256:04aff133ee553c498dca38ad8e608814f3e34ae97251d7143bea5661a3bd7b35"
           }
         }
+      ],
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-58187",
+          "PkgID": "stdlib@v1.25.2",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.25.2",
+            "UID": "8af9d2793a6973f"
+          },
+          "InstalledVersion": "v1.25.2",
+          "FixedVersion": "1.24.9, 1.25.3",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:28bd3b1a98e5b498abcf7861124bb752f7d4df450733659e3b69da6c69a124be",
+            "DiffID": "sha256:04aff133ee553c498dca38ad8e608814f3e34ae97251d7143bea5661a3bd7b35"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58187",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Due to the design of the name constraint checking algorithm, the proce ...",
+          "Description": "Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3
+          },
+          "References": [
+            "https://go.dev/cl/709854",
+            "https://go.dev/issue/75681",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://pkg.go.dev/vuln/GO-2025-4007"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.643Z",
+          "LastModifiedDate": "2025-10-29T23:16:19.643Z"
+        }
       ]
     },
     {
@@ -6787,6 +6863,44 @@
             "Digest": "sha256:28bd3b1a98e5b498abcf7861124bb752f7d4df450733659e3b69da6c69a124be",
             "DiffID": "sha256:04aff133ee553c498dca38ad8e608814f3e34ae97251d7143bea5661a3bd7b35"
           }
+        }
+      ],
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-58187",
+          "PkgID": "stdlib@v1.25.2",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.25.2",
+            "UID": "10e8c48c9f9b234a"
+          },
+          "InstalledVersion": "v1.25.2",
+          "FixedVersion": "1.24.9, 1.25.3",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:28bd3b1a98e5b498abcf7861124bb752f7d4df450733659e3b69da6c69a124be",
+            "DiffID": "sha256:04aff133ee553c498dca38ad8e608814f3e34ae97251d7143bea5661a3bd7b35"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58187",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Due to the design of the name constraint checking algorithm, the proce ...",
+          "Description": "Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3
+          },
+          "References": [
+            "https://go.dev/cl/709854",
+            "https://go.dev/issue/75681",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://pkg.go.dev/vuln/GO-2025-4007"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.643Z",
+          "LastModifiedDate": "2025-10-29T23:16:19.643Z"
         }
       ]
     },
@@ -7861,6 +7975,44 @@
             "Digest": "sha256:b00d757c7765be0477a3c081dba351114f73903415439cecd8b8dc3cc4679788",
             "DiffID": "sha256:4d6229bfebd49d8a4d19594ba5ea74c1b77558f0a44fd8d105c826c61874bfd8"
           }
+        }
+      ],
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-58187",
+          "PkgID": "stdlib@v1.25.2",
+          "PkgName": "stdlib",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/stdlib@v1.25.2",
+            "UID": "e3ecdfe31fd93f5a"
+          },
+          "InstalledVersion": "v1.25.2",
+          "FixedVersion": "1.24.9, 1.25.3",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:b00d757c7765be0477a3c081dba351114f73903415439cecd8b8dc3cc4679788",
+            "DiffID": "sha256:4d6229bfebd49d8a4d19594ba5ea74c1b77558f0a44fd8d105c826c61874bfd8"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-58187",
+          "DataSource": {
+            "ID": "govulndb",
+            "Name": "The Go Vulnerability Database",
+            "URL": "https://pkg.go.dev/vuln/"
+          },
+          "Title": "Due to the design of the name constraint checking algorithm, the proce ...",
+          "Description": "Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "amazon": 3
+          },
+          "References": [
+            "https://go.dev/cl/709854",
+            "https://go.dev/issue/75681",
+            "https://groups.google.com/g/golang-announce/c/4Emdl2iQ_bI",
+            "https://pkg.go.dev/vuln/GO-2025-4007"
+          ],
+          "PublishedDate": "2025-10-29T23:16:19.643Z",
+          "LastModifiedDate": "2025-10-29T23:16:19.643Z"
         }
       ]
     }

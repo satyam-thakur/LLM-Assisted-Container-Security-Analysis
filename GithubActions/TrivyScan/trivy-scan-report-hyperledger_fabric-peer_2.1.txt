@@ -6,7 +6,7 @@ Report Summary
 ├──────────────────────────────────────────────┼──────────┼─────────────────┼─────────┤
 │ hyperledger/fabric-peer:2.1 (alpine 3.11.6)  │  alpine  │       31        │    -    │
 ├──────────────────────────────────────────────┼──────────┼─────────────────┼─────────┤
-│ usr/local/bin/peer                           │ gobinary │       50        │    -    │
+│ usr/local/bin/peer                           │ gobinary │       60        │    -    │
 ├──────────────────────────────────────────────┼──────────┼─────────────────┼─────────┤
 │ /etc/hyperledger/fabric/msp/keystore/key.pem │   text   │        -        │    1    │
 └──────────────────────────────────────────────┴──────────┴─────────────────┴─────────┘
@@ -152,7 +152,7 @@ Total: 31 (HIGH: 27, CRITICAL: 4)
 
 usr/local/bin/peer (gobinary)
 =============================
-Total: 50 (HIGH: 46, CRITICAL: 4)
+Total: 60 (HIGH: 56, CRITICAL: 4)
 
 ┌─────────┬────────────────┬──────────┬────────┬───────────────────┬──────────────────────────────────┬──────────────────────────────────────────────────────────────┐
 │ Library │ Vulnerability  │ Severity │ Status │ Installed Version │          Fixed Version           │                            Title                             │
@@ -337,6 +337,46 @@ Total: 50 (HIGH: 46, CRITICAL: 4)
 │         ├────────────────┤          │        │                   ├──────────────────────────────────┼──────────────────────────────────────────────────────────────┤
 │         │ CVE-2025-47907 │          │        │                   │ 1.23.12, 1.24.6                  │ database/sql: Postgres Scan Race Condition                   │
 │         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-47907                   │
+│         ├────────────────┤          │        │                   ├──────────────────────────────────┼──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-47912 │          │        │                   │ 1.24.8, 1.25.2                   │ The Parse function permits values other than IPv6 addresses  │
+│         │                │          │        │                   │                                  │ to be incl...                                                │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-47912                   │
+│         ├────────────────┤          │        │                   │                                  ├──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-58183 │          │        │                   │                                  │ tar.Reader does not set a maximum size on the number of      │
+│         │                │          │        │                   │                                  │ sparse...                                                    │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-58183                   │
+│         ├────────────────┤          │        │                   │                                  ├──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-58185 │          │        │                   │                                  │ Parsing a maliciously crafted DER payload could allocate     │
+│         │                │          │        │                   │                                  │ large amounts ...                                            │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-58185                   │
+│         ├────────────────┤          │        │                   │                                  ├──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-58186 │          │        │                   │                                  │ Despite HTTP headers having a default limit of 1MB, the      │
+│         │                │          │        │                   │                                  │ number of...                                                 │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-58186                   │
+│         ├────────────────┤          │        │                   ├──────────────────────────────────┼──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-58187 │          │        │                   │ 1.24.9, 1.25.3                   │ Due to the design of the name constraint checking algorithm, │
+│         │                │          │        │                   │                                  │ the proce...                                                 │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-58187                   │
+│         ├────────────────┤          │        │                   ├──────────────────────────────────┼──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-58188 │          │        │                   │ 1.24.8, 1.25.2                   │ Validating certificate chains which contain DSA public keys  │
+│         │                │          │        │                   │                                  │ can cause ......                                             │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-58188                   │
+│         ├────────────────┤          │        │                   │                                  ├──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-58189 │          │        │                   │                                  │ When Conn.Handshake fails during ALPN negotiation the error  │
+│         │                │          │        │                   │                                  │ contains a ...                                               │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-58189                   │
+│         ├────────────────┤          │        │                   │                                  ├──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-61723 │          │        │                   │                                  │ The processing time for parsing some invalid inputs scales   │
+│         │                │          │        │                   │                                  │ non-linearl ...                                              │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-61723                   │
+│         ├────────────────┤          │        │                   │                                  ├──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-61724 │          │        │                   │                                  │ The Reader.ReadResponse function constructs a response       │
+│         │                │          │        │                   │                                  │ string through ...                                           │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-61724                   │
+│         ├────────────────┤          │        │                   │                                  ├──────────────────────────────────────────────────────────────┤
+│         │ CVE-2025-61725 │          │        │                   │                                  │ The ParseAddress function constructeds domain-literal        │
+│         │                │          │        │                   │                                  │ address componen ...                                         │
+│         │                │          │        │                   │                                  │ https://avd.aquasec.com/nvd/cve-2025-61725                   │
 └─────────┴────────────────┴──────────┴────────┴───────────────────┴──────────────────────────────────┴──────────────────────────────────────────────────────────────┘
 
 /etc/hyperledger/fabric/msp/keystore/key.pem (secrets)

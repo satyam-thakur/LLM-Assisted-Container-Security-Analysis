@@ -1,0 +1,653 @@
+NAME                INSTALLED                     FIXED IN                 TYPE  VULNERABILITY   SEVERITY    EPSS           RISK          
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4911   High        78.4% (98th)   78.8   (kev)  
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4911   High        78.4% (98th)   78.8   (kev)  
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4911   High        78.4% (98th)   78.8   (kev)  
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0286   High        90.1% (99th)   67.6          
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0286   High        90.1% (99th)   67.6          
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-3602   High        86.3% (99th)   64.7          
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-3602   High        86.3% (99th)   64.7          
+zlib1g              1:1.2.8.dfsg-2ubuntu4.1       (won't fix)              deb   CVE-2022-37434  Medium      92.7% (99th)   46.3          
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-2650   Medium      92.0% (99th)   46.0          
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-2650   Medium      92.0% (99th)   46.0          
+wget                1.17.1-1ubuntu1.3             1.17.1-1ubuntu1.4        deb   CVE-2018-0494   Medium      75.6% (98th)   37.8          
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.13       deb   CVE-2018-0732   Low         81.1% (99th)   24.3          
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.13       deb   CVE-2018-0732   Low         81.1% (99th)   24.3          
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-3786   High        19.2% (95th)   14.4          
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-3786   High        19.2% (95th)   14.4          
+libdb5.3            5.3.28-11ubuntu0.1            5.3.28-11ubuntu0.2       deb   CVE-2019-8457   Medium      27.1% (96th)   13.6          
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-6246   Medium      25.1% (95th)   12.5          
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-6246   Medium      25.1% (95th)   12.5          
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-6246   Medium      25.1% (95th)   12.5          
+bash                4.3-14ubuntu1.2                                        deb   CVE-2019-18276  Low         40.0% (97th)   12.0          
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.13       deb   CVE-2018-0737   Low         34.2% (96th)   10.3          
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.13       deb   CVE-2018-0737   Low         34.2% (96th)   10.3          
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.11       deb   CVE-2018-0739   Medium      16.0% (94th)   8.0           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.11       deb   CVE-2018-0739   Medium      16.0% (94th)   8.0           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.5        deb   CVE-2018-12015  Medium      15.1% (94th)   7.5           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-3358   Low         22.2% (95th)   6.7           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-3358   Low         22.2% (95th)   6.7           
+zlib1g              1:1.2.8.dfsg-2ubuntu4.1       1:1.2.8.dfsg-2ubuntu4.3  deb   CVE-2016-9841   Low         20.3% (95th)   6.1           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.6        deb   CVE-2018-18311  Medium      11.1% (93rd)   5.5           
+apt                 1.2.25                        1.2.29ubuntu0.1          deb   CVE-2019-3462   High        7.4% (91st)    5.5           
+libapt-pkg5.0       1.2.25                        1.2.29ubuntu0.1          deb   CVE-2019-3462   High        7.4% (91st)    5.5           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.6        deb   CVE-2018-18312  Medium      9.3% (92nd)    4.6           
+libbz2-1.0          1.0.6-8                       1.0.6-8ubuntu0.1         deb   CVE-2016-3189   Low         15.1% (94th)   4.5           
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2019-9169   Low         14.0% (94th)   4.2           
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2019-9169   Low         14.0% (94th)   4.2           
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2019-9169   Low         14.0% (94th)   4.2           
+perl-base           5.22.1-9ubuntu0.2             (won't fix)              deb   CVE-2022-48522  Low         13.3% (93rd)   4.0           
+zlib1g              1:1.2.8.dfsg-2ubuntu4.1       1:1.2.8.dfsg-2ubuntu4.3  deb   CVE-2016-9840   Low         13.0% (93rd)   3.9           
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19188  Medium      7.3% (91st)    3.6           
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19188  Medium      7.3% (91st)    3.6           
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19188  Medium      7.3% (91st)    3.6           
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19188  Medium      7.3% (91st)    3.6           
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19188  Medium      7.3% (91st)    3.6           
+zlib1g              1:1.2.8.dfsg-2ubuntu4.1       1:1.2.8.dfsg-2ubuntu4.3  deb   CVE-2016-9842   Low         10.9% (93rd)   3.3           
+zlib1g              1:1.2.8.dfsg-2ubuntu4.1       1:1.2.8.dfsg-2ubuntu4.3  deb   CVE-2016-9843   Low         9.2% (92nd)    2.8           
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.15       deb   CVE-2019-1559   Medium      5.1% (89th)    2.5           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.15       deb   CVE-2019-1559   Medium      5.1% (89th)    2.5           
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19185  Medium      4.8% (89th)    2.4           
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19186  Medium      4.8% (89th)    2.4           
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19187  Medium      4.8% (89th)    2.4           
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19185  Medium      4.8% (89th)    2.4           
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19186  Medium      4.8% (89th)    2.4           
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19187  Medium      4.8% (89th)    2.4           
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19185  Medium      4.8% (89th)    2.4           
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19186  Medium      4.8% (89th)    2.4           
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19187  Medium      4.8% (89th)    2.4           
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19185  Medium      4.8% (89th)    2.4           
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19186  Medium      4.8% (89th)    2.4           
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19187  Medium      4.8% (89th)    2.4           
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19185  Medium      4.8% (89th)    2.4           
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19186  Medium      4.8% (89th)    2.4           
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19187  Medium      4.8% (89th)    2.4           
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19190  Medium      4.8% (88th)    2.4           
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19190  Medium      4.8% (88th)    2.4           
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19190  Medium      4.8% (88th)    2.4           
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19190  Medium      4.8% (88th)    2.4           
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19190  Medium      4.8% (88th)    2.4           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.6        deb   CVE-2018-18314  Medium      4.4% (88th)    2.2           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2021-3711   High        2.7% (85th)    2.0           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2021-3711   High        2.7% (85th)    2.0           
+gnupg               1.4.20-1ubuntu3.1             1.4.20-1ubuntu3.3        deb   CVE-2017-7526   Medium      3.7% (87th)    1.9           
+gpgv                1.4.20-1ubuntu3.1             1.4.20-1ubuntu3.3        deb   CVE-2017-7526   Medium      3.7% (87th)    1.9           
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.14       deb   CVE-2018-0734   Low         6.1% (90th)    1.8           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.14       deb   CVE-2018-0734   Low         6.1% (90th)    1.8           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.6        deb   CVE-2018-18313  Medium      3.5% (87th)    1.8           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.3        deb   CVE-2018-6913   Medium      3.5% (86th)    1.7           
+libpcre3            2:8.38-3.1                                             deb   CVE-2017-7186   Low         5.4% (89th)    1.6           
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16865  High        2.0% (83rd)    1.5           
+libudev1            229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16865  High        2.0% (83rd)    1.5           
+systemd             229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16865  High        2.0% (83rd)    1.5           
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16865  High        2.0% (83rd)    1.5           
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2023-26604  Low         4.7% (88th)    1.4           
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2023-26604  Low         4.7% (88th)    1.4           
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2023-26604  Low         4.7% (88th)    1.4           
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2023-26604  Low         4.7% (88th)    1.4           
+libprocps4          2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1123   Medium      2.8% (85th)    1.4           
+procps              2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1123   Medium      2.8% (85th)    1.4           
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.16       deb   CVE-2019-1551   Low         4.5% (88th)    1.4           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.16       deb   CVE-2019-1551   Low         4.5% (88th)    1.4           
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19189  Medium      2.5% (84th)    1.3           
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19189  Medium      2.5% (84th)    1.3           
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19189  Medium      2.5% (84th)    1.3           
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19189  Medium      2.5% (84th)    1.3           
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2020-19189  Medium      2.5% (84th)    1.3           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.9        deb   CVE-2020-10543  Low         3.9% (87th)    1.2           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-40735  Medium      2.0% (83rd)    1.0           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-40735  Medium      2.0% (83rd)    1.0           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-5363   Medium      2.0% (83rd)    1.0           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-5363   Medium      2.0% (83rd)    1.0           
+libpcre3            2:8.38-3.1                                             deb   CVE-2017-6004   Low         3.3% (86th)    1.0           
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.3         deb   CVE-2020-6096   Low         3.3% (86th)    1.0           
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.3         deb   CVE-2020-6096   Low         3.3% (86th)    1.0           
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.3         deb   CVE-2020-6096   Low         3.3% (86th)    1.0           
+wget                1.17.1-1ubuntu1.3             1.17.1-1ubuntu1.5        deb   CVE-2019-5953   Medium      1.8% (81st)    0.9           
+gnupg               1.4.20-1ubuntu3.1             1.4.20-1ubuntu3.2        deb   CVE-2018-12020  Medium      1.6% (80th)    0.8           
+gpgv                1.4.20-1ubuntu3.1             1.4.20-1ubuntu3.2        deb   CVE-2018-12020  Medium      1.6% (80th)    0.8           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.3        deb   CVE-2018-6797   Medium      1.6% (80th)    0.8           
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.8          deb   CVE-2018-15686  Medium      1.5% (80th)    0.8           
+libudev1            229-4ubuntu21.1               229-4ubuntu21.8          deb   CVE-2018-15686  Medium      1.5% (80th)    0.8           
+systemd             229-4ubuntu21.1               229-4ubuntu21.8          deb   CVE-2018-15686  Medium      1.5% (80th)    0.8           
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.8          deb   CVE-2018-15686  Medium      1.5% (80th)    0.8           
+liblz4-1            0.0~r131-2ubuntu2                                      deb   CVE-2019-17543  Low         2.0% (82nd)    0.6           
+libbz2-1.0          1.0.6-8                       1.0.6-8ubuntu0.1         deb   CVE-2019-12900  Medium      1.2% (77th)    0.6           
+libcap2             1:2.24-12                     (won't fix)              deb   CVE-2023-2603   Medium      1.1% (77th)    0.6           
+libcap2-bin         1:2.24-12                     (won't fix)              deb   CVE-2023-2603   Medium      1.1% (77th)    0.6           
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4806   Low         1.9% (82nd)    0.6           
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4806   Low         1.9% (82nd)    0.6           
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4806   Low         1.9% (82nd)    0.6           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-6129   Low         1.9% (82nd)    0.6           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-6129   Low         1.9% (82nd)    0.6           
+perl-base           5.22.1-9ubuntu0.2             (won't fix)              deb   CVE-2023-31484  Medium      1.1% (77th)    0.6           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.3        deb   CVE-2018-6798   Medium      1.0% (76th)    0.5           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0401   Medium      0.9% (75th)    0.5           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0401   Medium      0.9% (75th)    0.5           
+libseccomp2         2.3.1-2.1ubuntu2~16.04.1      2.4.1-0ubuntu0.16.04.2   deb   CVE-2019-9893   Medium      0.9% (75th)    0.5           
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.16       deb   CVE-2019-1563   Low         1.4% (79th)    0.4           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.16       deb   CVE-2019-1563   Low         1.4% (79th)    0.4           
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2017-18269  Medium      0.8% (73rd)    0.4           
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2017-18269  Medium      0.8% (73rd)    0.4           
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2017-18269  Medium      0.8% (73rd)    0.4           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0216   Medium      0.8% (72nd)    0.4           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0216   Medium      0.8% (72nd)    0.4           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2021-3712   Medium      0.7% (71st)    0.4           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2021-3712   Medium      0.7% (71st)    0.4           
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2018-6485   Medium      0.7% (71st)    0.4           
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2018-6485   Medium      0.7% (71st)    0.4           
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2018-6485   Medium      0.7% (71st)    0.4           
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.6          deb   CVE-2018-15688  Medium      0.7% (71st)    0.4           
+libudev1            229-4ubuntu21.1               229-4ubuntu21.6          deb   CVE-2018-15688  Medium      0.7% (71st)    0.4           
+systemd             229-4ubuntu21.1               229-4ubuntu21.6          deb   CVE-2018-15688  Medium      0.7% (71st)    0.4           
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.6          deb   CVE-2018-15688  Medium      0.7% (71st)    0.4           
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.3        deb   CVE-2017-6512   Low         1.2% (78th)    0.4           
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2021-35942  Low         1.2% (78th)    0.4           
+libc6               2.23-0ubuntu10                                         deb   CVE-2021-35942  Low         1.2% (78th)    0.4           
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2021-35942  Low         1.2% (78th)    0.4           
+gzip                1.6-4ubuntu1                  (won't fix)              deb   CVE-2022-1271   Medium      0.7% (71st)    0.4           
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-6779   Medium      0.7% (71st)    0.4           
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-6779   Medium      0.7% (71st)    0.4           
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-6779   Medium      0.7% (71st)    0.4           
+libsystemd0         229-4ubuntu21.1                                        deb   CVE-2018-20839  Medium      0.7% (70th)    0.3           
+libudev1            229-4ubuntu21.1                                        deb   CVE-2018-20839  Medium      0.7% (70th)    0.3           
+systemd             229-4ubuntu21.1                                        deb   CVE-2018-20839  Medium      0.7% (70th)    0.3           
+systemd-sysv        229-4ubuntu21.1                                        deb   CVE-2018-20839  Medium      0.7% (70th)    0.3           
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.19       deb   CVE-2021-23841  Medium      0.7% (70th)    0.3           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.19       deb   CVE-2021-23841  Medium      0.7% (70th)    0.3           
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2018-11236  Medium      0.7% (70th)    0.3           
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2018-11236  Medium      0.7% (70th)    0.3           
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2018-11236  Medium      0.7% (70th)    0.3           
+sensible-utils      0.0.9                         0.0.9ubuntu0.16.04.1     deb   CVE-2017-17512  Medium      0.6% (68th)    0.3           
+apt                 1.2.25                        1.2.32ubuntu0.1          deb   CVE-2020-3810   Medium      0.6% (68th)    0.3           
+libapt-pkg5.0       1.2.25                        1.2.32ubuntu0.1          deb   CVE-2020-3810   Medium      0.6% (68th)    0.3           
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2018-11237  Medium      0.6% (68th)    0.3           
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2018-11237  Medium      0.6% (68th)    0.3           
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2018-11237  Medium      0.6% (68th)    0.3           
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2022-39046  Medium      0.6% (67th)    0.3           
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2022-39046  Medium      0.6% (67th)    0.3           
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2022-39046  Medium      0.6% (67th)    0.3           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-3446   Low         0.9% (75th)    0.3           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-3446   Low         0.9% (75th)    0.3           
+perl-base           5.22.1-9ubuntu0.2             (won't fix)              deb   CVE-2023-31486  Medium      0.6% (67th)    0.3           
+e2fslibs            1.42.13-1ubuntu1              (won't fix)              deb   CVE-2022-1304   Medium      0.5% (66th)    0.3           
+e2fsprogs           1.42.13-1ubuntu1              (won't fix)              deb   CVE-2022-1304   Medium      0.5% (66th)    0.3           
+libcomerr2          1.42.13-1ubuntu1              (won't fix)              deb   CVE-2022-1304   Medium      0.5% (66th)    0.3           
+libss2              1.42.13-1ubuntu1              (won't fix)              deb   CVE-2022-1304   Medium      0.5% (66th)    0.3           
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.18       deb   CVE-2020-1971   High        0.3% (56th)    0.3           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.18       deb   CVE-2020-1971   High        0.3% (56th)    0.3           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0464   Low         0.9% (74th)    0.3           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0464   Low         0.9% (74th)    0.3           
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.17       deb   CVE-2020-1968   Low         0.8% (74th)    0.3           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.17       deb   CVE-2020-1968   Low         0.8% (74th)    0.3           
+libpcre3            2:8.38-3.1                                             deb   CVE-2017-7244   Low         0.8% (72nd)    0.2           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0217   Medium      0.4% (62nd)    0.2           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0217   Medium      0.4% (62nd)    0.2           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-4203   Medium      0.4% (62nd)    0.2           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-4203   Medium      0.4% (62nd)    0.2           
+gnupg               1.4.20-1ubuntu3.1                                      deb   CVE-2019-13050  Low         0.7% (72nd)    0.2           
+gpgv                1.4.20-1ubuntu3.1                                      deb   CVE-2019-13050  Low         0.7% (72nd)    0.2           
+libprocps4          2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1124   Medium      0.4% (61st)    0.2           
+procps              2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1124   Medium      0.4% (61st)    0.2           
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2019-25013  Low         0.7% (70th)    0.2           
+libc6               2.23-0ubuntu10                                         deb   CVE-2019-25013  Low         0.7% (70th)    0.2           
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2019-25013  Low         0.7% (70th)    0.2           
+libprocps4          2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1125   Medium      0.4% (60th)    0.2           
+procps              2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1125   Medium      0.4% (60th)    0.2           
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.14       deb   CVE-2018-5407   Low         0.6% (69th)    0.2           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.14       deb   CVE-2018-5407   Low         0.6% (69th)    0.2           
+libgcrypt20         1.6.5-2ubuntu0.3              (won't fix)              deb   CVE-2021-33560  Low         0.6% (69th)    0.2           
+login               1:4.2-3.1ubuntu5.3                                     deb   CVE-2017-12424  Low         0.6% (68th)    0.2           
+passwd              1:4.2-3.1ubuntu5.3                                     deb   CVE-2017-12424  Low         0.6% (68th)    0.2           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0215   Medium      0.3% (56th)    0.2           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0215   Medium      0.3% (56th)    0.2           
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.19       deb   CVE-2021-23840  Low         0.6% (67th)    0.2           
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.19       deb   CVE-2021-23840  Low         0.6% (67th)    0.2           
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.8          deb   CVE-2018-15687  Medium      0.3% (55th)    0.2           
+libudev1            229-4ubuntu21.1               229-4ubuntu21.8          deb   CVE-2018-15687  Medium      0.3% (55th)    0.2           
+systemd             229-4ubuntu21.1               229-4ubuntu21.8          deb   CVE-2018-15687  Medium      0.3% (55th)    0.2           
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.8          deb   CVE-2018-15687  Medium      0.3% (55th)    0.2           
+libprocps4          2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1122   Medium      0.3% (54th)    0.2           
+procps              2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1122   Medium      0.3% (54th)    0.2           
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-10684  Negligible  3.2% (86th)    0.2           
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-10684  Negligible  3.2% (86th)    0.2           
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-10684  Negligible  3.2% (86th)    0.2           
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-10684  Negligible  3.2% (86th)    0.2           
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-10684  Negligible  3.2% (86th)    0.2           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-6237   Low         0.5% (66th)    0.2           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-6237   Low         0.5% (66th)    0.2           
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2022-23218  Low         0.5% (66th)    0.2           
+libc6               2.23-0ubuntu10                                         deb   CVE-2022-23218  Low         0.5% (66th)    0.2           
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2022-23218  Low         0.5% (66th)    0.2           
+e2fslibs            1.42.13-1ubuntu1              1.42.13-1ubuntu1.1       deb   CVE-2019-5094   Medium      0.3% (53rd)    0.2           
+e2fsprogs           1.42.13-1ubuntu1              1.42.13-1ubuntu1.1       deb   CVE-2019-5094   Medium      0.3% (53rd)    0.2           
+libcomerr2          1.42.13-1ubuntu1              1.42.13-1ubuntu1.1       deb   CVE-2019-5094   Medium      0.3% (53rd)    0.2           
+libss2              1.42.13-1ubuntu1              1.42.13-1ubuntu1.1       deb   CVE-2019-5094   Medium      0.3% (53rd)    0.2           
+libprocps4          2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1126   Medium      0.3% (53rd)    0.2           
+procps              2:3.3.10-4ubuntu2.3           2:3.3.10-4ubuntu2.4      deb   CVE-2018-1126   Medium      0.3% (53rd)    0.2           
+libcryptsetup4      2:1.6.6-5ubuntu2.1                                     deb   CVE-2016-4484   Low         0.5% (64th)    0.1           
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-6780   Medium      0.3% (50th)    0.1           
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-6780   Medium      0.3% (50th)    0.1           
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-6780   Medium      0.3% (50th)    0.1           
+gcc-5-base          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2021-3826   Low         0.4% (61st)    0.1           
+gcc-6-base          6.0.1-0ubuntu1                (won't fix)              deb   CVE-2021-3826   Low         0.4% (61st)    0.1           
+libgcc1             1:6.0.1-0ubuntu1              (won't fix)              deb   CVE-2021-3826   Low         0.4% (61st)    0.1           
+libstdc++6          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2021-3826   Low         0.4% (61st)    0.1           
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2022-2526   Medium      0.2% (47th)    0.1           
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2022-2526   Medium      0.2% (47th)    0.1           
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2022-2526   Medium      0.2% (47th)    0.1           
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2022-2526   Medium      0.2% (47th)    0.1           
+tar                 1.28-2.1ubuntu0.1             1.28-2.1ubuntu0.2        deb   CVE-2019-9923   Low         0.4% (60th)    0.1           
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2020-1751   Medium      0.2% (47th)    0.1           
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2020-1751   Medium      0.2% (47th)    0.1           
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2020-1751   Medium      0.2% (47th)    0.1           
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2022-23219  Low         0.4% (60th)    0.1           
+libc6               2.23-0ubuntu10                                         deb   CVE-2022-23219  Low         0.4% (60th)    0.1           
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2022-23219  Low         0.4% (60th)    0.1           
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2018-19217  Low         0.4% (60th)    0.1           
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2018-19217  Low         0.4% (60th)    0.1           
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2018-19217  Low         0.4% (60th)    0.1           
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2018-19217  Low         0.4% (60th)    0.1           
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2018-19217  Low         0.4% (60th)    0.1           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-4304   Medium      0.2% (46th)    0.1           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-4304   Medium      0.2% (46th)    0.1           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0465   Low         0.4% (59th)    0.1           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0465   Low         0.4% (59th)    0.1           
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2017-12133  Low         0.4% (58th)    0.1           
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2017-12133  Low         0.4% (58th)    0.1           
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2017-12133  Low         0.4% (58th)    0.1           
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16864  High        0.1% (35th)    0.1           
+libudev1            229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16864  High        0.1% (35th)    0.1           
+systemd             229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16864  High        0.1% (35th)    0.1           
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16864  High        0.1% (35th)    0.1           
+gcc-5-base          5.4.0-6ubuntu1~16.04.6                                 deb   CVE-2020-23026  Low         0.3% (55th)    0.1           
+gcc-6-base          6.0.1-0ubuntu1                                         deb   CVE-2020-23026  Low         0.3% (55th)    0.1           
+libgcc1             1:6.0.1-0ubuntu1                                       deb   CVE-2020-23026  Low         0.3% (55th)    0.1           
+libstdc++6          5.4.0-6ubuntu1~16.04.6                                 deb   CVE-2020-23026  Low         0.3% (55th)    0.1           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-3817   Low         0.3% (54th)    < 0.1         
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-3817   Low         0.3% (54th)    < 0.1         
+perl-base           5.22.1-9ubuntu0.2             (won't fix)              deb   CVE-2021-36770  Medium      0.2% (40th)    < 0.1         
+libpcre3            2:8.38-3.1                                             deb   CVE-2019-20838  Low         0.3% (53rd)    < 0.1         
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4813   Low         0.3% (53rd)    < 0.1         
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4813   Low         0.3% (53rd)    < 0.1         
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4813   Low         0.3% (53rd)    < 0.1         
+libssl1.0.0         1.0.2g-1ubuntu4.10                                     deb   CVE-2021-4160   Low         0.3% (52nd)    < 0.1         
+openssl             1.0.2g-1ubuntu4.10                                     deb   CVE-2021-4160   Low         0.3% (52nd)    < 0.1         
+apt                 1.2.25                        1.2.32ubuntu0.2          deb   CVE-2020-27350  Medium      0.2% (38th)    < 0.1         
+libapt-pkg5.0       1.2.25                        1.2.32ubuntu0.2          deb   CVE-2020-27350  Medium      0.2% (38th)    < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2018-19211  Low         0.3% (50th)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2018-19211  Low         0.3% (50th)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2018-19211  Low         0.3% (50th)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2018-19211  Low         0.3% (50th)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2018-19211  Low         0.3% (50th)    < 0.1         
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2023-7008   Low         0.3% (49th)    < 0.1         
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2023-7008   Low         0.3% (49th)    < 0.1         
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2023-7008   Low         0.3% (49th)    < 0.1         
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2023-7008   Low         0.3% (49th)    < 0.1         
+gcc-5-base          5.4.0-6ubuntu1~16.04.6                                 deb   CVE-2021-46195  Low         0.3% (49th)    < 0.1         
+gcc-6-base          6.0.1-0ubuntu1                                         deb   CVE-2021-46195  Low         0.3% (49th)    < 0.1         
+libgcc1             1:6.0.1-0ubuntu1                                       deb   CVE-2021-46195  Low         0.3% (49th)    < 0.1         
+libstdc++6          5.4.0-6ubuntu1~16.04.6                                 deb   CVE-2021-46195  Low         0.3% (49th)    < 0.1         
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.3        deb   CVE-2016-6185   Low         0.2% (47th)    < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2017-12132  Low         0.2% (47th)    < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2017-12132  Low         0.2% (47th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2017-12132  Low         0.2% (47th)    < 0.1         
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-25139  Medium      0.1% (35th)    < 0.1         
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-25139  Medium      0.1% (35th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-25139  Medium      0.1% (35th)    < 0.1         
+libgcrypt20         1.6.5-2ubuntu0.3              1.6.5-2ubuntu0.5         deb   CVE-2018-0495   Low         0.2% (45th)    < 0.1         
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.13       deb   CVE-2018-0495   Low         0.2% (45th)    < 0.1         
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.13       deb   CVE-2018-0495   Low         0.2% (45th)    < 0.1         
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.3         deb   CVE-2009-5155   Negligible  1.4% (79th)    < 0.1         
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.3         deb   CVE-2009-5155   Negligible  1.4% (79th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.3         deb   CVE-2009-5155   Negligible  1.4% (79th)    < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2021-3326   Low         0.2% (45th)    < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2021-3326   Low         0.2% (45th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2021-3326   Low         0.2% (45th)    < 0.1         
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2024-0727   Low         0.2% (45th)    < 0.1         
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2024-0727   Low         0.2% (45th)    < 0.1         
+liblz4-1            0.0~r131-2ubuntu2                                      deb   CVE-2021-3520   Medium      0.1% (33rd)    < 0.1         
+bash                4.3-14ubuntu1.2               4.3-14ubuntu1.4          deb   CVE-2019-9924   Low         0.2% (44th)    < 0.1         
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-4450   Medium      0.1% (33rd)    < 0.1         
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2022-4450   Medium      0.1% (33rd)    < 0.1         
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31437  Medium      0.1% (33rd)    < 0.1         
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31437  Medium      0.1% (33rd)    < 0.1         
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31437  Medium      0.1% (33rd)    < 0.1         
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31437  Medium      0.1% (33rd)    < 0.1         
+bsdutils            1:2.27.1-6ubuntu3.4                                    deb   CVE-2016-5011   Low         0.2% (42nd)    < 0.1         
+libblkid1           2.27.1-6ubuntu3.4                                      deb   CVE-2016-5011   Low         0.2% (42nd)    < 0.1         
+libfdisk1           2.27.1-6ubuntu3.4                                      deb   CVE-2016-5011   Low         0.2% (42nd)    < 0.1         
+libmount1           2.27.1-6ubuntu3.4                                      deb   CVE-2016-5011   Low         0.2% (42nd)    < 0.1         
+libsmartcols1       2.27.1-6ubuntu3.4                                      deb   CVE-2016-5011   Low         0.2% (42nd)    < 0.1         
+libuuid1            2.27.1-6ubuntu3.4                                      deb   CVE-2016-5011   Low         0.2% (42nd)    < 0.1         
+mount               2.27.1-6ubuntu3.4                                      deb   CVE-2016-5011   Low         0.2% (42nd)    < 0.1         
+util-linux          2.27.1-6ubuntu3.4                                      deb   CVE-2016-5011   Low         0.2% (42nd)    < 0.1         
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.16         deb   CVE-2019-6454   Medium      0.1% (31st)    < 0.1         
+libudev1            229-4ubuntu21.1               229-4ubuntu21.16         deb   CVE-2019-6454   Medium      0.1% (31st)    < 0.1         
+systemd             229-4ubuntu21.1               229-4ubuntu21.16         deb   CVE-2019-6454   Medium      0.1% (31st)    < 0.1         
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.16         deb   CVE-2019-6454   Medium      0.1% (31st)    < 0.1         
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2021-33910  High        < 0.1% (24th)  < 0.1         
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2021-33910  High        < 0.1% (24th)  < 0.1         
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2021-33910  High        < 0.1% (24th)  < 0.1         
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2021-33910  High        < 0.1% (24th)  < 0.1         
+wget                1.17.1-1ubuntu1.3                                      deb   CVE-2021-31879  Medium      0.1% (30th)    < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-10685  Negligible  1.1% (77th)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-10685  Negligible  1.1% (77th)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-10685  Negligible  1.1% (77th)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-10685  Negligible  1.1% (77th)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-10685  Negligible  1.1% (77th)    < 0.1         
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2020-1752   Low         0.2% (40th)    < 0.1         
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2020-1752   Low         0.2% (40th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2020-1752   Low         0.2% (40th)    < 0.1         
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-2975   Low         0.2% (40th)    < 0.1         
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-2975   Low         0.2% (40th)    < 0.1         
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.9        deb   CVE-2020-12723  Low         0.2% (40th)    < 0.1         
+login               1:4.2-3.1ubuntu5.3                                     deb   CVE-2018-7169   Low         0.2% (40th)    < 0.1         
+passwd              1:4.2-3.1ubuntu5.3                                     deb   CVE-2018-7169   Low         0.2% (40th)    < 0.1         
+gcc-5-base          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2023-4039   Low         0.2% (40th)    < 0.1         
+gcc-6-base          6.0.1-0ubuntu1                (won't fix)              deb   CVE-2023-4039   Low         0.2% (40th)    < 0.1         
+libgcc1             1:6.0.1-0ubuntu1              (won't fix)              deb   CVE-2023-4039   Low         0.2% (40th)    < 0.1         
+libstdc++6          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2023-4039   Low         0.2% (40th)    < 0.1         
+dpkg                1.18.4ubuntu1.3                                        deb   CVE-2017-8283   Negligible  1.1% (77th)    < 0.1         
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2020-1712   Medium      0.1% (29th)    < 0.1         
+libudev1            229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2020-1712   Medium      0.1% (29th)    < 0.1         
+systemd             229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2020-1712   Medium      0.1% (29th)    < 0.1         
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2020-1712   Medium      0.1% (29th)    < 0.1         
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4527   Medium      0.1% (29th)    < 0.1         
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4527   Medium      0.1% (29th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-4527   Medium      0.1% (29th)    < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2021-38604  Medium      0.1% (28th)    < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2021-38604  Medium      0.1% (28th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2021-38604  Medium      0.1% (28th)    < 0.1         
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2018-16888  Low         0.2% (38th)    < 0.1         
+libudev1            229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2018-16888  Low         0.2% (38th)    < 0.1         
+systemd             229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2018-16888  Low         0.2% (38th)    < 0.1         
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2018-16888  Low         0.2% (38th)    < 0.1         
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31438  Medium      0.1% (28th)    < 0.1         
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31438  Medium      0.1% (28th)    < 0.1         
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31438  Medium      0.1% (28th)    < 0.1         
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31438  Medium      0.1% (28th)    < 0.1         
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16866  Medium      < 0.1% (27th)  < 0.1         
+libudev1            229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16866  Medium      < 0.1% (27th)  < 0.1         
+systemd             229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16866  Medium      < 0.1% (27th)  < 0.1         
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-16866  Medium      < 0.1% (27th)  < 0.1         
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.21         deb   CVE-2019-3842   Medium      < 0.1% (27th)  < 0.1         
+libudev1            229-4ubuntu21.1               229-4ubuntu21.21         deb   CVE-2019-3842   Medium      < 0.1% (27th)  < 0.1         
+systemd             229-4ubuntu21.1               229-4ubuntu21.21         deb   CVE-2019-3842   Medium      < 0.1% (27th)  < 0.1         
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.21         deb   CVE-2019-3842   Medium      < 0.1% (27th)  < 0.1         
+libgcrypt20         1.6.5-2ubuntu0.3              (won't fix)              deb   CVE-2021-40528  Medium      < 0.1% (27th)  < 0.1         
+libssl1.0.0         1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.16       deb   CVE-2019-1547   Low         0.2% (37th)    < 0.1         
+openssl             1.0.2g-1ubuntu4.10            1.0.2g-1ubuntu4.16       deb   CVE-2019-1547   Low         0.2% (37th)    < 0.1         
+bsdutils            1:2.27.1-6ubuntu3.4                                    deb   CVE-2016-2779   Low         0.2% (37th)    < 0.1         
+libblkid1           2.27.1-6ubuntu3.4                                      deb   CVE-2016-2779   Low         0.2% (37th)    < 0.1         
+libfdisk1           2.27.1-6ubuntu3.4                                      deb   CVE-2016-2779   Low         0.2% (37th)    < 0.1         
+libmount1           2.27.1-6ubuntu3.4                                      deb   CVE-2016-2779   Low         0.2% (37th)    < 0.1         
+libsmartcols1       2.27.1-6ubuntu3.4                                      deb   CVE-2016-2779   Low         0.2% (37th)    < 0.1         
+libuuid1            2.27.1-6ubuntu3.4                                      deb   CVE-2016-2779   Low         0.2% (37th)    < 0.1         
+mount               2.27.1-6ubuntu3.4                                      deb   CVE-2016-2779   Low         0.2% (37th)    < 0.1         
+util-linux          2.27.1-6ubuntu3.4                                      deb   CVE-2016-2779   Low         0.2% (37th)    < 0.1         
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31439  Medium      < 0.1% (27th)  < 0.1         
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31439  Medium      < 0.1% (27th)  < 0.1         
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31439  Medium      < 0.1% (27th)  < 0.1         
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2023-31439  Medium      < 0.1% (27th)  < 0.1         
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2019-20386  Low         0.2% (36th)    < 0.1         
+libudev1            229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2019-20386  Low         0.2% (36th)    < 0.1         
+systemd             229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2019-20386  Low         0.2% (36th)    < 0.1         
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.27         deb   CVE-2019-20386  Low         0.2% (36th)    < 0.1         
+zlib1g              1:1.2.8.dfsg-2ubuntu4.1       (won't fix)              deb   CVE-2018-25032  Medium      < 0.1% (26th)  < 0.1         
+perl-base           5.22.1-9ubuntu0.2             (won't fix)              deb   CVE-2023-47038  Medium      < 0.1% (26th)  < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2021-33574  Low         0.1% (34th)    < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2021-33574  Low         0.1% (34th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2021-33574  Low         0.1% (34th)    < 0.1         
+gnupg               1.4.20-1ubuntu3.1                                      deb   CVE-2019-14855  Low         0.1% (34th)    < 0.1         
+gpgv                1.4.20-1ubuntu3.1                                      deb   CVE-2019-14855  Low         0.1% (34th)    < 0.1         
+gcc-5-base          5.4.0-6ubuntu1~16.04.6                                 deb   CVE-2020-13844  Medium      < 0.1% (24th)  < 0.1         
+gcc-6-base          6.0.1-0ubuntu1                                         deb   CVE-2020-13844  Medium      < 0.1% (24th)  < 0.1         
+libgcc1             1:6.0.1-0ubuntu1                                       deb   CVE-2020-13844  Medium      < 0.1% (24th)  < 0.1         
+libstdc++6          5.4.0-6ubuntu1~16.04.6                                 deb   CVE-2020-13844  Medium      < 0.1% (24th)  < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2010-3192   Negligible  0.8% (73rd)    < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2010-3192   Negligible  0.8% (73rd)    < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2010-3192   Negligible  0.8% (73rd)    < 0.1         
+libapparmor1        2.10.95-0ubuntu2.8                                     deb   CVE-2016-1585   Medium      < 0.1% (23rd)  < 0.1         
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-5678   Low         0.1% (32nd)    < 0.1         
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-5678   Low         0.1% (32nd)    < 0.1         
+libpam-modules      1.1.8-3.2ubuntu2              (won't fix)              deb   CVE-2024-22365  Medium      < 0.1% (22nd)  < 0.1         
+libpam-modules-bin  1.1.8-3.2ubuntu2              (won't fix)              deb   CVE-2024-22365  Medium      < 0.1% (22nd)  < 0.1         
+libpam-runtime      1.1.8-3.2ubuntu2              (won't fix)              deb   CVE-2024-22365  Medium      < 0.1% (22nd)  < 0.1         
+libpam0g            1.1.8-3.2ubuntu2              (won't fix)              deb   CVE-2024-22365  Medium      < 0.1% (22nd)  < 0.1         
+gcc-5-base          5.4.0-6ubuntu1~16.04.6                                 deb   CVE-2017-11671  Low         0.1% (30th)    < 0.1         
+gcc-6-base          6.0.1-0ubuntu1                                         deb   CVE-2017-11671  Low         0.1% (30th)    < 0.1         
+libgcc1             1:6.0.1-0ubuntu1                                       deb   CVE-2017-11671  Low         0.1% (30th)    < 0.1         
+libstdc++6          5.4.0-6ubuntu1~16.04.6                                 deb   CVE-2017-11671  Low         0.1% (30th)    < 0.1         
+tar                 1.28-2.1ubuntu0.1             (won't fix)              deb   CVE-2023-39804  Medium      < 0.1% (20th)  < 0.1         
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0466   Negligible  0.7% (70th)    < 0.1         
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-0466   Negligible  0.7% (70th)    < 0.1         
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-29491  Medium      < 0.1% (20th)  < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-29491  Medium      < 0.1% (20th)  < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-29491  Medium      < 0.1% (20th)  < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-29491  Medium      < 0.1% (20th)  < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-29491  Medium      < 0.1% (20th)  < 0.1         
+perl-base           5.22.1-9ubuntu0.2             5.22.1-9ubuntu0.9        deb   CVE-2020-10878  Low         0.1% (29th)    < 0.1         
+tar                 1.28-2.1ubuntu0.1                                      deb   CVE-2021-20193  Low         0.1% (28th)    < 0.1         
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-5156   Medium      < 0.1% (18th)  < 0.1         
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-5156   Medium      < 0.1% (18th)  < 0.1         
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-5156   Medium      < 0.1% (18th)  < 0.1         
+libsystemd0         229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-6954   Medium      < 0.1% (16th)  < 0.1         
+libudev1            229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-6954   Medium      < 0.1% (16th)  < 0.1         
+systemd             229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-6954   Medium      < 0.1% (16th)  < 0.1         
+systemd-sysv        229-4ubuntu21.1               229-4ubuntu21.15         deb   CVE-2018-6954   Medium      < 0.1% (16th)  < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2016-10228  Negligible  0.5% (65th)    < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2016-10228  Negligible  0.5% (65th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2016-10228  Negligible  0.5% (65th)    < 0.1         
+zlib1g              1:1.2.8.dfsg-2ubuntu4.1       (won't fix)              deb   CVE-2022-42800  Medium      < 0.1% (15th)  < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13730  Negligible  0.5% (64th)    < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13732  Negligible  0.5% (64th)    < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13733  Negligible  0.5% (64th)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13730  Negligible  0.5% (64th)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13732  Negligible  0.5% (64th)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13733  Negligible  0.5% (64th)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-13730  Negligible  0.5% (64th)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-13732  Negligible  0.5% (64th)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-13733  Negligible  0.5% (64th)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13730  Negligible  0.5% (64th)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13732  Negligible  0.5% (64th)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13733  Negligible  0.5% (64th)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13730  Negligible  0.5% (64th)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13732  Negligible  0.5% (64th)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13733  Negligible  0.5% (64th)    < 0.1         
+perl-base           5.22.1-9ubuntu0.2             (won't fix)              deb   CVE-2020-16156  Medium      < 0.1% (14th)  < 0.1         
+ca-certificates     20170717~16.04.1              (won't fix)              deb   CVE-2022-23491  Medium      < 0.1% (13th)  < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-16879  Negligible  0.4% (62nd)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-16879  Negligible  0.4% (62nd)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-16879  Negligible  0.4% (62nd)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-16879  Negligible  0.4% (62nd)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-16879  Negligible  0.4% (62nd)    < 0.1         
+e2fslibs            1.42.13-1ubuntu1              1.42.13-1ubuntu1.2       deb   CVE-2019-5188   Medium      < 0.1% (11th)  < 0.1         
+e2fsprogs           1.42.13-1ubuntu1              1.42.13-1ubuntu1.2       deb   CVE-2019-5188   Medium      < 0.1% (11th)  < 0.1         
+libcomerr2          1.42.13-1ubuntu1              1.42.13-1ubuntu1.2       deb   CVE-2019-5188   Medium      < 0.1% (11th)  < 0.1         
+libss2              1.42.13-1ubuntu1              1.42.13-1ubuntu1.2       deb   CVE-2019-5188   Medium      < 0.1% (11th)  < 0.1         
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2021-39537  Negligible  0.4% (59th)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2021-39537  Negligible  0.4% (59th)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2021-39537  Negligible  0.4% (59th)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2021-39537  Negligible  0.4% (59th)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2021-39537  Negligible  0.4% (59th)    < 0.1         
+login               1:4.2-3.1ubuntu5.3                                     deb   CVE-2013-4235   Low         < 0.1% (20th)  < 0.1         
+passwd              1:4.2-3.1ubuntu5.3                                     deb   CVE-2013-4235   Low         < 0.1% (20th)  < 0.1         
+coreutils           8.25-2ubuntu3~16.04                                    deb   CVE-2016-2781   Low         < 0.1% (20th)  < 0.1         
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2020-13529  Low         < 0.1% (20th)  < 0.1         
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2020-13529  Low         < 0.1% (20th)  < 0.1         
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2020-13529  Low         < 0.1% (20th)  < 0.1         
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2020-13529  Low         < 0.1% (20th)  < 0.1         
+bash                4.3-14ubuntu1.2               (won't fix)              deb   CVE-2022-3715   Medium      < 0.1% (11th)  < 0.1         
+libgcrypt20         1.6.5-2ubuntu0.3              1.6.5-2ubuntu0.6         deb   CVE-2019-13627  Medium      < 0.1% (9th)   < 0.1         
+tar                 1.28-2.1ubuntu0.1             (won't fix)              deb   CVE-2022-48303  Medium      < 0.1% (9th)   < 0.1         
+coreutils           8.25-2ubuntu3~16.04                                    deb   CVE-2017-18018  Low         < 0.1% (17th)  < 0.1         
+bsdutils            1:2.27.1-6ubuntu3.4           (won't fix)              deb   CVE-2021-37600  Low         < 0.1% (17th)  < 0.1         
+libblkid1           2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2021-37600  Low         < 0.1% (17th)  < 0.1         
+libfdisk1           2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2021-37600  Low         < 0.1% (17th)  < 0.1         
+libmount1           2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2021-37600  Low         < 0.1% (17th)  < 0.1         
+libsmartcols1       2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2021-37600  Low         < 0.1% (17th)  < 0.1         
+libuuid1            2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2021-37600  Low         < 0.1% (17th)  < 0.1         
+mount               2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2021-37600  Low         < 0.1% (17th)  < 0.1         
+util-linux          2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2021-37600  Low         < 0.1% (17th)  < 0.1         
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-1255   Low         < 0.1% (16th)  < 0.1         
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2023-1255   Low         < 0.1% (16th)  < 0.1         
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2023-0687   Low         < 0.1% (16th)  < 0.1         
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2023-0687   Low         < 0.1% (16th)  < 0.1         
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2023-0687   Low         < 0.1% (16th)  < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13728  Negligible  0.3% (53rd)    < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13729  Negligible  0.3% (53rd)    < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13731  Negligible  0.3% (53rd)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13728  Negligible  0.3% (53rd)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13729  Negligible  0.3% (53rd)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13731  Negligible  0.3% (53rd)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-13728  Negligible  0.3% (53rd)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-13729  Negligible  0.3% (53rd)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-13731  Negligible  0.3% (53rd)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13728  Negligible  0.3% (53rd)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13729  Negligible  0.3% (53rd)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13731  Negligible  0.3% (53rd)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13728  Negligible  0.3% (53rd)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13729  Negligible  0.3% (53rd)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13731  Negligible  0.3% (53rd)    < 0.1         
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2020-10029  Low         < 0.1% (15th)  < 0.1         
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2020-10029  Low         < 0.1% (15th)  < 0.1         
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2020-10029  Low         < 0.1% (15th)  < 0.1         
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-50495  Low         < 0.1% (15th)  < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-50495  Low         < 0.1% (15th)  < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-50495  Low         < 0.1% (15th)  < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-50495  Low         < 0.1% (15th)  < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-50495  Low         < 0.1% (15th)  < 0.1         
+gcc-5-base          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2022-27943  Low         < 0.1% (15th)  < 0.1         
+gcc-6-base          6.0.1-0ubuntu1                (won't fix)              deb   CVE-2022-27943  Low         < 0.1% (15th)  < 0.1         
+libgcc1             1:6.0.1-0ubuntu1              (won't fix)              deb   CVE-2022-27943  Low         < 0.1% (15th)  < 0.1         
+libstdc++6          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2022-27943  Low         < 0.1% (15th)  < 0.1         
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2015-20109  Medium      < 0.1% (7th)   < 0.1         
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2015-20109  Medium      < 0.1% (7th)   < 0.1         
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2015-20109  Medium      < 0.1% (7th)   < 0.1         
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2022-4415   Medium      < 0.1% (7th)   < 0.1         
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2022-4415   Medium      < 0.1% (7th)   < 0.1         
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2022-4415   Medium      < 0.1% (7th)   < 0.1         
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2022-4415   Medium      < 0.1% (7th)   < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13734  Negligible  0.3% (52nd)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13734  Negligible  0.3% (52nd)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-13734  Negligible  0.3% (52nd)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-13734  Negligible  0.3% (52nd)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-13734  Negligible  0.3% (52nd)    < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-11113  Negligible  0.3% (51st)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-11113  Negligible  0.3% (51st)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-11113  Negligible  0.3% (51st)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-11113  Negligible  0.3% (51st)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-11113  Negligible  0.3% (51st)    < 0.1         
+libpcre3            2:8.38-3.1                                             deb   CVE-2017-11164  Negligible  0.3% (50th)    < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2017-11112  Negligible  0.3% (50th)    < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2017-11112  Negligible  0.3% (50th)    < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2017-11112  Negligible  0.3% (50th)    < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2017-11112  Negligible  0.3% (50th)    < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2017-11112  Negligible  0.3% (50th)    < 0.1         
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2022-3821   Medium      < 0.1% (6th)   < 0.1         
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2022-3821   Medium      < 0.1% (6th)   < 0.1         
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2022-3821   Medium      < 0.1% (6th)   < 0.1         
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2022-3821   Medium      < 0.1% (6th)   < 0.1         
+liblzma5            5.1.1alpha+20120614-2ubuntu2  (won't fix)              deb   CVE-2020-22916  Medium      < 0.1% (5th)   < 0.1         
+libsystemd0         229-4ubuntu21.1               (won't fix)              deb   CVE-2022-45873  Medium      < 0.1% (4th)   < 0.1         
+libudev1            229-4ubuntu21.1               (won't fix)              deb   CVE-2022-45873  Medium      < 0.1% (4th)   < 0.1         
+systemd             229-4ubuntu21.1               (won't fix)              deb   CVE-2022-45873  Medium      < 0.1% (4th)   < 0.1         
+systemd-sysv        229-4ubuntu21.1               (won't fix)              deb   CVE-2022-45873  Medium      < 0.1% (4th)   < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2021-27645  Low         < 0.1% (10th)  < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2021-27645  Low         < 0.1% (10th)  < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2021-27645  Low         < 0.1% (10th)  < 0.1         
+libc-bin            2.23-0ubuntu10                (won't fix)              deb   CVE-2016-20013  Negligible  0.2% (42nd)    < 0.1         
+libc6               2.23-0ubuntu10                (won't fix)              deb   CVE-2016-20013  Negligible  0.2% (42nd)    < 0.1         
+multiarch-support   2.23-0ubuntu10                (won't fix)              deb   CVE-2016-20013  Negligible  0.2% (42nd)    < 0.1         
+bsdutils            1:2.27.1-6ubuntu3.4           (won't fix)              deb   CVE-2022-0563   Medium      < 0.1% (3rd)   < 0.1         
+libblkid1           2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2022-0563   Medium      < 0.1% (3rd)   < 0.1         
+libfdisk1           2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2022-0563   Medium      < 0.1% (3rd)   < 0.1         
+libmount1           2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2022-0563   Medium      < 0.1% (3rd)   < 0.1         
+libsmartcols1       2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2022-0563   Medium      < 0.1% (3rd)   < 0.1         
+libuuid1            2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2022-0563   Medium      < 0.1% (3rd)   < 0.1         
+mount               2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2022-0563   Medium      < 0.1% (3rd)   < 0.1         
+util-linux          2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2022-0563   Medium      < 0.1% (3rd)   < 0.1         
+bsdutils            1:2.27.1-6ubuntu3.4           (won't fix)              deb   CVE-2020-21583  Low         < 0.1% (8th)   < 0.1         
+libblkid1           2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2020-21583  Low         < 0.1% (8th)   < 0.1         
+libfdisk1           2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2020-21583  Low         < 0.1% (8th)   < 0.1         
+libmount1           2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2020-21583  Low         < 0.1% (8th)   < 0.1         
+libsmartcols1       2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2020-21583  Low         < 0.1% (8th)   < 0.1         
+libuuid1            2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2020-21583  Low         < 0.1% (8th)   < 0.1         
+mount               2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2020-21583  Low         < 0.1% (8th)   < 0.1         
+util-linux          2.27.1-6ubuntu3.4             (won't fix)              deb   CVE-2020-21583  Low         < 0.1% (8th)   < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2020-27618  Low         < 0.1% (7th)   < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2020-27618  Low         < 0.1% (7th)   < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2020-27618  Low         < 0.1% (7th)   < 0.1         
+libpcre3            2:8.38-3.1                                             deb   CVE-2020-14155  Negligible  0.2% (36th)    < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2015-8985   Negligible  0.2% (36th)    < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2015-8985   Negligible  0.2% (36th)    < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2015-8985   Negligible  0.2% (36th)    < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2016-10739  Low         < 0.1% (5th)   < 0.1         
+libc6               2.23-0ubuntu10                                         deb   CVE-2016-10739  Low         < 0.1% (5th)   < 0.1         
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2016-10739  Low         < 0.1% (5th)   < 0.1         
+login               1:4.2-3.1ubuntu5.3            (won't fix)              deb   CVE-2023-29383  Low         < 0.1% (5th)   < 0.1         
+passwd              1:4.2-3.1ubuntu5.3            (won't fix)              deb   CVE-2023-29383  Low         < 0.1% (5th)   < 0.1         
+libc-bin            2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2019-19126  Low         < 0.1% (4th)   < 0.1         
+libc6               2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2019-19126  Low         < 0.1% (4th)   < 0.1         
+multiarch-support   2.23-0ubuntu10                2.23-0ubuntu11.2         deb   CVE-2019-19126  Low         < 0.1% (4th)   < 0.1         
+libsepol1           2.4-2                         (won't fix)              deb   CVE-2021-36087  Low         < 0.1% (4th)   < 0.1         
+tar                 1.28-2.1ubuntu0.1             1.28-2.1ubuntu0.2        deb   CVE-2018-20482  Low         < 0.1% (3rd)   < 0.1         
+libsepol1           2.4-2                         (won't fix)              deb   CVE-2021-36085  Low         < 0.1% (3rd)   < 0.1         
+libsepol1           2.4-2                         (won't fix)              deb   CVE-2021-36086  Low         < 0.1% (3rd)   < 0.1         
+libsepol1           2.4-2                         (won't fix)              deb   CVE-2021-36084  Low         < 0.1% (3rd)   < 0.1         
+libpam-modules      1.1.8-3.2ubuntu2              (won't fix)              deb   CVE-2022-28321  Negligible  0.1% (29th)    < 0.1         
+libpam-modules-bin  1.1.8-3.2ubuntu2              (won't fix)              deb   CVE-2022-28321  Negligible  0.1% (29th)    < 0.1         
+libpam-runtime      1.1.8-3.2ubuntu2              (won't fix)              deb   CVE-2022-28321  Negligible  0.1% (29th)    < 0.1         
+libpam0g            1.1.8-3.2ubuntu2              (won't fix)              deb   CVE-2022-28321  Negligible  0.1% (29th)    < 0.1         
+login               1:4.2-3.1ubuntu5.3            (won't fix)              deb   CVE-2023-4641   Low         < 0.1% (2nd)   < 0.1         
+passwd              1:4.2-3.1ubuntu5.3            (won't fix)              deb   CVE-2023-4641   Low         < 0.1% (2nd)   < 0.1         
+libcap2             1:2.24-12                     (won't fix)              deb   CVE-2023-2602   Low         < 0.1% (2nd)   < 0.1         
+libcap2-bin         1:2.24-12                     (won't fix)              deb   CVE-2023-2602   Low         < 0.1% (2nd)   < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2019-17595  Negligible  < 0.1% (25th)  < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2019-17595  Negligible  < 0.1% (25th)  < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2019-17595  Negligible  < 0.1% (25th)  < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2019-17595  Negligible  < 0.1% (25th)  < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2019-17595  Negligible  < 0.1% (25th)  < 0.1         
+libprocps4          2:3.3.10-4ubuntu2.3           (won't fix)              deb   CVE-2023-4016   Low         < 0.1% (1st)   < 0.1         
+procps              2:3.3.10-4ubuntu2.3           (won't fix)              deb   CVE-2023-4016   Low         < 0.1% (1st)   < 0.1         
+perl-base           5.22.1-9ubuntu0.2             (won't fix)              deb   CVE-2023-47039  Negligible  < 0.1% (22nd)  < 0.1         
+gnupg               1.4.20-1ubuntu3.1             (won't fix)              deb   CVE-2022-3219   Low         < 0.1% (1st)   < 0.1         
+gpgv                1.4.20-1ubuntu3.1             (won't fix)              deb   CVE-2022-3219   Low         < 0.1% (1st)   < 0.1         
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2022-29458  Negligible  < 0.1% (21st)  < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2022-29458  Negligible  < 0.1% (21st)  < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2022-29458  Negligible  < 0.1% (21st)  < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2022-29458  Negligible  < 0.1% (21st)  < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2022-29458  Negligible  < 0.1% (21st)  < 0.1         
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2019-17594  Negligible  < 0.1% (8th)   < 0.1         
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2019-17594  Negligible  < 0.1% (8th)   < 0.1         
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2019-17594  Negligible  < 0.1% (8th)   < 0.1         
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2019-17594  Negligible  < 0.1% (8th)   < 0.1         
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2019-17594  Negligible  < 0.1% (8th)   < 0.1         
+libc-bin            2.23-0ubuntu10                                         deb   CVE-2018-8086   Medium      N/A            N/A           
+libc6               2.23-0ubuntu10                                         deb   CVE-2018-8086   Medium      N/A            N/A           
+multiarch-support   2.23-0ubuntu10                                         deb   CVE-2018-8086   Medium      N/A            N/A           
+perl-base           5.22.1-9ubuntu0.2             (won't fix)              deb   CVE-2023-47100  Medium      N/A            N/A           
+gcc-5-base          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2020-35537  Low         N/A            N/A           
+gcc-6-base          6.0.1-0ubuntu1                (won't fix)              deb   CVE-2020-35537  Low         N/A            N/A           
+libgcc1             1:6.0.1-0ubuntu1              (won't fix)              deb   CVE-2020-35537  Low         N/A            N/A           
+libncurses5         6.0+20160213-1ubuntu1                                  deb   CVE-2018-10754  Low         N/A            N/A           
+libncurses5         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-45918  Low         N/A            N/A           
+libncursesw5        6.0+20160213-1ubuntu1                                  deb   CVE-2018-10754  Low         N/A            N/A           
+libncursesw5        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-45918  Low         N/A            N/A           
+libssl1.0.0         1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2021-43085  Low         N/A            N/A           
+libstdc++6          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2020-35537  Low         N/A            N/A           
+libtinfo5           6.0+20160213-1ubuntu1                                  deb   CVE-2018-10754  Low         N/A            N/A           
+libtinfo5           6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-45918  Low         N/A            N/A           
+ncurses-base        6.0+20160213-1ubuntu1                                  deb   CVE-2018-10754  Low         N/A            N/A           
+ncurses-base        6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-45918  Low         N/A            N/A           
+ncurses-bin         6.0+20160213-1ubuntu1                                  deb   CVE-2018-10754  Low         N/A            N/A           
+ncurses-bin         6.0+20160213-1ubuntu1         (won't fix)              deb   CVE-2023-45918  Low         N/A            N/A           
+openssl             1.0.2g-1ubuntu4.10            (won't fix)              deb   CVE-2021-43085  Low         N/A            N/A           
+gcc-5-base          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2020-35536  Negligible  N/A            N/A           
+gcc-6-base          6.0.1-0ubuntu1                (won't fix)              deb   CVE-2020-35536  Negligible  N/A            N/A           
+libgcc1             1:6.0.1-0ubuntu1              (won't fix)              deb   CVE-2020-35536  Negligible  N/A            N/A           
+libssl1.0.0         1.0.2g-1ubuntu4.10                                     deb   CVE-2021-3601   Negligible  N/A            N/A           
+libstdc++6          5.4.0-6ubuntu1~16.04.6        (won't fix)              deb   CVE-2020-35536  Negligible  N/A            N/A           
+login               1:4.2-3.1ubuntu5.3            (won't fix)              deb   CVE-2023-0634   Negligible  N/A            N/A           
+openssl             1.0.2g-1ubuntu4.10                                     deb   CVE-2021-3601   Negligible  N/A            N/A           
+passwd              1:4.2-3.1ubuntu5.3            (won't fix)              deb   CVE-2023-0634   Negligible  N/A            N/A           
