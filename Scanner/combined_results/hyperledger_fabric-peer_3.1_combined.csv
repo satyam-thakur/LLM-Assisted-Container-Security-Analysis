@@ -1,5 +1,6 @@
 image,cve_id,package_name,installed_version,fixed_version,severity,detected_by,title
 hyperledger/fabric-peer:3.1,CVE-2025-58187,stdlib,v1.25.2,"1.24.9, 1.25.3",HIGH,trivy,"Due to the design of the name constraint checking algorithm, the proce ..."
+hyperledger/fabric-peer:3.1,GHSA-fj2x-735w-74vq,github.com/consensys/gnark-crypto,v0.19.0,"0.18.1, 0.19.2",HIGH,trivy,gnark-crypto allows unchecked memory allocation during vector deserialization
 hyperledger/fabric-peer:3.1,CVE-2024-56433,login,1:4.13+dfsg1-4ubuntu3.2,No fix available,LOW,grype,
 hyperledger/fabric-peer:3.1,CVE-2024-56433,passwd,1:4.13+dfsg1-4ubuntu3.2,No fix available,LOW,grype,
 hyperledger/fabric-peer:3.1,CVE-2024-41996,libssl3t64,3.0.13-0ubuntu3.6,No fix available,LOW,grype,

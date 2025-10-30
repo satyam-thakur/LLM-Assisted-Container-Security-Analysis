@@ -2,7 +2,7 @@
 CONTAINER SECURITY VULNERABILITY ANALYSIS REPORT
 ================================================================================
 
-Generated: 2025-10-30 16:36:40
+Generated: 2025-10-30 21:57:35
 Image: vulhub/couchdb:3.2.1
 Total Vulnerabilities: 2007
 Scanners Used: trivy, grype
@@ -62,12 +62,12 @@ FIXABLE VULNERABILITIES ANALYSIS
 
 Overall Fix Availability:
   Total vulnerabilities: 2007
-  Fixable: 1232 (61.4%)
-  Not fixable: 775 (38.6%)
+  Fixable: 1233 (61.4%)
+  Not fixable: 774 (38.6%)
 
 Fix Availability by Severity:
   CRITICAL    :  76/81  fixable ( 93.8%)
-  HIGH        : 922/1255 fixable ( 73.5%)
+  HIGH        : 923/1255 fixable ( 73.5%)
   MEDIUM      : 181/342 fixable ( 52.9%)
   LOW         :  23/70  fixable ( 32.9%)
   NEGLIGIBLE  :  26/255 fixable ( 10.2%)

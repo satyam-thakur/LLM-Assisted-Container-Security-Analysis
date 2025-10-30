@@ -526,9 +526,10 @@ vulhub/couchdb:3.2.1,CVE-2023-52935,linux-libc-dev,5.10.149-2,5.10.244-1,HIGH,tr
 vulhub/couchdb:3.2.1,CVE-2023-52974,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,kernel: scsi: iscsi_tcp: Fix UAF during login when accessing the shost ipaddress
 vulhub/couchdb:3.2.1,CVE-2023-52983,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,"kernel: block, bfq: fix uaf for bfqq in bic_set_bfqq()"
 vulhub/couchdb:3.2.1,CVE-2023-52988,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,kernel: ALSA: hda/via: Avoid potential array out-of-bound in add_secret_dac_path()
-vulhub/couchdb:3.2.1,CVE-2023-52996,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,kernel: ipv4: prevent potential spectre v1 gadget in fib_metrics_match()
 vulhub/couchdb:3.2.1,CVE-2023-52999,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,kernel: net: fix UaF in netns ops registration error path
+vulhub/couchdb:3.2.1,CVE-2023-53000,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,kernel: netlink: prevent potential spectre v1 gadgets
 vulhub/couchdb:3.2.1,CVE-2023-53003,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,kernel: EDAC/qcom: Do not pass llcc_driv_data as edac_device_ctl_info's pvt_info
+vulhub/couchdb:3.2.1,CVE-2023-53019,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,kernel: net: mdio: validate parameter addr in mdiobus_get_phy()
 vulhub/couchdb:3.2.1,CVE-2023-53034,linux-libc-dev,5.10.149-2,5.10.237-1,HIGH,trivy,kernel: ntb_hw_switchtec: Fix shift-out-of-bounds in switchtec_ntb_mw_set_trans
 vulhub/couchdb:3.2.1,CVE-2023-53047,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,kernel: tee: amdtee: fix race condition in amdtee_open_session
 vulhub/couchdb:3.2.1,CVE-2023-53125,linux-libc-dev,5.10.149-2,5.10.178-1,HIGH,trivy,kernel: net: usb: smsc75xx: Limit packet length to skb->len
@@ -1240,7 +1241,6 @@ vulhub/couchdb:3.2.1,CVE-2025-40016,linux-libc-dev,5.10.149-2,No fix available,H
 vulhub/couchdb:3.2.1,CVE-2025-40026,linux-libc-dev,5.10.149-2,No fix available,HIGH,trivy,kernel: KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O
 vulhub/couchdb:3.2.1,CVE-2025-40029,linux-libc-dev,5.10.149-2,No fix available,HIGH,trivy,kernel: bus: fsl-mc: Check return value of platform_get_resource()
 vulhub/couchdb:3.2.1,CVE-2025-40030,linux-libc-dev,5.10.149-2,No fix available,HIGH,trivy,kernel: pinctrl: check the return value of pinmux_ops::get_function_name()
-vulhub/couchdb:3.2.1,CVE-2025-40044,linux-libc-dev,5.10.149-2,No fix available,HIGH,trivy,kernel: fs: udf: fix OOB read in lengthAllocDescs handling
 vulhub/couchdb:3.2.1,CVE-2025-40048,linux-libc-dev,5.10.149-2,No fix available,HIGH,trivy,kernel: uio_hv_generic: Let userspace take care of interrupt mask
 vulhub/couchdb:3.2.1,CVE-2025-40053,linux-libc-dev,5.10.149-2,No fix available,HIGH,trivy,kernel: net: dlink: handle copy_thresh allocation failure
 vulhub/couchdb:3.2.1,CVE-2025-40064,linux-libc-dev,5.10.149-2,No fix available,HIGH,trivy,kernel: smc: Fix use-after-free in __pnet_find_base_ndev()

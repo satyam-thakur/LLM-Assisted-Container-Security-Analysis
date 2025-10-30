@@ -7615,20 +7615,6 @@
       ]
     },
     {
-      "cve_id": "CVE-2023-52996",
-      "package_name": "linux-libc-dev",
-      "installed_version": "5.10.149-2",
-      "fixed_version": "5.10.178-1",
-      "severity": "HIGH",
-      "image": "vulhub/couchdb:3.2.1",
-      "scanner": "trivy",
-      "title": "kernel: ipv4: prevent potential spectre v1 gadget in fib_metrics_match()",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: prevent potential spectre v1 gadget in fib_metrics_match()\n\nif (!type)\n        continue;\n    if (type > RTAX_MAX)\n        return false;\n    ...\n    fi_val = fi->fib_metrics->metrics[type - 1];\n\n@type being used as an array index, we need to prevent\ncpu speculation or risk leaking kernel memory content.",
-      "detected_by": [
-        "trivy"
-      ]
-    },
-    {
       "cve_id": "CVE-2023-52999",
       "package_name": "linux-libc-dev",
       "installed_version": "5.10.149-2",
@@ -7643,6 +7629,20 @@
       ]
     },
     {
+      "cve_id": "CVE-2023-53000",
+      "package_name": "linux-libc-dev",
+      "installed_version": "5.10.149-2",
+      "fixed_version": "5.10.178-1",
+      "severity": "HIGH",
+      "image": "vulhub/couchdb:3.2.1",
+      "scanner": "trivy",
+      "title": "kernel: netlink: prevent potential spectre v1 gadgets",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetlink: prevent potential spectre v1 gadgets\n\nMost netlink attributes are parsed and validated from\n__nla_validate_parse() or validate_nla()\n\n    u16 type = nla_type(nla);\n\n    if (type == 0 || type > maxtype) {\n        /* error or continue */\n    }\n\n@type is then used as an array index and can be used\nas a Spectre v1 gadget.\n\narray_index_nospec() can be used to prevent leaking\ncontent of kernel memory to malicious users.\n\nThis should take care of vast majority of netlink uses,\nbut an audit is needed to take care of others where\nvalidation is not yet centralized in core netlink functions.",
+      "detected_by": [
+        "trivy"
+      ]
+    },
+    {
       "cve_id": "CVE-2023-53003",
       "package_name": "linux-libc-dev",
       "installed_version": "5.10.149-2",
@@ -7652,6 +7652,20 @@
       "scanner": "trivy",
       "title": "kernel: EDAC/qcom: Do not pass llcc_driv_data as edac_device_ctl_info's pvt_info",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nEDAC/qcom: Do not pass llcc_driv_data as edac_device_ctl_info's pvt_info\n\nThe memory for llcc_driv_data is allocated by the LLCC driver. But when\nit is passed as the private driver info to the EDAC core, it will get freed\nduring the qcom_edac driver release. So when the qcom_edac driver gets probed\nagain, it will try to use the freed data leading to the use-after-free bug.\n\nHence, do not pass llcc_driv_data as pvt_info but rather reference it\nusing the platform_data pointer in the qcom_edac driver.",
+      "detected_by": [
+        "trivy"
+      ]
+    },
+    {
+      "cve_id": "CVE-2023-53019",
+      "package_name": "linux-libc-dev",
+      "installed_version": "5.10.149-2",
+      "fixed_version": "5.10.178-1",
+      "severity": "HIGH",
+      "image": "vulhub/couchdb:3.2.1",
+      "scanner": "trivy",
+      "title": "kernel: net: mdio: validate parameter addr in mdiobus_get_phy()",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: mdio: validate parameter addr in mdiobus_get_phy()\n\nThe caller may pass any value as addr, what may result in an out-of-bounds\naccess to array mdio_map. One existing case is stmmac_init_phy() that\nmay pass -1 as addr. Therefore validate addr before using it.",
       "detected_by": [
         "trivy"
       ]
@@ -17606,20 +17620,6 @@
       "scanner": "trivy",
       "title": "kernel: pinctrl: check the return value of pinmux_ops::get_function_name()",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\npinctrl: check the return value of pinmux_ops::get_function_name()\n\nWhile the API contract in docs doesn't specify it explicitly, the\ngeneric implementation of the get_function_name() callback from struct\npinmux_ops - pinmux_generic_get_function_name() - can fail and return\nNULL. This is already checked in pinmux_check_ops() so add a similar\ncheck in pinmux_func_name_to_selector() instead of passing the returned\npointer right down to strcmp() where the NULL can get dereferenced. This\nis normal operation when adding new pinfunctions.",
-      "detected_by": [
-        "trivy"
-      ]
-    },
-    {
-      "cve_id": "CVE-2025-40044",
-      "package_name": "linux-libc-dev",
-      "installed_version": "5.10.149-2",
-      "fixed_version": "No fix available",
-      "severity": "HIGH",
-      "image": "vulhub/couchdb:3.2.1",
-      "scanner": "trivy",
-      "title": "kernel: fs: udf: fix OOB read in lengthAllocDescs handling",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs: udf: fix OOB read in lengthAllocDescs handling\n\nWhen parsing Allocation Extent Descriptor, lengthAllocDescs comes from\non-disk data and must be validated against the block size. Crafted or\ncorrupted images may set lengthAllocDescs so that the total descriptor\nlength (sizeof(allocExtDesc) + lengthAllocDescs) exceeds the buffer,\nleading udf_update_tag() to call crc_itu_t() on out-of-bounds memory and\ntrigger a KASAN use-after-free read.\n\nBUG: KASAN: use-after-free in crc_itu_t+0x1d5/0x2b0 lib/crc-itu-t.c:60\nRead of size 1 at addr ffff888041e7d000 by task syz-executor317/5309\n\nCPU: 0 UID: 0 PID: 5309 Comm: syz-executor317 Not tainted 6.12.0-rc4-syzkaller-00261-g850925a8133c #0\nHardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.16.3-debian-1.16.3-2~bpo12+1 04/01/2014\nCall Trace:\n <TASK>\n __dump_stack lib/dump_stack.c:94 [inline]\n dump_stack_lvl+0x241/0x360 lib/dump_stack.c:120\n print_address_description mm/kasan/report.c:377 [inline]\n print_report+0x169/0x550 mm/kasan/report.c:488\n kasan_report+0x143/0x180 mm/kasan/report.c:601\n crc_itu_t+0x1d5/0x2b0 lib/crc-itu-t.c:60\n udf_update_tag+0x70/0x6a0 fs/udf/misc.c:261\n udf_write_aext+0x4d8/0x7b0 fs/udf/inode.c:2179\n extent_trunc+0x2f7/0x4a0 fs/udf/truncate.c:46\n udf_truncate_tail_extent+0x527/0x7e0 fs/udf/truncate.c:106\n udf_release_file+0xc1/0x120 fs/udf/file.c:185\n __fput+0x23f/0x880 fs/file_table.c:431\n task_work_run+0x24f/0x310 kernel/task_work.c:239\n exit_task_work include/linux/task_work.h:43 [inline]\n do_exit+0xa2f/0x28e0 kernel/exit.c:939\n do_group_exit+0x207/0x2c0 kernel/exit.c:1088\n __do_sys_exit_group kernel/exit.c:1099 [inline]\n __se_sys_exit_group kernel/exit.c:1097 [inline]\n __x64_sys_exit_group+0x3f/0x40 kernel/exit.c:1097\n x64_sys_call+0x2634/0x2640 arch/x86/include/generated/asm/syscalls_64.h:232\n do_syscall_x64 arch/x86/entry/common.c:52 [inline]\n do_syscall_64+0xf3/0x230 arch/x86/entry/common.c:83\n entry_SYSCALL_64_after_hwframe+0x77/0x7f\n </TASK>\n\nValidate the computed total length against epos->bh->b_size.\n\nFound by Linux Verification Center (linuxtesting.org) with Syzkaller.",
       "detected_by": [
         "trivy"
       ]
