@@ -1,0 +1,147 @@
+================================================================================
+CONTAINER SECURITY VULNERABILITY ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-10-30 16:36:40
+Image: hyperledger/fabric-peer:1.1.0
+Total Vulnerabilities: 652
+Scanners Used: trivy, grype
+================================================================================
+SCANNER COVERAGE ANALYSIS
+================================================================================
+
+Total unique vulnerabilities: 652
+
+Scanner Detection Statistics:
+  Both Scanners (Agreement): 12 (1.8%)
+  Only Trivy:                0 (0.0%)
+  Only Grype:                640 (98.2%)
+
+Total Detections per Scanner:
+  Grype: 652
+  Trivy: 12
+
+Discrepancy Analysis:
+  Scanner Agreement Rate: 1.8%
+  Scanner Discrepancy Rate: 98.2%
+  Trivy-exclusive findings: 0
+  Grype-exclusive findings: 640
+
+================================================================================
+SEVERITY DISTRIBUTION
+================================================================================
+
+Vulnerability Breakdown by Severity:
+  HIGH        :   27 (  4.1%)
+  MEDIUM      :  254 ( 39.0%)
+  LOW         :  258 ( 39.6%)
+  NEGLIGIBLE  :  113 ( 17.3%)
+
+================================================================================
+TOP 10 MOST VULNERABLE PACKAGES
+================================================================================
+
+Package                             Count    Critical   High    
+--------------------------------------------------------------------------------
+libssl1.0.0                         44       0          5       
+openssl                             44       0          5       
+libc-bin                            40       0          1       
+libc6                               40       0          1       
+multiarch-support                   40       0          1       
+libncurses5                         28       0          0       
+libncursesw5                        28       0          0       
+libtinfo5                           28       0          0       
+ncurses-base                        28       0          0       
+ncurses-bin                         28       0          0       
+
+================================================================================
+FIXABLE VULNERABILITIES ANALYSIS
+================================================================================
+
+Overall Fix Availability:
+  Total vulnerabilities: 652
+  Fixable: 169 (25.9%)
+  Not fixable: 483 (74.1%)
+
+Fix Availability by Severity:
+  HIGH        :  12/27  fixable ( 44.4%)
+  MEDIUM      :  94/254 fixable ( 37.0%)
+  LOW         :  60/258 fixable ( 23.3%)
+  NEGLIGIBLE  :   3/113 fixable (  2.7%)
+
+================================================================================
+CRITICAL & HIGH SEVERITY VULNERABILITIES
+================================================================================
+
+Total Critical + High: 27
+
+Most Common Critical/High CVEs:
+
+  CVE-2018-16864 (HIGH)
+    Package: libsystemd0 229-4ubuntu21.1
+    Fixed in: 229-4ubuntu21.15
+    Detected by: trivy, grype
+
+  CVE-2018-16865 (HIGH)
+    Package: libsystemd0 229-4ubuntu21.1
+    Fixed in: 229-4ubuntu21.15
+    Detected by: trivy, grype
+
+  CVE-2021-33910 (HIGH)
+    Package: libsystemd0 229-4ubuntu21.1
+    Fixed in: No fix available
+    Detected by: grype
+
+  CVE-2023-4911 (HIGH)
+    Package: libc-bin 2.23-0ubuntu10
+    Fixed in: No fix available
+    Detected by: grype
+
+  CVE-2019-3462 (HIGH)
+    Package: apt 1.2.25
+    Fixed in: 1.2.29ubuntu0.1
+    Detected by: trivy, grype
+
+  CVE-2020-1971 (HIGH)
+    Package: libssl1.0.0 1.0.2g-1ubuntu4.10
+    Fixed in: 1.0.2g-1ubuntu4.18
+    Detected by: trivy, grype
+
+  CVE-2023-0286 (HIGH)
+    Package: libssl1.0.0 1.0.2g-1ubuntu4.10
+    Fixed in: No fix available
+    Detected by: grype
+
+  CVE-2022-3602 (HIGH)
+    Package: libssl1.0.0 1.0.2g-1ubuntu4.10
+    Fixed in: No fix available
+    Detected by: grype
+
+  CVE-2022-3786 (HIGH)
+    Package: libssl1.0.0 1.0.2g-1ubuntu4.10
+    Fixed in: No fix available
+    Detected by: grype
+
+  CVE-2021-3711 (HIGH)
+    Package: libssl1.0.0 1.0.2g-1ubuntu4.10
+    Fixed in: No fix available
+    Detected by: grype
+
+================================================================================
+DETAILED SCANNER COMPARISON
+================================================================================
+
+Trivy-Only Vulnerabilities: 0
+
+Grype-Only Vulnerabilities: 640
+  HIGH: 15
+  MEDIUM: 254
+  LOW: 258
+  NEGLIGIBLE: 113
+
+Both Scanners Agreement: 12
+  HIGH: 12
+
+================================================================================
+END OF ANALYSIS REPORT
+================================================================================

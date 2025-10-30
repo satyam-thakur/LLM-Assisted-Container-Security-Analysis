@@ -7,6 +7,20 @@
   ],
   "vulnerabilities": [
     {
+      "cve_id": "CVE-2025-58187",
+      "package_name": "stdlib",
+      "installed_version": "v1.25.2",
+      "fixed_version": "1.24.9, 1.25.3",
+      "severity": "HIGH",
+      "image": "hyperledger/fabric-peer:3.1",
+      "scanner": "trivy",
+      "title": "Due to the design of the name constraint checking algorithm, the proce ...",
+      "description": "Due to the design of the name constraint checking algorithm, the processing time of some inputs scals non-linearly with respect to the size of the certificate. This affects programs which validate arbitrary certificate chains.",
+      "detected_by": [
+        "trivy"
+      ]
+    },
+    {
       "cve_id": "CVE-2024-56433",
       "package_name": "login",
       "installed_version": "1:4.13+dfsg1-4ubuntu3.2",
@@ -152,20 +166,6 @@
       "installed_version": "3.0.13-0ubuntu3.6",
       "fixed_version": "No fix available",
       "severity": "LOW",
-      "image": "hyperledger/fabric-peer:3.1",
-      "scanner": "grype",
-      "title": "",
-      "description": "",
-      "detected_by": [
-        "grype"
-      ]
-    },
-    {
-      "cve_id": "CVE-2025-62813",
-      "package_name": "liblz4-1",
-      "installed_version": "1.9.4-1build1.1",
-      "fixed_version": "No fix available",
-      "severity": "MEDIUM",
       "image": "hyperledger/fabric-peer:3.1",
       "scanner": "grype",
       "title": "",

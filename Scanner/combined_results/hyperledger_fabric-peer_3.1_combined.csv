@@ -1,4 +1,5 @@
 image,cve_id,package_name,installed_version,fixed_version,severity,detected_by,title
+hyperledger/fabric-peer:3.1,CVE-2025-58187,stdlib,v1.25.2,"1.24.9, 1.25.3",HIGH,trivy,"Due to the design of the name constraint checking algorithm, the proce ..."
 hyperledger/fabric-peer:3.1,CVE-2024-56433,login,1:4.13+dfsg1-4ubuntu3.2,No fix available,LOW,grype,
 hyperledger/fabric-peer:3.1,CVE-2024-56433,passwd,1:4.13+dfsg1-4ubuntu3.2,No fix available,LOW,grype,
 hyperledger/fabric-peer:3.1,CVE-2024-41996,libssl3t64,3.0.13-0ubuntu3.6,No fix available,LOW,grype,
@@ -10,7 +11,6 @@ hyperledger/fabric-peer:3.1,CVE-2025-8941,libpam-modules-bin,1.5.3-5ubuntu5.5,No
 hyperledger/fabric-peer:3.1,CVE-2025-8941,libpam-runtime,1.5.3-5ubuntu5.5,No fix available,MEDIUM,grype,
 hyperledger/fabric-peer:3.1,CVE-2025-8941,libpam0g,1.5.3-5ubuntu5.5,No fix available,MEDIUM,grype,
 hyperledger/fabric-peer:3.1,CVE-2025-27587,libssl3t64,3.0.13-0ubuntu3.6,No fix available,LOW,grype,
-hyperledger/fabric-peer:3.1,CVE-2025-62813,liblz4-1,1.9.4-1build1.1,No fix available,MEDIUM,grype,
 hyperledger/fabric-peer:3.1,CVE-2025-6141,libncursesw6,6.4+20240113-1ubuntu2,No fix available,LOW,grype,
 hyperledger/fabric-peer:3.1,CVE-2025-6141,libtinfo6,6.4+20240113-1ubuntu2,No fix available,LOW,grype,
 hyperledger/fabric-peer:3.1,CVE-2025-6141,ncurses-base,6.4+20240113-1ubuntu2,No fix available,LOW,grype,

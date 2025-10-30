@@ -2,29 +2,29 @@
 CONTAINER SECURITY VULNERABILITY ANALYSIS REPORT
 ================================================================================
 
-Generated: 2025-10-29 10:32:58
+Generated: 2025-10-30 16:36:40
 Image: hyperledger/fabric-peer:2.1
-Total Vulnerabilities: 153
+Total Vulnerabilities: 163
 Scanners Used: trivy, grype
 ================================================================================
 SCANNER COVERAGE ANALYSIS
 ================================================================================
 
-Total unique vulnerabilities: 153
+Total unique vulnerabilities: 163
 
 Scanner Detection Statistics:
-  Both Scanners (Agreement): 31 (20.3%)
-  Only Trivy:                50 (32.7%)
-  Only Grype:                72 (47.1%)
+  Both Scanners (Agreement): 31 (19.0%)
+  Only Trivy:                60 (36.8%)
+  Only Grype:                72 (44.2%)
 
 Total Detections per Scanner:
   Grype: 103
-  Trivy: 81
+  Trivy: 91
 
 Discrepancy Analysis:
-  Scanner Agreement Rate: 20.3%
-  Scanner Discrepancy Rate: 79.7%
-  Trivy-exclusive findings: 50
+  Scanner Agreement Rate: 19.0%
+  Scanner Discrepancy Rate: 81.0%
+  Trivy-exclusive findings: 60
   Grype-exclusive findings: 72
 
 ================================================================================
@@ -32,10 +32,10 @@ SEVERITY DISTRIBUTION
 ================================================================================
 
 Vulnerability Breakdown by Severity:
-  CRITICAL    :   13 (  8.5%)
-  HIGH        :   98 ( 64.1%)
-  MEDIUM      :   36 ( 23.5%)
-  LOW         :    6 (  3.9%)
+  CRITICAL    :   13 (  8.0%)
+  HIGH        :  108 ( 66.3%)
+  MEDIUM      :   36 ( 22.1%)
+  LOW         :    6 (  3.7%)
 
 ================================================================================
 TOP 10 MOST VULNERABLE PACKAGES
@@ -43,7 +43,7 @@ TOP 10 MOST VULNERABLE PACKAGES
 
 Package                             Count    Critical   High    
 --------------------------------------------------------------------------------
-stdlib                              50       4          46      
+stdlib                              60       4          56      
 libcrypto1.1                        32       2          13      
 libssl1.1                           32       2          13      
 busybox                             15       1          11      
@@ -58,13 +58,13 @@ FIXABLE VULNERABILITIES ANALYSIS
 ================================================================================
 
 Overall Fix Availability:
-  Total vulnerabilities: 153
-  Fixable: 93 (60.8%)
-  Not fixable: 60 (39.2%)
+  Total vulnerabilities: 163
+  Fixable: 103 (63.2%)
+  Not fixable: 60 (36.8%)
 
 Fix Availability by Severity:
   CRITICAL    :   8/13  fixable ( 61.5%)
-  HIGH        :  73/98  fixable ( 74.5%)
+  HIGH        :  83/108 fixable ( 76.9%)
   MEDIUM      :  10/36  fixable ( 27.8%)
   LOW         :   2/6   fixable ( 33.3%)
 
@@ -72,7 +72,7 @@ Fix Availability by Severity:
 CRITICAL & HIGH SEVERITY VULNERABILITIES
 ================================================================================
 
-Total Critical + High: 111
+Total Critical + High: 121
 
 Most Common Critical/High CVEs:
 
@@ -155,9 +155,9 @@ Most Common Critical/High CVEs:
 DETAILED SCANNER COMPARISON
 ================================================================================
 
-Trivy-Only Vulnerabilities: 50
+Trivy-Only Vulnerabilities: 60
   CRITICAL: 4
-  HIGH: 46
+  HIGH: 56
 
 Grype-Only Vulnerabilities: 72
   CRITICAL: 5

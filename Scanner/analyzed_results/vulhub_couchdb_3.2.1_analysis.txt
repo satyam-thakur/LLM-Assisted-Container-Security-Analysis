@@ -1,0 +1,180 @@
+================================================================================
+CONTAINER SECURITY VULNERABILITY ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-10-30 16:36:40
+Image: vulhub/couchdb:3.2.1
+Total Vulnerabilities: 2007
+Scanners Used: trivy, grype
+================================================================================
+SCANNER COVERAGE ANALYSIS
+================================================================================
+
+Total unique vulnerabilities: 2007
+
+Scanner Detection Statistics:
+  Both Scanners (Agreement): 242 (12.1%)
+  Only Trivy:                1022 (50.9%)
+  Only Grype:                743 (37.0%)
+
+Total Detections per Scanner:
+  Trivy: 1264
+  Grype: 985
+
+Discrepancy Analysis:
+  Scanner Agreement Rate: 12.1%
+  Scanner Discrepancy Rate: 87.9%
+  Trivy-exclusive findings: 1022
+  Grype-exclusive findings: 743
+
+================================================================================
+SEVERITY DISTRIBUTION
+================================================================================
+
+Vulnerability Breakdown by Severity:
+  CRITICAL    :   81 (  4.0%)
+  HIGH        : 1255 ( 62.5%)
+  MEDIUM      :  342 ( 17.0%)
+  LOW         :   70 (  3.5%)
+  NEGLIGIBLE  :  255 ( 12.7%)
+  UNKNOWN     :    4 (  0.2%)
+
+================================================================================
+TOP 10 MOST VULNERABLE PACKAGES
+================================================================================
+
+Package                             Count    Critical   High    
+--------------------------------------------------------------------------------
+linux-libc-dev                      1021     2          1019    
+libtiff5                            68       0          6       
+libcurl4                            28       3          6       
+libcurl4-openssl-dev                28       3          6       
+libsoup-gnome2.4-1                  24       2          7       
+libsoup2.4-1                        24       2          7       
+libssl1.1                           20       1          6       
+libxml2                             20       3          9       
+libc-bin                            18       0          7       
+libc-dev-bin                        18       0          7       
+
+================================================================================
+FIXABLE VULNERABILITIES ANALYSIS
+================================================================================
+
+Overall Fix Availability:
+  Total vulnerabilities: 2007
+  Fixable: 1232 (61.4%)
+  Not fixable: 775 (38.6%)
+
+Fix Availability by Severity:
+  CRITICAL    :  76/81  fixable ( 93.8%)
+  HIGH        : 922/1255 fixable ( 73.5%)
+  MEDIUM      : 181/342 fixable ( 52.9%)
+  LOW         :  23/70  fixable ( 32.9%)
+  NEGLIGIBLE  :  26/255 fixable ( 10.2%)
+  UNKNOWN     :   4/4   fixable (100.0%)
+
+================================================================================
+CRITICAL & HIGH SEVERITY VULNERABILITIES
+================================================================================
+
+Total Critical + High: 1336
+
+Most Common Critical/High CVEs:
+
+  CVE-2022-37026 (CRITICAL)
+    Package: erlang-asn1 1:23.2.6+dfsg-1
+    Fixed in: 1:23.2.6+dfsg-1+deb11u1
+    Detected by: trivy, grype
+
+  CVE-2025-30211 (HIGH)
+    Package: erlang-asn1 1:23.2.6+dfsg-1
+    Fixed in: 1:23.2.6+dfsg-1+deb11u2
+    Detected by: trivy, grype
+
+  CVE-2025-32433 (CRITICAL)
+    Package: erlang-asn1 1:23.2.6+dfsg-1
+    Fixed in: 1:23.2.6+dfsg-1+deb11u2
+    Detected by: trivy, grype
+
+  CVE-2025-26618 (HIGH)
+    Package: erlang-asn1 1:23.2.6+dfsg-1
+    Fixed in: 1:23.2.6+dfsg-1+deb11u2
+    Detected by: grype
+
+  CVE-2025-48041 (HIGH)
+    Package: erlang-asn1 1:23.2.6+dfsg-1
+    Fixed in: No fix available
+    Detected by: grype
+
+  CVE-2022-1304 (HIGH)
+    Package: e2fsprogs 1.46.2-2
+    Fixed in: 1.46.2-2+deb11u1
+    Detected by: trivy, grype
+
+  CVE-2022-29458 (HIGH)
+    Package: libncurses6 6.2+20201114-2
+    Fixed in: 6.2+20201114-2+deb11u1
+    Detected by: trivy, grype
+
+  CVE-2023-29491 (HIGH)
+    Package: libncurses6 6.2+20201114-2
+    Fixed in: 6.2+20201114-2+deb11u2
+    Detected by: trivy, grype
+
+  CVE-2023-50387 (HIGH)
+    Package: libpam-systemd 247.3-7+deb11u1
+    Fixed in: 247.3-7+deb11u6
+    Detected by: trivy, grype
+
+  CVE-2023-50868 (HIGH)
+    Package: libpam-systemd 247.3-7+deb11u1
+    Fixed in: 247.3-7+deb11u6
+    Detected by: trivy, grype
+
+  CVE-2023-4911 (HIGH)
+    Package: libc-bin 2.31-13+deb11u5
+    Fixed in: 2.31-13+deb11u7
+    Detected by: trivy, grype
+
+  CVE-2024-2961 (HIGH)
+    Package: libc-bin 2.31-13+deb11u5
+    Fixed in: 2.31-13+deb11u9
+    Detected by: trivy, grype
+
+  CVE-2024-33599 (HIGH)
+    Package: libc-bin 2.31-13+deb11u5
+    Fixed in: 2.31-13+deb11u10
+    Detected by: trivy, grype
+
+  CVE-2025-4802 (HIGH)
+    Package: libc-bin 2.31-13+deb11u5
+    Fixed in: 2.31-13+deb11u13
+    Detected by: trivy, grype
+
+  CVE-2024-37371 (CRITICAL)
+    Package: libgssapi-krb5-2 1.18.3-6+deb11u2
+    Fixed in: 1.18.3-6+deb11u5
+    Detected by: trivy, grype
+
+================================================================================
+DETAILED SCANNER COMPARISON
+================================================================================
+
+Trivy-Only Vulnerabilities: 1022
+  CRITICAL: 3
+  HIGH: 1019
+
+Grype-Only Vulnerabilities: 743
+  CRITICAL: 1
+  HIGH: 71
+  MEDIUM: 342
+  LOW: 70
+  NEGLIGIBLE: 255
+
+Both Scanners Agreement: 242
+  CRITICAL: 77
+  HIGH: 165
+
+================================================================================
+END OF ANALYSIS REPORT
+================================================================================
