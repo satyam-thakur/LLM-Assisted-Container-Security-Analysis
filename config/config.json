@@ -1,5 +1,5 @@
 {
-    "images": ["hyperledger/fabric-peer:1.1","hyperledger/fabric-peer:2.1", "hyperledger/fabric-peer:3.1","vulhub/couchdb:3.2.1"],
+    "images": ["hyperledger/fabric-peer:1.1.0","hyperledger/fabric-peer:2.1", "hyperledger/fabric-peer:3.1","vulhub/couchdb:3.2.1"],
     "scanners": ["trivy", "grype"],
     "createXLSX": true,
     "parallel": false,
