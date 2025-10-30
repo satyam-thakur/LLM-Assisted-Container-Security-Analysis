@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 2,
-  "CreatedAt": "2025-10-30T16:34:45.313937493Z",
+  "CreatedAt": "2025-10-30T21:55:47.38291066Z",
   "ArtifactName": "hyperledger/fabric-peer:2.1",
   "ArtifactType": "container_image",
   "Metadata": {
@@ -8286,7 +8286,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4010"
           ],
           "PublishedDate": "2025-10-29T23:16:18.187Z",
-          "LastModifiedDate": "2025-10-29T23:16:18.187Z"
+          "LastModifiedDate": "2025-10-30T15:03:13.44Z"
         },
         {
           "VulnerabilityID": "CVE-2025-58183",
@@ -8322,7 +8322,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4014"
           ],
           "PublishedDate": "2025-10-29T23:16:19.357Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.357Z"
+          "LastModifiedDate": "2025-10-30T15:15:39.793Z"
         },
         {
           "VulnerabilityID": "CVE-2025-58185",
@@ -8358,7 +8358,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4011"
           ],
           "PublishedDate": "2025-10-29T23:16:19.45Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.45Z"
+          "LastModifiedDate": "2025-10-30T15:15:39.937Z"
         },
         {
           "VulnerabilityID": "CVE-2025-58186",
@@ -8394,7 +8394,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4012"
           ],
           "PublishedDate": "2025-10-29T23:16:19.547Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.547Z"
+          "LastModifiedDate": "2025-10-30T15:15:40.07Z"
         },
         {
           "VulnerabilityID": "CVE-2025-58187",
@@ -8430,7 +8430,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4007"
           ],
           "PublishedDate": "2025-10-29T23:16:19.643Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.643Z"
+          "LastModifiedDate": "2025-10-30T15:03:13.44Z"
         },
         {
           "VulnerabilityID": "CVE-2025-58188",
@@ -8466,7 +8466,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4013"
           ],
           "PublishedDate": "2025-10-29T23:16:19.74Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.74Z"
+          "LastModifiedDate": "2025-10-30T15:15:40.203Z"
         },
         {
           "VulnerabilityID": "CVE-2025-58189",
@@ -8502,7 +8502,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4008"
           ],
           "PublishedDate": "2025-10-29T23:16:19.833Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.833Z"
+          "LastModifiedDate": "2025-10-30T15:03:13.44Z"
         },
         {
           "VulnerabilityID": "CVE-2025-61723",
@@ -8538,7 +8538,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4009"
           ],
           "PublishedDate": "2025-10-29T23:16:19.927Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.927Z"
+          "LastModifiedDate": "2025-10-30T15:03:13.44Z"
         },
         {
           "VulnerabilityID": "CVE-2025-61724",
@@ -8574,7 +8574,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4015"
           ],
           "PublishedDate": "2025-10-29T23:16:20.02Z",
-          "LastModifiedDate": "2025-10-29T23:16:20.02Z"
+          "LastModifiedDate": "2025-10-30T15:15:41.31Z"
         },
         {
           "VulnerabilityID": "CVE-2025-61725",
@@ -8610,7 +8610,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4006"
           ],
           "PublishedDate": "2025-10-29T23:16:20.113Z",
-          "LastModifiedDate": "2025-10-29T23:16:20.113Z"
+          "LastModifiedDate": "2025-10-30T15:03:13.44Z"
         }
       ]
     },

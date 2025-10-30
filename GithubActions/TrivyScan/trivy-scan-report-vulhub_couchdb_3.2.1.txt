@@ -1886,16 +1886,19 @@ Total: 1264 (HIGH: 1211, CRITICAL: 53)
 │                         │                │          │              │                         │                         │ add_secret_dac_path()                                        │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-52988                   │
 │                         ├────────────────┤          │              │                         │                         ├──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2023-52996 │          │              │                         │                         │ kernel: ipv4: prevent potential spectre v1 gadget in         │
-│                         │                │          │              │                         │                         │ fib_metrics_match()                                          │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-52996                   │
-│                         ├────────────────┤          │              │                         │                         ├──────────────────────────────────────────────────────────────┤
 │                         │ CVE-2023-52999 │          │              │                         │                         │ kernel: net: fix UaF in netns ops registration error path    │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-52999                   │
+│                         ├────────────────┤          │              │                         │                         ├──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2023-53000 │          │              │                         │                         │ kernel: netlink: prevent potential spectre v1 gadgets        │
+│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53000                   │
 │                         ├────────────────┤          │              │                         │                         ├──────────────────────────────────────────────────────────────┤
 │                         │ CVE-2023-53003 │          │              │                         │                         │ kernel: EDAC/qcom: Do not pass llcc_driv_data as             │
 │                         │                │          │              │                         │                         │ edac_device_ctl_info's pvt_info                              │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53003                   │
+│                         ├────────────────┤          │              │                         │                         ├──────────────────────────────────────────────────────────────┤
+│                         │ CVE-2023-53019 │          │              │                         │                         │ kernel: net: mdio: validate parameter addr in                │
+│                         │                │          │              │                         │                         │ mdiobus_get_phy()                                            │
+│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2023-53019                   │
 │                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
 │                         │ CVE-2023-53034 │          │              │                         │ 5.10.237-1              │ kernel: ntb_hw_switchtec: Fix shift-out-of-bounds in         │
 │                         │                │          │              │                         │                         │ switchtec_ntb_mw_set_trans                                   │
@@ -4485,9 +4488,6 @@ Total: 1264 (HIGH: 1211, CRITICAL: 53)
 │                         │ CVE-2025-40030 │          │              │                         │                         │ kernel: pinctrl: check the return value of                   │
 │                         │                │          │              │                         │                         │ pinmux_ops::get_function_name()                              │
 │                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2025-40030                   │
-│                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                         │ CVE-2025-40044 │          │              │                         │                         │ kernel: fs: udf: fix OOB read in lengthAllocDescs handling   │
-│                         │                │          │              │                         │                         │ https://avd.aquasec.com/nvd/cve-2025-40044                   │
 │                         ├────────────────┤          │              │                         ├─────────────────────────┼──────────────────────────────────────────────────────────────┤
 │                         │ CVE-2025-40048 │          │              │                         │                         │ kernel: uio_hv_generic: Let userspace take care of interrupt │
 │                         │                │          │              │                         │                         │ mask                                                         │

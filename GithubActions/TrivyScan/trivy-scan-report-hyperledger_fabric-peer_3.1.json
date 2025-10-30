@@ -1,6 +1,6 @@
 {
   "SchemaVersion": 2,
-  "CreatedAt": "2025-10-30T16:34:47.004072175Z",
+  "CreatedAt": "2025-10-30T21:55:49.001200272Z",
   "ArtifactName": "hyperledger/fabric-peer:3.1",
   "ArtifactType": "container_image",
   "Metadata": {
@@ -6722,7 +6722,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4007"
           ],
           "PublishedDate": "2025-10-29T23:16:19.643Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.643Z"
+          "LastModifiedDate": "2025-10-30T15:03:13.44Z"
         }
       ]
     },
@@ -6811,7 +6811,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4007"
           ],
           "PublishedDate": "2025-10-29T23:16:19.643Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.643Z"
+          "LastModifiedDate": "2025-10-30T15:03:13.44Z"
         }
       ]
     },
@@ -6900,7 +6900,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4007"
           ],
           "PublishedDate": "2025-10-29T23:16:19.643Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.643Z"
+          "LastModifiedDate": "2025-10-30T15:03:13.44Z"
         }
       ]
     },
@@ -7979,6 +7979,49 @@
       ],
       "Vulnerabilities": [
         {
+          "VulnerabilityID": "GHSA-fj2x-735w-74vq",
+          "PkgID": "github.com/consensys/gnark-crypto@v0.19.0",
+          "PkgName": "github.com/consensys/gnark-crypto",
+          "PkgIdentifier": {
+            "PURL": "pkg:golang/github.com/consensys/gnark-crypto@v0.19.0",
+            "UID": "c62e88b12105e972"
+          },
+          "InstalledVersion": "v0.19.0",
+          "FixedVersion": "0.18.1, 0.19.2",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:b00d757c7765be0477a3c081dba351114f73903415439cecd8b8dc3cc4679788",
+            "DiffID": "sha256:4d6229bfebd49d8a4d19594ba5ea74c1b77558f0a44fd8d105c826c61874bfd8"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://github.com/advisories/GHSA-fj2x-735w-74vq",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory Go",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago"
+          },
+          "Title": "gnark-crypto allows unchecked memory allocation during vector deserialization",
+          "Description": "The issue has been reported by @raefko from @fuzzinglabs. Excerpts from the report:\n\u003e A critical vulnerability exists in the gnark-crypto library's `Vector.ReadFrom()` function that allows an attacker to trigger arbitrary memory allocation by crafting malicious input data. An attacker can cause the verifier to attempt allocating up to 128 GB of memory with a minimal malicious input, leading to out-of-memory crashes and denial of service.\n\u003e ### **Root Cause**\n\u003e \n\u003e \n\u003e The vulnerability stems from **unchecked deserialization** of attacker-controlled length fields in the gnark-crypto library's `Vector.ReadFrom()` function. The function reads a 4-byte unsigned integer from untrusted input and directly uses it to allocate memory without any validation or bounds checking.\n\u003e \n\u003e ### **Vulnerable Code Path**\n\u003e \n\u003e ```\n\u003e User Input (Malicious Proof/Data)\n\u003e          ↓\n\u003e gnark Proof/Data Deserialization\n\u003e          ↓\n\u003e Vector.ReadFrom() (ecc/bn254/fr/vector.go:136-144)\n\u003e   → sliceLen := binary.BigEndian.Uint32(buf[:4])   // ← ATTACKER-CONTROLLED\n\u003e   → (*vector) = make(Vector, sliceLen)             // ← UNCHECKED ALLOCATION\n\u003e          ↓\n\u003e runtime.makeslice attempts 100+ GB allocation\n\u003e          ↓\n\u003e fatal error: runtime: out of memory → SIGABRT\n\u003e \n\u003e ```\n\u003e\n\u003e ### **Vulnerable Code**\n\u003e \n\u003e **File**: [`gnark-crypto@v0.14.0+/ecc/bn254/fr/vector.go:136-144`](https://github.com/Consensys/gnark-crypto/blob/8310aae2de6104d3fe3610e3370b2bed10c63111/ecc/bn254/fr/vector.go#L136)\n\u003e \n\u003e The code reads a 4-byte big-endian unsigned integer (`sliceLen`) directly from the input stream and uses it to allocate a slice without any bounds checking or validation. Each element is 32 bytes (fr.Element for BN254 curve), so an attacker can request up to:\n\u003e \n\u003e **Maximum Allocation**: `2^32 elements × 32 bytes = 137,438,953,472 bytes ≈ 128 GB`\n\u003e \n\u003e ## **Root Cause Analysis**\n\u003e \n\u003e The gnark-crypto library implements a generic serialization format for field element vectors. The format is:\n\u003e \n\u003e ```\n\u003e [4 bytes: length (n)] [n × 32 bytes: elements]\n\u003e ```\n\u003e \n\u003e The deserialization code **trusts** the length field implicitly without any validation. This is a classic **integer-to-allocation vulnerability** pattern, similar to issues that have affected many serialization libraries over the years.\n\n### Impact\n\nThe issue impacts users deserializing vectors directly from untrusted sources. In case of malicious input it would lead to OOM in case the server doesn't have sufficient memory (depending on the field, but could allocate from 32GB to 196GB).\n\n### Patches\n\nThe issue is patched in https://github.com/Consensys/gnark-crypto/pull/759. It will be backported to gnark-crypto v0.18 and v0.19.\n\n### Workarounds\n\nThe user could manually peek into the first 4 bytes of the serialized data to estimate if the header would allocate large amounts of memory.",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "ghsa": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://github.com/Consensys/gnark-crypto",
+            "https://github.com/Consensys/gnark-crypto/commit/2e7bf9190a0aac896eeec3876c87c77a35661be7",
+            "https://github.com/Consensys/gnark-crypto/pull/759",
+            "https://github.com/Consensys/gnark-crypto/security/advisories/GHSA-fj2x-735w-74vq"
+          ],
+          "PublishedDate": "2025-10-30T17:10:40Z",
+          "LastModifiedDate": "2025-10-30T17:10:40Z"
+        },
+        {
           "VulnerabilityID": "CVE-2025-58187",
           "PkgID": "stdlib@v1.25.2",
           "PkgName": "stdlib",
@@ -8012,7 +8055,7 @@
             "https://pkg.go.dev/vuln/GO-2025-4007"
           ],
           "PublishedDate": "2025-10-29T23:16:19.643Z",
-          "LastModifiedDate": "2025-10-29T23:16:19.643Z"
+          "LastModifiedDate": "2025-10-30T15:03:13.44Z"
         }
       ]
     }
