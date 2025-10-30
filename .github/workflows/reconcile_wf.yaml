@@ -35,8 +35,11 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           if [ -d "Scanner/combined_results" ]; then
-            git add "Scanner/combined_results/combined_report.json" || true
-            git add "Scanner/combined_results/combined_report.csv" || true
+            git add "Scanner/combined_results/"*.json || true
+            git add "Scanner/combined_results/"*.csv || true
+          fi
+          if [ -d "Scanner/analyzed_results" ]; then
+            git add "Scanner/analyzed_results/"*.txt || true
           fi
           if ! git diff --cached --quiet; then
             COMMIT_MSG="Add combined scanner results and analysis ($(date +'%Y-%m-%d %H:%M:%S'))"
