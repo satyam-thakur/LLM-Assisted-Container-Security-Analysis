@@ -2,7 +2,7 @@
 CONTAINER SECURITY VULNERABILITY ANALYSIS REPORT
 ================================================================================
 
-Generated: 2025-10-31 02:45:27
+Generated: 2025-10-31 03:06:07
 Image: hyperledger/fabric-peer:2.1
 Total Vulnerabilities: 163
 Scanners Used: trivy, grype
