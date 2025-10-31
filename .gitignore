@@ -10,3 +10,7 @@
 env/
 venv/
 ENV/
+
+# Ignore .md other than README.md
+*.md
+!README.md

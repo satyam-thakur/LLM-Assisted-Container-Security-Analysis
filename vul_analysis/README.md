@@ -1,46 +1,60 @@
 # Vulnerability Assessment (DSPy + Gemini)
 
-This module performs a lightweight, explainable vulnerability assessment over a combined container scanner report (e.g., Trivy + Grype). It follows the spirit of the vulnerability-analysis-main quick start: parse input, run an AI reasoning step, and produce an auditable JSON plus a readable Markdown report.
+This module performs AI-powered vulnerability assessment on combined container scanner reports (Trivy + Grype). It analyzes vulnerabilities in context to determine real exploitability and produces VEX-style justifications.
 
-Key features
-- Parses `Scanner/combined_results/*.json` into a normalized table per vulnerability
-- Uses DSPy-style programmatic prompting when available, falling back to direct Gemini calls
-- Produces a VEX-like justification for each finding: affected, label, reason, risk, remediation
+## Key Features
+- Parses `Scanner/combined_results/*.json` into normalized vulnerability records
+- Uses DSPy-style programmatic prompting with Gemini LLM
+- Produces VEX-like justification for each finding: affected, label, reason, risk, remediation
 - Exports consolidated JSON and Markdown reports
+- Fully self-contained Google Colab notebook available
 
-Requirements
+## Quick Start - Google Colab (Recommended)
+
+**Use the complete self-contained notebook:**
+1. Open `Vulnerability_Assessment_Complete.ipynb` in Google Colab
+2. Run all cells (Runtime → Run all)
+3. Enter your GEMINI_API_KEY when prompted
+4. Wait 10-30 minutes for results
+5. Download JSON and Markdown reports
+
+See `COLAB_NOTEBOOK_README.md` for detailed instructions.
+
+## Requirements
 - Python 3.10+
-- Install deps:
-  - From this folder: `pip install -r requirements.txt`
-- Configure environment (either system env or a local `.env` here):
-  - `GEMINI_API_KEY=<your_key>`
-  - `GEMINI_MODEL=gemini-1.5-flash` (default if unset)
+- GEMINI_API_KEY from [Google AI Studio](https://makersuite.google.com/app/apikey)
+- Install deps: `pip install -r requirements.txt`
 
-Files
-- `config.py` — loads `.env` and configures DSPy with Gemini when possible
-- `scanner_loader.py` — loads and normalizes the combined scanner JSON
-- `prompts.py` — label set and DSPy Signature (if DSPy available)
-- `vex_reasoner.py` — core reasoning engine (DSPy or direct Gemini fallback)
-- `run_assessment.py` — orchestration: load input, run assessment, save JSON/Markdown
-- `Vulnerability_Assessment.ipynb` — notebook to run the pipeline end-to-end
+## Files
+- `Vulnerability_Assessment_Complete.ipynb` — **Complete self-contained notebook for Google Colab**
+- `COLAB_NOTEBOOK_README.md` — Detailed usage instructions for the Colab notebook
+- `requirements.txt` — Dependencies for local development
+- `.env` — Environment variables (GEMINI_API_KEY, GEMINI_MODEL)
+- `README.md` — This file
 
-Outputs
-- JSON: `vul_analysis/outputs/assessment_<timestamp>.json`
-- Markdown: `vul_analysis/outputs/assessment_<timestamp>.md`
+## Outputs
+- JSON: `outputs/assessment_<timestamp>.json` (structured VEX data)
+- Markdown: `outputs/assessment_<timestamp>.md` (human-readable report)
 
-Notebook quickstart
-Open `Vulnerability_Assessment.ipynb` and run all cells. It will:
-1) Install/load requirements if needed
-2) Configure Gemini from `.env`
-3) Load scanner JSON and run assessments
-4) Display a summary table and write outputs
+## VEX Labels Used
+- `vulnerable` — Exploitable as-deployed
+- `code_not_present` — Package/code not in image
+- `code_not_reachable` — Present but not reachable/exposed
+- `mitigated` — Present but mitigations block exploit
+- `fixed` — Fixed version present
+- `false_positive` — Scanner likely wrong
 
-CLI quickstart (optional)
-You can also run the script directly:
-```bash
-python -m vul_analysis.run_assessment
-```
+## Architecture
+The complete notebook includes all modules:
+1. Configuration management
+2. Scanner JSON loader and normalizer
+3. Prompt templates and VEX labels
+4. AI reasoning engine (DSPy + Gemini fallback)
+5. Main assessment orchestration
+6. Results display and statistics
 
-Notes
-- This is a small, self-contained baseline. You can extend it with RAG, SBOM cross-checks, or vector DBs similar to your NVIDIA blueprint reference.
-- Labels used: vulnerable | code_not_present | code_not_reachable | mitigated | fixed | false_positive
+## Notes
+- All code is self-contained in the Colab notebook - no external Python files needed
+- Automatically falls back to direct Gemini API if DSPy configuration fails
+- Deduplicates vulnerabilities to reduce API calls and cost
+- Can be extended with RAG, SBOM cross-checks, or vector databases
