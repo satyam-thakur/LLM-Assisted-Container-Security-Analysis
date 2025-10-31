@@ -2,7 +2,7 @@
 CONTAINER SECURITY VULNERABILITY ANALYSIS REPORT
 ================================================================================
 
-Generated: 2025-10-31 02:18:54
+Generated: 2025-10-31 02:37:05
 Image: vulhub/couchdb:3.2.1
 Total Vulnerabilities: 2007
 Scanners Used: trivy, grype
